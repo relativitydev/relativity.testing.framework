@@ -3,6 +3,8 @@ name: CI
 env:
   Solution: source/${{ github.event.repository.name }}.sln
   Configuration: Release
+  DOTNET_NOLOGO: 1
+  DOTNET_CLI_TELEMETRY_OPTOUT: 1
 
 on:
   push:
@@ -40,7 +42,10 @@ jobs:
         $Props.Save("Directory.Build.props")
 
     - name: Compile
-      run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo
+      run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}"
 
     - name: Test
-      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+
+    - name: Package
+      run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --include-symbols
