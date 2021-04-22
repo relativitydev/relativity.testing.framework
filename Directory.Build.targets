@@ -1,0 +1,11 @@
+<!-- This file will be overwritten on the CI server -->
+<Project>
+    <PropertyGroup>
+        <!-- Build standards -->
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningLevel>4</WarningLevel>
+        <WarningsAsErrors />
+        <WarningsNotAsErrors />
+        <NoWarn />
+  </PropertyGroup>
+</Project>
