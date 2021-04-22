@@ -2,15 +2,10 @@
 <!-- Local customization of build version numbers happens here -->
 <Project>
     <PropertyGroup>
-        <!-- NuGet -->
-        <IsPackable>False</IsPackable>
         <PackageVersion>1.0.0-local</PackageVersion>
         <NuspecProperties>version=$(PackageVersion);licensePath=$(MSBuildThisFileDirectory)LICENSE.txt</NuspecProperties>
         <PackageOutputPath>$(MSBuildThisFileDirectory)Artifacts\NuGet\</PackageOutputPath>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-        <!-- Build standards -->
-        <OutputPath>bin\</OutputPath>
-        <!-- Assembly information -->
         <FileVersion>1.0.0.0</FileVersion>
         <InformationalVersion>local build</InformationalVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>

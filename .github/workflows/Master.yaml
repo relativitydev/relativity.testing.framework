@@ -1,0 +1,47 @@
+name: CI
+
+env:
+  Solution: source/${{ github.event.repository.name }}.sln
+  Configuration: Release
+  BuildNumber: ${{ GITHUB_RUN_NUMBER }}
+
+on:
+  [ push, pull_request ]
+    branches: 'master'
+    
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.408
+
+    # Run test portfolio here
+
+    - name: Set build number
+      run: |
+            $Version = Get-Context
+            [xml]$Props = Get-Content "Directory.Build.props"
+            $Props.Project.PropertyGroup.PackageVersion = $Version
+            
+            Props.Save("Directory.Build.props")
+        
+
+    - name: Compile
+      run: dotnet build "${{ env.REPOSITORY }}" --configuration "${{ env.CONFIGURATION }}" --nologo
+
+    - name: Execute unit tests
+      run: dotnet test "${{ env.REPOSITORY }}" --configuration "${{ env.CONFIGURATION }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+    
+    # # Upload the MSIX package: https://github.com/marketplace/actions/upload-artifact
+    # - name: Upload build artifacts
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: MSIX Package
+    #     path: ${{ env.Wap_Project_Directory }}\AppPackages

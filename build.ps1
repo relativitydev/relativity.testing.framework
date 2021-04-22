@@ -34,7 +34,6 @@ Set-StrictMode -Version 2.0
 $ToolsDir = Join-Path $PSScriptRoot "buildtools"
 $ReportGenerator = Join-Path $ToolsDir "reportgenerator.exe"
 Import-Module -Force "$ToolsDir\BuildHelpers.psm1" -ErrorAction Stop
-Assert-Module -Name PSBuildTools -Version 0.7.1 -Path $ToolsDir
 Assert-Module -Name psake -Version 4.7.4 -Path $ToolsDir
 if (-not (Test-Path $ReportGenerator))
 {

@@ -1,0 +1,56 @@
+name: CI
+
+env:
+  Solution: source/${{ github.event.repository.name }}.sln
+  Configuration: Release
+
+on:
+  [ pull_request, push]
+    branches: '*'
+    
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.408
+
+    # Run test portfolio here
+
+    - name: Set build number
+      run: |
+            $VersionNumber Get-Content "version.txt"
+            $PackageVersion = $($VersionNumber)-pre.${{ GITHUB_RUN_NUMBER }}"
+            $FileVersion = "$($VersionNumber).${{ GITHUB_RUN_NUMBER }}"
+            $AssemblyVersion = "$($VersionNumber).0"
+            $InformationalVersion = "$($FileVersion) ${{ GITHUB_SHA }}"
+            [xml]$Props = Get-Content "Directory.Build.props"
+            $Props.Project.PropertyGroup.PackageVersion = $PackageVersion
+            $Props.Project.PropertyGroup.FileVersion = $FileVersion
+            $Props.Project.PropertyGroup.AssemblyVersion = $AssemblyVersion
+            $Props.Project.PropertyGroup.InformationalVersion = $InformationalVersion
+            
+            Props.Save("Directory.Build.props")
+        
+
+    - name: Compile
+      run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo
+
+    - name: Execute unit tests
+      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+
+  - name: Execute unit tests
+      run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --include-symbols
+    
+    # # Upload the MSIX package: https://github.com/marketplace/actions/upload-artifact
+    # - name: Upload build artifacts
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: MSIX Package
+    #     path: ${{ env.Wap_Project_Directory }}\AppPackages

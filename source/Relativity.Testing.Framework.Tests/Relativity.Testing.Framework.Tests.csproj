@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net462</TargetFrameworks>
+	<IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
 	<CodeAnalysisRuleSet>../General.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>

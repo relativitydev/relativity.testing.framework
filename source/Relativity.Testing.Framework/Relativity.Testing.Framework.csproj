@@ -4,7 +4,7 @@
     <TargetFramework>net462</TargetFramework>
     <LangVersion>latest</LangVersion>
     <IsPackable>true</IsPackable>
-    <NuspecFile>Relativity.Testing.Framework.nuspec</NuspecFile>
+    <!--<NuspecFile>Relativity.Testing.Framework.nuspec</NuspecFile> -->
     <CodeAnalysisRuleSet>../General.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
