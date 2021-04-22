@@ -42,10 +42,10 @@ jobs:
         $Props.Save("Directory.Build.props")
 
     - name: Compile
-      run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}"
+      run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo
 
     - name: Test
-      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
 
     - name: Package
-      run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --include-symbols
+      run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build --include-symbols
