@@ -23,8 +23,6 @@ jobs:
       with:
         dotnet-version: 3.1.408
 
-    # Run test portfolio here
-
     - name: Set Version
       id: SetVersion
       run: |
@@ -53,19 +51,21 @@ jobs:
     - name: Package
       run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build --include-symbols
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload Logs
+      uses: actions/upload-artifact@v2
       if: failure()
       with:
         name: Logs
         path: Artifacts/Logs/
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload NuGet Packages
+      uses: actions/upload-artifact@v2
       with:
         name: NuGetPackages
         path: Artifacts/NuGet/
 
-    - uses: actions/github-script@v4
-      name: Create tag
+    - name: Create tag
+      uses: actions/github-script@v4
       with:
         github-token: ${{ github.token }}
         script: |
