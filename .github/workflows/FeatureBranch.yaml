@@ -64,8 +64,8 @@ jobs:
         name: NuGetPackages
         path: Artifacts/NuGet/
 
-      - name: Create tag
-        uses: actions/github-script@v3
+      - uses: actions/github-script@v4
+        name: Create tag
         with:
           github-token: ${{ github.token }}
           script: |
