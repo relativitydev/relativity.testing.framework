@@ -35,6 +35,8 @@ jobs:
         $AssemblyVersion = "$($VersionNumber).0"
         $InformationalVersion = "$($FileVersion) ${{ github.sha }}"
 
+        Write-Output "::set-output name=VERSION::$PackageVersion"
+
         [xml]$Props = Get-Content "Directory.Build.props"
         $Props.Project.PropertyGroup.PackageVersion = $PackageVersion
         $Props.Project.PropertyGroup.FileVersion = $FileVersion
@@ -60,5 +62,17 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: my-artifact
+        name: NuGetPackages
         path: Artifacts/NuGet/
+
+      - name: Create tag
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/${{ steps.SetVersion.outputs.VERSION }}",
+              sha: context.sha
+            })
