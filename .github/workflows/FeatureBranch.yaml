@@ -34,7 +34,7 @@ jobs:
         $AssemblyVersion = "$($VersionNumber).0"
         $InformationalVersion = "$($FileVersion) ${{ github.sha }}"
 
-        Write-Output ""::set-output name=VERSION::$PackageVersion"
+        Write-Output "::set-output name=VERSION::$PackageVersion"
 
         [xml]$Props = Get-Content "Directory.Build.props"
         $Props.Project.PropertyGroup.PackageVersion = $PackageVersion

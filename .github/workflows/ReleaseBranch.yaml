@@ -64,3 +64,15 @@ jobs:
       with:
         name: NuGetPackages
         path: Artifacts/NuGet/
+
+    - uses: actions/github-script@v4
+      name: Create tag
+      with:
+        github-token: ${{ github.token }}
+        script: |
+          github.git.createRef({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            ref: "refs/tags/${{ steps.SetVersion.outputs.VERSION }}",
+            sha: context.sha
+          })
