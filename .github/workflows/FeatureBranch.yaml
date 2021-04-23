@@ -7,7 +7,7 @@ env:
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
 
 on:
-  push:
+  pull_request:
     branches: '*'
     
 jobs:
