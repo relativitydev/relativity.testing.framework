@@ -1,4 +1,4 @@
-name: CI
+name: FeatureBranch
 
 env:
   Solution: source/${{ github.event.repository.name }}.sln
@@ -45,7 +45,18 @@ jobs:
       run: dotnet build "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo
 
     - name: Test
-      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/coverage '--logger:nunit;LogFilePath="../../Artifacts/{assembly}.{framework}.TestResults.xml"'
+      run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/Logs/coverage '--logger:nunit;LogFilePath="../../Artifacts/Logs/{assembly}.{framework}.TestResults.xml"'
 
     - name: Package
       run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build --include-symbols
+
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: Logs
+        path: Artifacts/Logs/
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: Artifacts/NuGet/
