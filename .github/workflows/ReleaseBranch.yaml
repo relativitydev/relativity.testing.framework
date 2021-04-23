@@ -25,10 +25,11 @@ jobs:
       with:
         dotnet-version: 3.1.408
 
-    - name: Set build number
+    - name: Set Version
+      id: SetVersion
       run: |
         $VersionNumber = Get-Content "version.txt"
-        $PackageVersion = "$($VersionNumber)"
+        $PackageVersion = $VersionNumber
         $FileVersion = "$($VersionNumber).${{ github.run_number }}"
         $AssemblyVersion = "$($VersionNumber).0"
         $InformationalVersion = "$($FileVersion) ${{ github.sha }}"
