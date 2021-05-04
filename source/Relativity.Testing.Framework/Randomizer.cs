@@ -10,10 +10,12 @@ namespace Relativity.Testing.Framework
 	/// </summary>
 	public static class Randomizer
 	{
+		private const string PasswordPrefix = "aQ1@";
+
 		/// <summary>
 		/// The default random string length.
 		/// </summary>
-		public const int DefaultStringLength = 20;
+		public const int DefaultStringLength = 24;
 
 		/// <summary>
 		/// The default random email address length.
@@ -102,16 +104,26 @@ namespace Relativity.Testing.Framework
 
 		/// <summary>
 		/// Gets a randomly generated password according to secure requirements.
-		/// See https://einstein.kcura.com/x/DqWCBw for details on the security requirements.
 		/// </summary>
 		/// <returns>The random password.</returns>
 		public static string GetPassword()
 		{
-			using (RNGCryptoServiceProvider rngCryptoServiceProvider = new RNGCryptoServiceProvider())
+			const string characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+			StringBuilder stringBuilder = new StringBuilder();
+			using (var rngCryptoServiceProvider = new RNGCryptoServiceProvider())
 			{
-				byte[] randomBytes = new byte[DefaultStringLength];
-				rngCryptoServiceProvider.GetBytes(randomBytes);
-				return Convert.ToBase64String(randomBytes);
+				int length = DefaultStringLength - PasswordPrefix.Length;
+
+				byte[] uintBuffer = new byte[sizeof(uint)];
+
+				while (length-- > 0)
+				{
+					rngCryptoServiceProvider.GetBytes(uintBuffer);
+					uint num = BitConverter.ToUInt32(uintBuffer, 0);
+					stringBuilder.Append(characters[(int)(num % (uint)characters.Length)]);
+				}
+
+				return $"{PasswordPrefix}{stringBuilder}";
 			}
 		}
 

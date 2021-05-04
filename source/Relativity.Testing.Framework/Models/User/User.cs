@@ -10,7 +10,7 @@ namespace Relativity.Testing.Framework.Models
 	/// Represents the Relativity user object.
 	/// </summary>
 	[DebuggerDisplay("{LastName,nq}, {FirstName,nq}")]
-	public class User : Artifact, IFillsRequiredProperties<User>
+	public class User : NamedArtifact, IFillsRequiredProperties<User>
 	{
 		private const int EveryoneGroupID = 1015005;
 

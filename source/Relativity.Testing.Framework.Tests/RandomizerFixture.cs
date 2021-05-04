@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 
@@ -75,6 +77,42 @@ namespace Relativity.Testing.Framework.Tests
 			string password = Randomizer.GetPassword();
 
 			Assert.That(!string.IsNullOrEmpty(password));
+		}
+
+		[Test]
+		public static void Randomizer_GetPassword_ReturnsAStringWithUppercaseLetters()
+		{
+			string password = Randomizer.GetPassword();
+			var passwordAsCharList = new List<char>(password);
+
+			Assert.That(passwordAsCharList.Any(x => char.IsUpper(x)));
+		}
+
+		[Test]
+		public static void Randomizer_GetPassword_ReturnsAStringWithLowercaseLetters()
+		{
+			string password = Randomizer.GetPassword();
+			var passwordAsCharList = new List<char>(password);
+
+			Assert.That(passwordAsCharList.Any(x => char.IsLower(x)));
+		}
+
+		[Test]
+		public static void Randomizer_GetPassword_ReturnsAStringWithNumericCharacter()
+		{
+			string password = Randomizer.GetPassword();
+			var passwordAsCharList = new List<char>(password);
+
+			Assert.That(passwordAsCharList.Any(x => char.IsNumber(x)));
+		}
+
+		[Test]
+		public static void Randomizer_GetPassword_ReturnsAStringWithSpecialCharacter()
+		{
+			string password = Randomizer.GetPassword();
+			var passwordAsCharList = new List<char>(password);
+
+			Assert.That(passwordAsCharList.Any(x => char.IsSymbol(x) || char.IsPunctuation(x)));
 		}
 	}
 }
