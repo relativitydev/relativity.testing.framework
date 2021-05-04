@@ -30,5 +30,12 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the encoding of the extracted text files.
 		/// </summary>
 		public Encoding ExtractedTextEncoding { get; set; } = Encoding.ASCII;
+
+		/// <summary>
+		/// Gets or sets Identity Field Id.
+		/// Represents a key field that is set only on Overwrite mode.
+		/// </summary>
+		/// <remarks>Also known as OverlayIdentifierFieldArtifactID.</remarks>
+		public int IdentityFieldId { get; set; }
 	}
 }
