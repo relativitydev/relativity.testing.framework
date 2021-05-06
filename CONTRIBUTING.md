@@ -91,35 +91,6 @@ If you are working in this repository, you should have at least a basic understa
 * AccountPool - An abstraction around user setup that is useful when you want to make a lot of them.
   * [AccountPool](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Services/AccountPoolService.cs)
 
-#### <a name="relativity-testing-framework-web">Relativity.Testing.Framework.Web</a>
-
-[Relativity.Testing.Framework.Web](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.web/browse/README.md) is a library that provides an opinionated testing framework built around [Atata](https://atata.io/).
-
-This library provides Web Controls that teams can use to build PageObjects for the functionality that they are testing.
-
-If you are working in this repository, you should have an advanced understanding of [Selenium](https://www.selenium.dev/), [Atata](https://atata.io/), and the pages/controls in Relativity.
-
-##### Components
-
-* WebComponent - Handles all UI interactions with Relativity.
-  * [WebComponent](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.web/browse/source/Relativity.Testing.Framework.Web/WebComponent.cs)
-* Page Object
-* Controls
-* More to be documented soon!
-
-#### <a name="relativity-testing-framework-ringsetup">Relativity.Testing.Framework.RingSetup</a>
-
-[Relativity.Testing.Framework.RingSetup](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.ringsetup/browse) is a library that teams must use as part of ADS CI/CD.
-
-This library handles setup of a testing workspace that tests must use while testing against the Ring0/1 environments.
-
-If you are working in this repository, you should have an understanding of the setup of the [Regression environments](https://einstein.kcura.com/x/JqmWB), and how to use [Relativity.Testing.Framework.Api](#relativity.testing.framework.api).
-
-##### Components
-
-* RingSetup - Defines test setup as code.
-  * [RingSetupService](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.ringsetup/browse/Source/Relativity.Testing.Framework.RingSetup/RingSetupService.cs)
-
 ## <a name="how-can-i-contribute">How Can I Contribute?</a>
 
 ### <a name="reporting-bugs">Reporting Bugs</a>
