@@ -6,6 +6,7 @@
     <IsPackable>true</IsPackable>
     <!--<NuspecFile>Relativity.Testing.Framework.nuspec</NuspecFile> -->
     <CodeAnalysisRuleSet>../General.ruleset</CodeAnalysisRuleSet>
+    <Description>The base library for the Relativity.Testing.Framework contains models and handles configuration management.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
