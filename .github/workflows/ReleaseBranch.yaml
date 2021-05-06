@@ -50,6 +50,37 @@ jobs:
     - name: Test
       run: dotnet test "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build /p:collectcoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=../../Artifacts/Logs/coverage '--logger:nunit;LogFilePath="../../Artifacts/Logs/{assembly}.{framework}.TestResults.xml"'
 
+    - name: Sign
+      env:
+        DirectoryId: ${{ secrets.DIRECTORYID }}
+        ClientId: ${{ secrets.CLIENTID }}
+        ClientPassword: ${{ secrets.CLIENTPASSWORD }}
+      run: |
+        $Body = @{
+          grant_type = "client_credentials"
+          client_id = "$env:ClientId"
+          client_secret = "$env:ClientPassword"
+          scope = "https://vault.azure.net/.default"
+        }
+
+        $AccessToken = (Invoke-RestMethod -Method POST
+          -Uri "https://login.microsoftonline.com/$env:DirectoryId/oauth2/v2.0/token"
+          -Body $Body).access_token
+
+        $CodeSigningCertificatePassword = (Invoke-RestMethod -Method GET `
+          -Uri "https://testengineering-github.vault.azure.net/secrets/CodeSigningCertificatePassword?api-version=7.1" `
+          -Headers @{ Authorization="Bearer $AccessToken" }).value
+
+        $CodeSigningCertificateBase64String = (Invoke-RestMethod -Method GET `
+          -Uri "https://testengineering-github.vault.azure.net/secrets/CodeSigningCertificate?api-version=7.1" `
+          -Headers @{ Authorization="Bearer $AccessToken" }).value
+        $CodeSigningCertificate = [System.Convert]::FromBase64String($CodeSigningCertificateBase64String)
+
+        $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($CodeSigningCertificate, $CodeSigningCertificatePassword)
+
+        Get-ChildItem .\source\Relativity.Testing.Framework\bin\ -recurse -Include Relativity.Testing.Framework.dll | `
+          Set-AuthenticodeSignature -Certificate $Certificate -TimestampServer "http://timestamp.digicert.com" 
+
     - name: Package
       run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build --include-symbols
 
