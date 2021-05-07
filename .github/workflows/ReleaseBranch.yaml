@@ -123,7 +123,7 @@ jobs:
           -Headers @{ Authorization="Bearer $AccessToken" }).value
 
         $Package = (get-childitem ./Artifacts/NuGet).FullName
-        dotnet nuget push $Package --no-logo --no-build --no-symbols --source https://api.nuget.org/v3/index.json --api-key $NuGetApiKey
+        dotnet nuget push $Package -k $NuGetApiKey -s "https://api.nuget.org/v3/index.json" -n true
 
     - name: Create tag
       uses: actions/github-script@v4
