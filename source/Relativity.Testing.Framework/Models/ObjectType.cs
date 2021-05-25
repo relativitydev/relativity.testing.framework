@@ -1,33 +1,38 @@
-﻿using Relativity.Testing.Framework.Attributes;
+﻿using System.Collections.Generic;
+using Relativity.Testing.Framework.Attributes;
 
 namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// A representation of a Relativity Object Type used for data transfer.
 	/// </summary>
-	public class ObjectType : NamedArtifact
+	public class ObjectType : NamedArtifactWithGuids
 	{
 		/// <summary>
-		/// Gets or sets the identifier for the parent object type.
+		/// Gets or sets the parent object type.
 		/// </summary>
-		public ObjectType ParentObjectType { get; set; }
+		public WrappedObjectType ParentObjectType { get; set; }
 
 		/// <summary>
-		/// Gets the value used as an identifier for an object type supported by Relativity.
+		/// Gets or sets the value used as an identifier for an object type supported by Relativity.
 		/// </summary>
 		[FieldName("Artifact Type ID")]
-		public int ArtifactTypeID { get; internal set; }
+		public int ArtifactTypeID { get; set; }
 
 		/// <summary>
-		/// Gets a value indicating whether it is system object type.
+		/// Gets or sets a value indicating whether it is system object type.
 		/// </summary>
-		public bool System { get; internal set; }
+		public bool IsSystem { get; set; }
 
 		/// <summary>
-		/// Gets the value used as an identifier for an object type supported by Relativity.
+		/// Gets or sets a value indicating whether it is dynamic object type.
 		/// </summary>
-		[FieldName("Parent ArtifactTypeID")]
-		public int ParentArtifactTypeID { get; internal set; }
+		public bool IsDynamic { get; set; }
+
+		/// <summary>
+		/// Gets or sets a value indicating whether it is view enabled.
+		/// </summary>
+		public bool IsViewEnabled { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether Relativity will capture field values on instance delete.
@@ -38,38 +43,55 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets a value indicating whether whether pivot funtionality is enabled.
 		/// </summary>
-		public bool Pivot { get; set; }
+		public bool PivotEnabled { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether sampling funtionality is enabled.
 		/// </summary>
-		public bool Sampling { get; set; } = true;
+		public bool SamplingEnabled { get; set; } = true;
 
 		/// <summary>
 		/// Gets or sets a value indicating whether users can save lists of this object instances.
 		/// </summary>
-		public bool PersistentLists { get; set; }
+		public bool PersistentListsEnabled { get; set; }
 
 		/// <summary>
-		/// Gets or sets a nullable Boolean value indicating whether or not Layouts for object instances of this type will be shown in Relativity Forms.
+		/// Gets or sets the Relativity applications wrapped in DTO object.
 		/// </summary>
-		public bool? UseRelativityForms { get; set; }
-
-		/// <summary>
-		/// Gets or sets the array of Relativity applications represented by ObjectIdentifier objects, which contain the Artifact ID and GUIDs for an application.
-		/// </summary>
-		public NamedArtifact[] RelativityApplications { get; set; }
+		public WrappedRelativityApplications RelativityApplications { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether instances of this object type will be copied when the workspace is used as a template for another.
 		/// </summary>
 		[FieldName("Copy Instances On Workspace Creation")]
-		public bool CopyInstanceOnWorkspaceCreation { get; set; }
+		public bool CopyInstancesOnCaseCreation { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether instances of this object type will be copied when the parent of those instances are copied.
 		/// </summary>
 		[FieldName("Copy Instances on Parent Copy")]
-		public bool CopyInstanceOnParentCopy { get; set; }
+		public bool CopyInstancesOnParentCopy { get; set; }
+
+		/// <summary>
+		/// A representation of a WrappedRelativityApplications used for data transfer in ObjectType API.
+		/// </summary>
+		public class WrappedRelativityApplications
+		{
+			/// <summary>
+			/// Gets or sets the array of Relativity applications represented by ObjectIdentifier objects, which contain the Artifact ID and Names for an application.
+			/// </summary>
+			public List<NamedArtifact> ViewableItems { get; set; }
+		}
+
+		/// <summary>
+		/// A representation of a WrappedObjectType used for data transfer in ObjectType API.
+		/// </summary>
+		public class WrappedObjectType
+		{
+			/// <summary>
+			/// Gets or sets a Relativity Object Type used for data transfer.
+			/// </summary>
+			public ObjectType Value { get; set; }
+		}
 	}
 }
