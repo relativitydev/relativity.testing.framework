@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Properties in ObjectType class to reflect properties of ObjectType API DTOs. - [TESTENG-898](https://jira.kcura.com/browse/TESTENG-898)
+- Properties in ObjectType class to reflect properties of ObjectType API DTOs. - [TESTENG-898](https://jira.kcura.com/browse/TESTENG-898) 
 
 ## [2.0.2] - 2021-05-13
 
