@@ -9,11 +9,6 @@ namespace Relativity.Testing.Framework.Models
 	public class KeywordSearch : NamedArtifact
 	{
 		/// <summary>
-		/// Gets or sets the Artifact Type ID of the object for the search (currently only Document is supported).
-		/// </summary>
-		public int ArtifactTypeID { get; set; } = 10;
-
-		/// <summary>
 		/// Gets or sets the fields to be included in the search result set specified as a collection of Field objects.
 		/// </summary>
 		public NamedArtifact[] Fields { get; set; } = new[] { new NamedArtifact { Name = "Edit" }, new NamedArtifact { Name = "File Icon" }, new NamedArtifact { Name = "Control Number" }, new NamedArtifact { Name = "Extracted Text" } };
