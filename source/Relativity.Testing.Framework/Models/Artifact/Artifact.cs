@@ -1,4 +1,6 @@
-﻿namespace Relativity.Testing.Framework.Models
+﻿using Relativity.Testing.Framework.Attributes;
+
+namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the Relativity artifact object.
@@ -25,5 +27,11 @@
 		/// Gets or sets the artifact ID.
 		/// </summary>
 		public int ArtifactID { get; set; }
+
+		/// <summary>
+		/// Gets or sets the artifact type ID.
+		/// </summary>
+		[FieldName("Artifact Type ID")]
+		public int ArtifactTypeID { get; set; }
 	}
 }
