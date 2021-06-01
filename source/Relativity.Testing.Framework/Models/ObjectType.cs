@@ -14,12 +14,6 @@ namespace Relativity.Testing.Framework.Models
 		public WrappedObjectType ParentObjectType { get; set; }
 
 		/// <summary>
-		/// Gets or sets the value used as an identifier for an object type supported by Relativity.
-		/// </summary>
-		[FieldName("Artifact Type ID")]
-		public int ArtifactTypeID { get; set; }
-
-		/// <summary>
 		/// Gets or sets a value indicating whether it is system object type.
 		/// </summary>
 		public bool IsSystem { get; set; }
