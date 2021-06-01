@@ -12,6 +12,11 @@ namespace Relativity.Testing.Framework.Models
 	public class View : NamedArtifact, IFillsRequiredProperties<View>
 	{
 		/// <summary>
+		/// Gets or sets the artifact type ID.
+		/// </summary>
+		public int ArtifactTypeID { get; set; }
+
+		/// <summary>
 		/// Gets or sets the artifact type information for the object that the view is assigned to.
 		/// </summary>
 		public NamedArtifact ObjectType { get; set; }

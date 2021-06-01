@@ -8,6 +8,11 @@ namespace Relativity.Testing.Framework.Models
 	public class ProductionDataSource : NamedArtifact
 	{
 		/// <summary>
+		/// Gets or sets the Relativity artifact type ID of the production data source.
+		/// </summary>
+		public int ArtifactTypeID { get; set; }
+
+		/// <summary>
 		///  Gets or sets the production artifact ID.
 		/// </summary>
 		[JsonIgnore]
