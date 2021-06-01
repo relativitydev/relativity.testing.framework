@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- ArtifactTypeId added to base Artifact class. - [https://jira.kcura.com/browse/TESTENG-1106]
+- ArtifactTypeId added to base Artifact class. - [TESTENG-1106](https://jira.kcura.com/browse/TESTENG-1106)
 
 ## [3.0.0] - 2021-05-25
 
