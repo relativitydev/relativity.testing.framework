@@ -8,12 +8,6 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	public class KeywordSearch : NamedArtifact
 	{
-		public KeywordSearch()
-		{
-			// default value (currently only Document is supported)
-			ArtifactTypeID = 10;
-		}
-
 		/// <summary>
 		/// Gets or sets the fields to be included in the search result set specified as a collection of Field objects.
 		/// </summary>
