@@ -12,6 +12,12 @@ namespace Relativity.Testing.Framework.Models
 	public class View : NamedArtifact, IFillsRequiredProperties<View>
 	{
 		/// <summary>
+		/// Gets or sets the artifact type ID.
+		/// </summary>
+		[FieldName("ArtifactTypeID")]
+		public int ArtifactTypeId { get; set; }
+
+		/// <summary>
 		/// Gets or sets the artifact type information for the object that the view is assigned to.
 		/// </summary>
 		public NamedArtifact ObjectType { get; set; }
@@ -122,8 +128,8 @@ namespace Relativity.Testing.Framework.Models
 			if (string.IsNullOrWhiteSpace(Name))
 				Name = Randomizer.GetString("AT_");
 
-			if (ArtifactTypeID == 0)
-				ArtifactTypeID = 10;
+			if (ArtifactTypeId == 0)
+				ArtifactTypeId = 10;
 
 			if (ObjectType == null)
 				ObjectType = new NamedArtifact { Name = "Document" };
