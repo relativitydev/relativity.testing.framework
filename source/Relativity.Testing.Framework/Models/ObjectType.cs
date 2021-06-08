@@ -17,7 +17,7 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the value used as an identifier for an object type supported by Relativity.
 		/// </summary>
 		[FieldName("Artifact Type ID")]
-		public override int ArtifactTypeID { get; set; }
+		public int ArtifactTypeID { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether it is system object type.

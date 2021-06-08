@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Relativity.Testing.Framework.Attributes;
 
 namespace Relativity.Testing.Framework.Models
 {
@@ -7,6 +8,12 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	public class ProductionDataSource : NamedArtifact
 	{
+		/// <summary>
+		/// Gets or sets the Relativity artifact type ID of the production data source.
+		/// </summary>
+		[FieldName("ArtifactTypeID")]
+		public int ArtifactTypeId { get; set; }
+
 		/// <summary>
 		///  Gets or sets the production artifact ID.
 		/// </summary>
