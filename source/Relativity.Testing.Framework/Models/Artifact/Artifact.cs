@@ -25,10 +25,5 @@
 		/// Gets or sets the artifact ID.
 		/// </summary>
 		public int ArtifactID { get; set; }
-
-		/// <summary>
-		/// Gets or sets the artifact type ID.
-		/// </summary>
-		public virtual int ArtifactTypeID { get; set; }
 	}
 }
