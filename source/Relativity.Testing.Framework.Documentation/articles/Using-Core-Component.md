@@ -14,7 +14,7 @@ public void Setup()
 ```
 By default, this will read in environment variables and NUnit test parameters to populate ready to use properties for common values.  
 
-This means that if you are generating FunctionalTestSettings using something like the New-TestSettings.ps1 file from the RapCDTemplate, and running your tests using NUnit from the command line, you should not need to do anything further to configure the CoreComponent.
+This means that if you are generating FunctionalTestSettings using something like the [New-TestSettings.ps1 file](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/DevelopmentScripts/New-TestSettings.ps1), and running your tests using NUnit from the command line, you should not need to do anything further to configure the CoreComponent.
 
 # Custom Configuration
 
