@@ -171,12 +171,13 @@ Unit and/or functional tests are expected for all changes unless otherwise indic
 Tests should be added in the FunctionalTests project in a fixture that mirrors the structure of library.
 e.g. [WorkspaceGetByNameStrategy](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Strategies/Workspaces/WorkspaceGetByNameStrategy.cs) should be tested in [WorkspaceGetByNameStrategyFixture](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api.FunctionalTests/Api/Strategies/Workspaces/WorkspaceGetByNameStrategyFixture.cs)
 
-All testing for these repositories can be done through conventional means with a TestVM.
+All testing for these repositories can be done through conventional means against a Relativity server.
 In general, this process includes:
 
-* [Setting up a TestVM](https://einstein.kcura.com/x/PwGwBg)
-* Creating a [runsettings file](https://einstein.kcura.com/pages/viewpage.action?pageId=233734697#HowToRunADSCI/CDTestsAgainstYourTestVM-ConfiguringTestParameters) or environment variables that point to that TestVM
-  * Configure VisualStudio to use your runsettings file, if using that
+* Acquiring a server to test against
+* Generating test parameters to point to that server
+  * [New-TestSettings.ps1](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/DevelopmentScripts/New-TestSettings.ps1) is a good way to generate test parameters.
+    * Configure VisualStudio to use your runsettings file, if using that
 * Running the tests with the test explorer in VisualStudio
 
 #### <a name="pull-requests">Pull Requests</a>
@@ -195,11 +196,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 #### <a name="styleguides">Styleguides</a>
 
-##### <a name="dotnet-styleguide">DotNet Styleguide</a>
-
-In general, just follow the [C# Coding Standards](https://einstein.kcura.com/x/I6D5AQ) and any conventions that are in place in the repository.
-Analyzers are already in place in the projects to enforce most of these.
-
 ##### <a name="git-commit-messages">Git Commit Messages</a>
 
 * Commit messages must contain the Jira story id.
@@ -210,7 +206,7 @@ e.g.
 
 > [RTF-1019] Adding ObjectTypeGuidAttribute for use in RTF.Api ObjectManager. Adding ObjectTypeGuidResolver and tests.
 
-#### <a name="releasnig">Releasing</a>
+#### <a name="releasing">Releasing</a>
 
-The develop branch of these repositories will create a prerelease package for testing purposes.
-Once a sprint, the Test Engineering team will merge the develop branch into master to create the finalized version for all the changes introduced in the sprint.
+Feature branches will create a prerelease package and upload them as an artifact of the build.
+Release branches will publish a golden package to NuGet.
