@@ -36,11 +36,12 @@ A brief overview of the important repositories will be provided here to help gui
 
 #### <a name="relativity-testing-framework">Relativity.Testing.Framework</a>
 
-[Relativity.Testing.Framework](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/README.md) is a library that uses Inversion of Control to provide functionality from the other libraries in the RTF collection.
+[Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) is a library that uses Inversion of Control to provide functionality from the other libraries in the RTF collection.
 
 This library provides the CoreComponent that is used to help configure dependent libraries.
 
 This library also provides object models and helper classes that are generally useful to all dependent libraries.
+
 
 If you are working in this repository, you should have at least a basic understanding of [Inversion of Control](http://www.castleproject.org/projects/windsor/), and the Relativity Object Model.
 
