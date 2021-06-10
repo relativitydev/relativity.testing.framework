@@ -101,13 +101,14 @@ Following these guidelines helps us in understanding the request and provide a q
 * **If you are a new user of RTF, check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html)** to make sure that you're following one of the common usage patterns.
 * **Ensure that you are testing against a supported version of Relativity.** Relativity.Testing.Framework is only [tested against the last few current templates in hopper](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs). Official support is not provided for issues relating to versions of Relativity outside of this range.
 * **Determine [which library the problem is likely coming from](#relativity-testing-framework-and-packages)**.
-* **Perform a quick search in the [Relativity Testing Framework Jira Project](https://jira.kcura.com/browse/RTF-1023?jql=project%20%3D%20%22ENG%3A%20Relativity%20Testing%20Framework%22%20%20order%20by%20id%20DESC)** to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
+* **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### How Do I Submit A Good Bug Report?
 
-Send an email to <help-testengineering@relativity.com> to create a Jira ticket for us. We will triage the ticket, and move it to the appropriate location.
+Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
+We will triage the ticket, and move it to the appropriate location.
 Be sure to include the following information:
 
 * **Use a clear and descriptive title** for the issue to identify the problem.
@@ -116,6 +117,7 @@ Be sure to include the following information:
 * **Provide specific examples to demonstrate the steps**. If there is a test that can be run to reproduce the issue, please include a link to it.
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior. Please include any errors or stacktraces, if applicable.
 * **Explain which behavior you expected to see instead and why**.
+* Add a `bug` label to the issue.
 
 Provide more context by answering these questions:
 
@@ -136,11 +138,12 @@ Following these guidelines helps us in understanding the request and provide a q
 #### Before Submitting An Enhancement Suggestion
 
 * **Determine [which repository the enhancement belongs to](#relativity-testing-framework-and-packages).**
-* **Perform a quick search in the [Relativity Testing Framework Jira Project](https://jira.kcura.com/browse/RTF-1023?jql=project%20%3D%20%22ENG%3A%20Relativity%20Testing%20Framework%22%20%20order%20by%20id%20DESC)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+* **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A Good Enhancement Suggestion?
 
-Send an email to <help-testengineering@relativity.com> to create a Jira ticket for us. We will triage the ticket, and move it to the appropriate location.
+Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
+We will triage the ticket, and move it to the appropriate location.
 Be sure to include the following information:
 
 * **Use a clear and descriptive title** for the issue to identify the suggestion.
@@ -149,6 +152,7 @@ Be sure to include the following information:
 * If possible, **Provide specific examples to demonstrate the steps** that you imagine you would take if the feature you're requesting.
 * **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
 * **Explain why this enhancement would be useful** to most Relativity.Testing.Framework users.
+* Add an `enhancement` label to the issue.
 
 ### <a name="code-contributions">Code Contributions</a>
 
@@ -156,8 +160,8 @@ Be sure to also review the CONTRIBUTING.md at the root of the repository you are
 
 #### <a name="development">Development</a>
 
-All development work should be done in feature branches off of the develop branch.
-Branch names should include the ID of the story in Jira.
+All development work should be done in feature branches off of the master branch.
+Branch names should indicate the [issue](https://github.com/relativitydev/relativity.testing.framework/issues) that they are solving.
 
 ##### Updating the Changelog
 
@@ -169,12 +173,13 @@ Unit and/or functional tests are expected for all changes unless otherwise indic
 Tests should be added in the FunctionalTests project in a fixture that mirrors the structure of library.
 e.g. [WorkspaceGetByNameStrategy](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Strategies/Workspaces/WorkspaceGetByNameStrategy.cs) should be tested in [WorkspaceGetByNameStrategyFixture](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api.FunctionalTests/Strategies/Workspaces/WorkspaceGetByNameStrategyFixture.cs)
 
-All testing for these repositories can be done through conventional means with a TestVM.
+All testing for these repositories can be done through conventional means against a Relativity server.
 In general, this process includes:
 
-* [Setting up a TestVM](https://einstein.kcura.com/x/PwGwBg)
-* Creating a [runsettings file](https://einstein.kcura.com/pages/viewpage.action?pageId=233734697#HowToRunADSCI/CDTestsAgainstYourTestVM-ConfiguringTestParameters) or environment variables that point to that TestVM
-  * Configure VisualStudio to use your runsettings file, if using that
+* Acquiring a server to test against
+* Generating test parameters to point to that server
+  * [New-TestSettings.ps1](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/DevelopmentScripts/New-TestSettings.ps1) is a good way to generate test parameters.
+    * Configure VisualStudio to use your runsettings file, if using that
 * Running the tests with the test explorer in VisualStudio
 
 #### <a name="pull-requests">Pull Requests</a>
@@ -193,14 +198,8 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 #### <a name="styleguides">Styleguides</a>
 
-##### <a name="dotnet-styleguide">DotNet Styleguide</a>
-
-In general, just follow the [C# Coding Standards](https://einstein.kcura.com/x/I6D5AQ) and any conventions that are in place in the repository.
-Analyzers are already in place in the projects to enforce most of these.
-
 ##### <a name="git-commit-messages">Git Commit Messages</a>
 
-* Commit messages must contain the Jira story id.
 * Commits should be squshed into a single one for each pull request.
 * Commit messages must describe what is changing.
 
@@ -208,7 +207,7 @@ e.g.
 
 > [RTF-1019] Adding ObjectTypeGuidAttribute for use in RTF.Api ObjectManager. Adding ObjectTypeGuidResolver and tests.
 
-#### <a name="releasnig">Releasing</a>
+#### <a name="releasing">Releasing</a>
 
-The develop branch of these repositories will create a prerelease package for testing purposes.
-Once a sprint, the Test Engineering team will merge the develop branch into master to create the finalized version for all the changes introduced in the sprint.
+Feature branches will create a prerelease package and upload them as an artifact of the build.
+Release branches will publish a golden package to NuGet.
