@@ -9,8 +9,6 @@
   * [Relativity Testing Framework and Packages](#relativity-testing-framework-and-packages)
     * [Relativity.Testing.Framework](#relativity-testing-framework)
     * [Relativity.Testing.Framework.Api](#relativity-testing-framework-api)
-    * [Relativity.Testing.Framework.Web](#relativity-testing-framework-web)
-    * [Relativity.Testing.Framework.RingSetup](#relativity-testing-framework-ringsetup)
 * [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
@@ -32,7 +30,7 @@
 
 ### <a name="relativity-testing-framework-and-packages">Relativity Testing Framework and Packages</a>
 
-The [TestTools project](https://git.kcura.com/projects/TT) in BitBucket contains the collection of repositories that comprise Relativity Testing Framework.
+The [Relativity Testing Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity Testing Framework Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
 
 A brief overview of the important repositories will be provided here to help guide contributors to the correct libraries.
 
@@ -49,22 +47,22 @@ If you are working in this repository, you should have at least a basic understa
 ##### Components
 
 * RelativityFacade - A container housing the components that a test will RelyOn.
-  * [RelativityFacade](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/RelativityFacade.cs)
+  * RelativityFacade - [source](https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/RelativityFacade.cs), [docs](/api/Relativity.Testing.Framework.RelativityFacade.html)
 * Object Modeling and Mapping - Defines models for the Objects that are created, and maps the responses from the API requests back to them.
-  * [Attributes](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Attributes)
-  * [Models](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Models)
-  * [Mapping](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Mapping)
+  * Attributes - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Attributes), [docs](/api/Relativity.Testing.Framework.Attributes.html)
+  * Models - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Models), [docs](/api/Relativity.Testing.Framework.Models.html)
+  * Mapping - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Mapping), [docs](/api/Relativity.Testing.Framework.Mapping.html)
 * Configuration Management - Reads in configuration and provides the values to other components.
-  * [CoreComponent](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/CoreComponent.cs)
-  * [Configuration](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Configuration)
+  * CoreComponent - [source](https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/CoreComponent.cs), [docs](/api/Relativity.Testing.Framework.CoreComponent.html)
+  * Configuration - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Configuration), [docs](/api/Relativity.Testing.Framework.Configuration.html)
 * Logging - Additional logging methods that can be used to log information while running tests.
-  * [Logging](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Logging)
+  * Logging - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Logging), [docs](/api/Relativity.Testing.Framework.Logging.html)
 * Versioning - Handles Relativity version checking to determine which version of methods to used.
-  * [Versioning](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/source/Relativity.Testing.Framework/Versioning)
+  * Versioning - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Versioning), [docs](/api/Relativity.Testing.Framework.Versioning.html)
 
 #### <a name="relativity-testing-framework-api">Relativity.Testing.Framework.Api</a>
 
-[Relativity.Testing.Framework.Api](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/README.md) is a library that provides an API surface over the disparate APIs that Relativity provides.
+[Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api/tree/master) is a library that provides an API surface over the disparate APIs that Relativity provides.
 
 This library provides the ApiComponent that is used to facilitate sending the requests, and mapping the results back to the provided models from the Relativity.Testing.Framework package.
 
@@ -73,23 +71,20 @@ If you are working in this repository, you should have at least a basic understa
 ##### Components
 
 * ApiComponent - Handles all API interactions with Relativity.
-  * [ApiComponent](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/ApiComponent.cs)
-  * [HttpService](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/HttpService.cs)
-  * [RestService](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/RestService.cs)
-  * Rsapi - Handles legacy RSAPI requests. Soon to be removed from this repository.
-    * [RsapiService](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/RsapiService.cs)
-    * [Rsapi](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Rsapi)
+  * ApiComponent - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.ApiComponent.html)
+  * HttpService - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/HttpService.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.HttpService.html)
+  * RestService - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/RestService.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.RestService.html)
   * Kepler - Privides a service factory to interact with KeplerServices
-    * [Kepler](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Kepler)
+    * Kepler - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Kepler), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Kepler.IKeplerServiceFactory.html)
   * ObjectManager - Handles interaction with ObjectManager endpoints
-    * [ObjectManagement](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/ObjectManagement)
-    * [Querying](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Querying)
+    * ObjectManagement - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/ObjectManagement) [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.ObjectManagement.html)
+    * Querying - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Querying), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Querying.html)
   * Services - Houses a collection of similar strategies for hitting individual endpoints
-    * [Services](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Services)
+    * Services - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Services), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.html)
     * Strategies - The individual wrappers around the Relativity endpoints
-      * [Strategies](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Strategies)
+      * Strategies - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Strategies)m [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Strategies.html)
 * AccountPool - An abstraction around user setup that is useful when you want to make a lot of them.
-  * [AccountPool](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Services/AccountPoolService.cs)
+  * AccountPool - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/AccountPoolService.cs) [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.IAccountPoolService.html)
 
 ## <a name="how-can-i-contribute">How Can I Contribute?</a>
 
@@ -100,8 +95,8 @@ Following these guidelines helps us in understanding the request and provide a q
 
 #### Before Submitting A Bug Report
 
-* **If you are a new user of RTF, check the [RTF User Guide](https://einstein.kcura.com/display/PED/Relativity+Testing+Framework)** to make sure that you're following one of the common usage patterns.
-* **Ensure that you are testing against a supported version of Relativity.** Relativity.Testing.Framework is only [tested against the last few current templates in hopper](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/ApiComponent.cs#32). Official support is not provided for issues relating to versions of Relativity outside of this range.
+* **If you are a new user of RTF, check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html)** to make sure that you're following one of the common usage patterns.
+* **Ensure that you are testing against a supported version of Relativity.** Relativity.Testing.Framework is only [tested against the last few current templates in hopper](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs). Official support is not provided for issues relating to versions of Relativity outside of this range.
 * **Determine [which library the problem is likely coming from](#relativity-testing-framework-and-packages)**.
 * **Perform a quick search in the [Relativity Testing Framework Jira Project](https://jira.kcura.com/browse/RTF-1023?jql=project%20%3D%20%22ENG%3A%20Relativity%20Testing%20Framework%22%20%20order%20by%20id%20DESC)** to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
 
@@ -163,13 +158,13 @@ Branch names should include the ID of the story in Jira.
 
 ##### Updating the Changelog
 
-All changes must be logged in the [CHANGELOG.md](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/browse/CHANGELOG.md) at the root of the repository being changed.
+All changes must be logged in the [CHANGELOG.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CHANGELOG.md) at the root of the repository being changed.
 
 #### <a name="testing">Testing</a>
 
 Unit and/or functional tests are expected for all changes unless otherwise indicated.
 Tests should be added in the FunctionalTests project in a fixture that mirrors the structure of library.
-e.g. [WorkspaceGetByNameStrategy](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api/Strategies/Workspaces/WorkspaceGetByNameStrategy.cs) should be tested in [WorkspaceGetByNameStrategyFixture](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/browse/source/Relativity.Testing.Framework.Api.FunctionalTests/Api/Strategies/Workspaces/WorkspaceGetByNameStrategyFixture.cs)
+e.g. [WorkspaceGetByNameStrategy](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Strategies/Workspaces/WorkspaceGetByNameStrategy.cs) should be tested in [WorkspaceGetByNameStrategyFixture](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api.FunctionalTests/Strategies/Workspaces/WorkspaceGetByNameStrategyFixture.cs)
 
 All testing for these repositories can be done through conventional means with a TestVM.
 In general, this process includes:
