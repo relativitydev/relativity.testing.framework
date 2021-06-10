@@ -7,7 +7,7 @@
 
 ### Solution 
 
-Reference the same version of Castle.Windsor that we use in Relativity.Testing.Framework (3.3.0).
+Reference the same version of Castle.Windsor that we use in Relativity.Testing.Framework [(3.3.0)](https://www.nuget.org/packages/Castle.Windsor/3.3.0).
 Newer versions of Castle.Windsor are not tested in our build, and are not guaranteed to work.
 
 ## I made an API request to get an object, and some of the fields aren't filled out all the way
@@ -35,7 +35,7 @@ Some object models in RTF use enums to maintain a list of the available options 
 
 If the object we are modeling is a system artifact, there should be a static list of these options, and we should only need to add/remove/update them as they are changed in Relativity.
 
-If this is the case, please open up a ticket with <help-testengineering@relativity.com> and let us know how the model should be changed.
+If this is the case, please open up a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository and let us know how the model should be changed.
 
 However, there are also some objects that normally behave like system artifacts, but are actually choices in disguise!  
-If we've mistakenly identified something as an enum, please open up a ticket with <help-testengineering@relativity.com> and let us know which part of the model should not be an enum.
+If we've mistakenly identified something as an enum, please open up a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository and let us know which part of the model should not be an enum.
