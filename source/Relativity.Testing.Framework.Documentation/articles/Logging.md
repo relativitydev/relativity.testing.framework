@@ -4,7 +4,7 @@ This is done automatically for you, and the default output location is a "Result
 
 # Using the LogService
 
-The built in log service is built around NLog, and can be retrieved anytime after the CoreComponent has been relied on.
+The built in [log service](/api/Relativity.Testing.Framework.Logging.ILogService.html) is built around [NLog](https://nlog-project.org/), and can be retrieved anytime after the [CoreComponent](/api/Relativity.Testing.Framework.CoreComponent.html) has been relied on.
 
 
 ```
