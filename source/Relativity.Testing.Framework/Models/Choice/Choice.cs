@@ -34,7 +34,8 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets the parent.
 		/// </summary>
-		public Artifact Parent { get; set; }
+		[FieldName("Parent Artifact Name")]
+		public NamedArtifact Parent { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether this <see cref="Choice"/> is active.
