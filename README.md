@@ -4,8 +4,8 @@ This repository contains a C#/NuGet library that abstracts out common functional
 
 ## Build Tasks
 
-This repository builds with Powershell through the `.\build.ps1` script.
-It supports standard tasks like `.\build.ps1 compile`, `.\build.ps1 test`, and `.\build.ps1 package`.
+This repository builds with the dotnet sdk.
+It supports standard tasks like `dotnet build`, `dotnet test`, and `dotnet pack`.
 
 ## Local Testing
 
@@ -14,6 +14,6 @@ It supports standard tasks like `.\build.ps1 compile`, `.\build.ps1 test`, and `
 Run through the standard compile and (unit) test tasks. These can be done without any external environment to test on.
 
 ```PowerShell
-.\build.ps1 compile
-.\build.ps1 test
+dotnet build source
+dotnet test source
 ```
