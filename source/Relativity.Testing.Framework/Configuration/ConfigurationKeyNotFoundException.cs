@@ -11,7 +11,7 @@ namespace Relativity.Testing.Framework.Configuration
 		}
 
 		public ConfigurationKeyNotFoundException(string keyName)
-			: base($"Configuration '{keyName}' key not found.")
+			: base($"Configuration '{keyName}' key not found.\r\nSee https://probable-happiness-2926a3e8.pages.github.io/articles/Using-Core-Component.html for details on how to specify configuration values.")
 		{
 			KeyName = keyName;
 		}
