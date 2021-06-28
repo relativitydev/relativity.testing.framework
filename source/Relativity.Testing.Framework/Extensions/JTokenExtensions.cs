@@ -5,7 +5,7 @@ namespace Relativity.Testing.Framework.Extensions
 	/// <summary>
 	/// Provides a set of extension methods for <see cref="JToken"/>.
 	/// </summary>
-	public static class JTokenExtensions
+	internal static class JTokenExtensions
 	{
 		/// <summary>
 		/// Remove null and empty properties for <see cref="JTokenType.Object"/> and <see cref="JTokenType.Array"/>.

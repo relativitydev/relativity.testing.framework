@@ -8,7 +8,7 @@ namespace Relativity.Testing.Framework.Mapping
 	/// <summary>
 	/// Provides a set of methods for object type name resolve.
 	/// </summary>
-	public static class ObjectTypeNameResolver
+	internal static class ObjectTypeNameResolver
 	{
 		/// <summary>
 		/// Resolves the object type name of <typeparamref name="T"/> type.

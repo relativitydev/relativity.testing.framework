@@ -10,7 +10,7 @@ namespace Relativity.Testing.Framework.Mapping
 	/// <summary>
 	/// Provides a set of methods for object field to property mapping.
 	/// </summary>
-	public static class ObjectFieldMapping
+	internal static class ObjectFieldMapping
 	{
 		/// <summary>
 		/// Gets the name of the property or <see langword="null"/> if missing.

@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.0.0] - 2021-06-28
+
+### Changed
+
+- Move classes from public to internal - [RTF-1308](https://jira.kcura.com/browse/RTF-1308)
+	*JTokenExtensions
+	*ObjectCopyExtensions
+	*ChoiceNameToEnumMapper
+	*FieldArtifactIdResolver
+	*FieldGuidResolver
+	*ObjectFieldMapping
+	*ObjectTypeGuidResolver
+	*ObjectTypeNameResolver
+
 ## [3.3.1] - 2021-06-23
 
 ### Changed

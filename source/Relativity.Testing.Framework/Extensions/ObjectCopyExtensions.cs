@@ -7,7 +7,7 @@ namespace Relativity.Testing.Framework.Extensions
 	/// <summary>
 	/// Provides a set of Copy extension methods for object.
 	/// </summary>
-	public static class ObjectCopyExtensions
+	internal static class ObjectCopyExtensions
 	{
 		private static readonly MethodInfo _cloneMethod = typeof(object).GetMethod(nameof(MemberwiseClone), BindingFlags.NonPublic | BindingFlags.Instance);
 

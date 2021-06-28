@@ -11,7 +11,7 @@ namespace Relativity.Testing.Framework.Mapping
 	/// <summary>
 	/// Provides a set of methods for choice name to enum mapping.
 	/// </summary>
-	public static class ChoiceNameToEnumMapper
+	internal static class ChoiceNameToEnumMapper
 	{
 		private static readonly ConcurrentDictionary<Type, Dictionary<string, string>> _typeMap =
 			new ConcurrentDictionary<Type, Dictionary<string, string>>();
