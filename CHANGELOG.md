@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	*ObjectTypeGuidResolver
 	*ObjectTypeNameResolver
 
+## [3.3.2] - 2021-06-25
+
+### Changed
+
+- Using a more environmentally appropriate newline in the exception message. - [TESTENG-1132](https://jira.kcura.com/browse/TESTENG-1132)
+
 ## [3.3.1] - 2021-06-23
 
 ### Changed
