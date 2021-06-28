@@ -7,7 +7,7 @@ namespace Relativity.Testing.Framework.Mapping
 	/// <summary>
 	/// Provides a set of methods for object type guid resolution.
 	/// </summary>
-	public static class ObjectTypeGuidResolver
+	internal static class ObjectTypeGuidResolver
 	{
 		/// <summary>
 		/// Resolves the object type guid of <typeparamref name="T"/> type.

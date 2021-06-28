@@ -7,7 +7,7 @@ namespace Relativity.Testing.Framework.Mapping
 	/// <summary>
 	/// Provides a set of methods for field guid resolution.
 	/// </summary>
-	public static class FieldGuidResolver
+	internal static class FieldGuidResolver
 	{
 		/// <summary>
 		/// Resolves the field Guid of <paramref name="propertyInfo"/>.
@@ -17,8 +17,8 @@ namespace Relativity.Testing.Framework.Mapping
 		public static Guid Resolve(PropertyInfo propertyInfo)
 		{
 			return propertyInfo.IsDefined(typeof(FieldGuidAttribute)) ?
-			propertyInfo.GetCustomAttribute<FieldGuidAttribute>().Id :
-			Guid.Empty;
+				propertyInfo.GetCustomAttribute<FieldGuidAttribute>().Id :
+				Guid.Empty;
 		}
 	}
 }
