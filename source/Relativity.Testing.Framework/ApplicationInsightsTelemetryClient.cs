@@ -3,7 +3,7 @@ using Microsoft.ApplicationInsights.Extensibility;
 
 namespace Relativity.Testing.Framework
 {
-	public class ApplicationInsightsTelemetryClient
+	internal class ApplicationInsightsTelemetryClient : IApplicationInsightsTelemetryClient
 	{
 		private readonly TelemetryClient _telemetryClient;
 

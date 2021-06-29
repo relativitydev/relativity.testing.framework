@@ -102,7 +102,8 @@ namespace Relativity.Testing.Framework
 				LifestyleSingleton());
 
 			container.Register(
-				Component.For<ApplicationInsightsTelemetryClient>().
+				Component.For<IApplicationInsightsTelemetryClient>().
+				ImplementedBy<ApplicationInsightsTelemetryClient>().
 				LifestyleSingleton());
 
 			container.Register(
