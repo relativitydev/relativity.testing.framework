@@ -294,7 +294,7 @@ namespace Relativity.Testing.Framework
 
 		private void FlushApplicationInsights()
 		{
-			ApplicationInsightsTelemetryClient applicationInsightsInterceptor = WindsorContainer.ResolveAll<ApplicationInsightsTelemetryClient>().FirstOrDefault();
+			var applicationInsightsInterceptor = WindsorContainer.ResolveAll<IApplicationInsightsTelemetryClient>().FirstOrDefault();
 			if (applicationInsightsInterceptor != null)
 			{
 				applicationInsightsInterceptor.Flush();
