@@ -5,11 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
 ## [4.1.0] - 2021-06-29
 
 ### Added
 
 - Public interface for ApplicationInsightsTelemetryClient.  - [TESTENG-1272](https://jira.kcura.com/browse/TESTENG-1272)
+
+## [4.0.1] - 2021-06-28
+
+### Changed
+
+- Update version of ApplicationInsights dependency being used from 2.15 to 2.17. Also changing the implementation from the disposable `CreateDefault` to `Active`. - https://github.com/relativitydev/relativity.testing.framework/issues/42
 
 ## [4.0.0] - 2021-06-28
 

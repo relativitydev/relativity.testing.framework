@@ -9,11 +9,9 @@ namespace Relativity.Testing.Framework
 
 		public ApplicationInsightsTelemetryClient()
 		{
-			using (var telemetryConfiguration = TelemetryConfiguration.CreateDefault())
-			{
-				telemetryConfiguration.InstrumentationKey = "8ce871da-721e-4721-b1b6-047f00b8f406";
-				_telemetryClient = new TelemetryClient(telemetryConfiguration);
-			}
+			var telemetryConfiguration = TelemetryConfiguration.Active;
+			telemetryConfiguration.InstrumentationKey = "8ce871da-721e-4721-b1b6-047f00b8f406";
+			_telemetryClient = new TelemetryClient(telemetryConfiguration);
 		}
 
 		public TelemetryClient Instance
