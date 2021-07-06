@@ -14,6 +14,5 @@
 		ToggleChoice = 9,
 		SelectField = 10,
 		ViewerSwitchModeExtractedText = 11,
-		Unknown
 	}
 }

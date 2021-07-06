@@ -8,6 +8,5 @@
 		System = 0,
 		Choice = 1,
 		Field = 2,
-		Unknown
 	}
 }
