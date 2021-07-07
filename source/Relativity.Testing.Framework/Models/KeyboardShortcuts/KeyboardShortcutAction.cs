@@ -2,7 +2,7 @@
 {
 	public enum KeyboardShortcutAction
 	{
-		Default = 0,
+		Unknown = 0,
 		NavigateLastDocument = 1,
 		NavigateFirstDocument = 2,
 		NavigatePreviousDocument = 3,
