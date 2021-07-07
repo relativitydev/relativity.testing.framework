@@ -2,17 +2,18 @@
 {
 	public enum KeyboardShortcutAction
 	{
-		NavigateLastDocument = 0,
-		NavigateFirstDocument = 1,
-		NavigatePreviousDocument = 2,
-		NavigateNextDocument = 3,
-		DocumentProfileSave = 4,
-		DocumentProfileCancel = 5,
-		DocumentProfileSaveAndNext = 6,
-		DocumentProfileEdit = 7,
-		CSAPCopy = 8,
-		ToggleChoice = 9,
-		SelectField = 10,
-		ViewerSwitchModeExtractedText = 11,
+		Default = 0,
+		NavigateLastDocument = 1,
+		NavigateFirstDocument = 2,
+		NavigatePreviousDocument = 3,
+		NavigateNextDocument = 4,
+		DocumentProfileSave = 5,
+		DocumentProfileCancel = 6,
+		DocumentProfileSaveAndNext = 7,
+		DocumentProfileEdit = 8,
+		CSAPCopy = 9,
+		ToggleChoice = 10,
+		SelectField = 11,
+		ViewerSwitchModeExtractedText = 12,
 	}
 }

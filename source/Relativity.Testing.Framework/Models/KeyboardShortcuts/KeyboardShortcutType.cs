@@ -5,8 +5,9 @@
 	/// </summary>
 	public enum KeyboardShortcutType
 	{
-		System = 0,
-		Choice = 1,
-		Field = 2,
+		Default = 0,
+		System = 1,
+		Choice = 2,
+		Field = 3,
 	}
 }
