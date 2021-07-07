@@ -15,5 +15,15 @@
 		ToggleChoice = 10,
 		SelectField = 11,
 		ViewerSwitchModeExtractedText = 12,
+		ViewerSwitchModeImage = 13,
+		CreateFullPageRedaction = 14,
+		ViewerFindNext = 15,
+		ViewerFindPrevious = 16,
+		ViewerPageDown = 17,
+		ViewerPageUp = 18,
+		ViewerToggleQualityMode = 19,
+		ViewerSwitchModeNative = 20,
+		ViewerSwitchModeProductions = 21,
+		ViewerSwitchModeViewer = 22,
 	}
 }
