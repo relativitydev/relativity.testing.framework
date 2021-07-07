@@ -16,9 +16,9 @@
 		public KeyboardShortcutType Type { get; set; }
 
 		/// <summary>
-		///  Gets or sets an action taken when a keyboard shortcut is triggered.
+		///  Gets or sets string representing action taken when a keyboard shortcut is triggered.
 		/// </summary>
-		public KeyboardShortcutAction Action { get; set; }
+		public string Action { get; set; }
 
 		/// <summary>
 		///  Gets or sets keys combination that indicates whether additional keys are used as part of the shortcut.
