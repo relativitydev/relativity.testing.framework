@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the page orientation for images generated from an <see cref="ImagingProfile"/> instance.
 	/// </summary>
-	public enum Orientation
+	public enum ImagingEmailOrientation
 	{
 		/// <summary>
 		/// Specifies a portrait orientation for imaging outputs.
@@ -13,7 +13,7 @@
 		/// <summary>
 		/// Specifies a landscape orientation for imaging outputs.
 		/// </summary>
-		Landscape = 1,,
+		Landscape = 1,
 
 		/// <summary>
 		/// Represends error during mapping.

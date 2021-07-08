@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Option for orientation of a given element used by <see cref="ImagingProfile"/>.
 	/// </summary>
-	public enum ElementOrientation
+	public enum ImagingElementOrientation
 	{
 		/// <summary>
 		/// Renders the original orientation for the elements.

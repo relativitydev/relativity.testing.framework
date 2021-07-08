@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies whether to render element or not.
 	/// </summary>
-	public enum IncludeElement
+	public enum ImagingIncludeElement
 	{
 		/// <summary>
 		/// Render the element using the original settings.

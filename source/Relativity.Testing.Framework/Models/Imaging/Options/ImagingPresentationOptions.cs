@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the settings for displaying speaker notes and page orientation for presentation slides, such as Microsoft PowerPoint.
 	/// </summary>
-	public class PresentationOptions
+	public class ImagingPresentationOptions
 	{
 		/// <summary>
 		/// Gets or sets a value indicating whether speaker’s notes display at the bottom of presentation slides.
@@ -15,6 +15,6 @@
 		/// Gets or sets orientation of presentation slides, such as landscape, portrait, or original setting.
 		/// </summary>
 		/// <remarks>Corresponds to Slide Orientation option under the Presentation Options tab.</remarks>
-		public ElementOrientation SlideOrientation { get; set; }
+		public ImagingElementOrientation SlideOrientation { get; set; }
 	}
 }

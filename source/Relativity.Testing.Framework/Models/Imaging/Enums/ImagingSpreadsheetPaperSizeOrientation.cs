@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the paper size and orientation used to render the pages in a spreadsheet.
 	/// </summary>
-	public enum PaperSizeOrientation
+	public enum ImagingSpreadsheetPaperSizeOrientation
 	{
 		/// <summary>
 		/// Renders the spreadsheet in its original size and orientation.

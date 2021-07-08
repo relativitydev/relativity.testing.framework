@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the native imaging options set on an <see cref="ImagingProfile"/> instance used when imaging HTML content.
 	/// </summary>
-	public class HtmlOptions
+	public class ImagingHtmlOptions
 	{
 		/// <summary>
 		/// Gets or sets a value indicating whether to remove rows of non-breaking spaces (NBSP) code.

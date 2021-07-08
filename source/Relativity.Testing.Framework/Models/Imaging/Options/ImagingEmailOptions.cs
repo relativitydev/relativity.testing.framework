@@ -1,15 +1,15 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the native imaging options set on an <see cref="ImagingProfile"/> instance used when imaging email messages.
 	/// </summary>
-	public class EmailOptions
+	public class ImagingEmailOptions
 	{
 		/// <summary>
 		/// Gets or sets the option indicating whether the orientation of email messages is portrait or landscape.
 		/// </summary>
 		/// <remarks>Corresponds to the Orientation option under the Email Options tab.</remarks>
-		public Orientation Orientation { get; set; }
+		public ImagingEmailOrientation Orientation { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether to modify images to fit the page size.

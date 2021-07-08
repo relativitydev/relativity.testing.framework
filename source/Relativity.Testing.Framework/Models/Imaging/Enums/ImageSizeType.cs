@@ -1,10 +1,10 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the size of images generated from a specific <see cref="ImagingProfile"/> instance.
 	/// </summary>
-	/// <remarks>The ImageSize enumeration includes the same image size options available from the Basic Imaging Engine Options drop-down in the Relativity UI. </remarks>
-	public enum ImageSize
+	/// <remarks>The ImageSizeType enumeration includes the same image size options available from the Basic Imaging Engine Options drop-down in the Relativity UI. </remarks>
+	public enum ImageSizeType
 	{
 		/// <summary>
 		/// Generates the images in the size used by the original document settings.

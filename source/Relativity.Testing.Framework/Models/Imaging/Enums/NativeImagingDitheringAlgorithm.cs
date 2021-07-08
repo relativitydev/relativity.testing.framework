@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the dithering algorithm used for an <see cref="ImagingProfile"/> instance.
 	/// </summary>
-	public enum DitheringAlgorithm
+	public enum NativeImagingDitheringAlgorithm
 	{
 		/// <summary>
 		/// Specifies the use of clustered 6x6 dithering for the imaging job.

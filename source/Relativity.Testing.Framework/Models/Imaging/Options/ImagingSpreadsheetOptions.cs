@@ -1,29 +1,29 @@
 ﻿using System.Collections.Generic;
 
-namespace Relativity.Testing.Framework.Models.Imaging
+namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the spreadsheet options set on an <see cref="ImagingProfile"/> instance.
 	/// </summary>
-	public class SpreadsheetOptions
+	public class ImagingSpreadsheetOptions
 	{
 		/// <summary>
 		/// Gets or sets the option for paper size and orientation used to render the pages in a spreadsheet.
 		/// </summary>
 		/// <remarks>Corresponds to the  Paper size/Orientation drop-down list under the Spreadsheet Options tab.</remarks>
-		public PaperSizeOrientation PaperSizeOrientation { get; set; }
+		public ImagingSpreadsheetPaperSizeOrientation PaperSizeOrientation { get; set; }
 
 		/// <summary>
 		/// Gets or sets the order used to render the pages in a spreadsheet, such as vertical or horizontal overflow.
 		/// </summary>
 		/// <remarks>Corresponds to the Page Order option under the Spreadsheet Options tab.</remarks>
-		public PageOrder PageOrder { get; set; }
+		public ImagingSpreadsheetPageOrder PageOrder { get; set; }
 
 		/// <summary>
 		/// Gets or sets the print area in a spreadsheet used for an imaging job.
 		/// </summary>
 		/// <remarks>corresponds to the Print Area option under Spreadsheet Options tab.</remarks>
-		public PrintArea PrintArea { get; set; }
+		public ImagingSpreadsheetPrintArea PrintArea { get; set; }
 
 		/// <summary>
 		/// Gets or sets the option controlling the maximum number of consecutive blank rows or columns.
@@ -40,31 +40,31 @@ namespace Relativity.Testing.Framework.Models.Imaging
 		/// <summary>
 		/// Gets or sets the option for rendering row headings (1, 2, 3, etc.) and column headings (A, B, C, etc.) in a spreadsheet.
 		/// </summary>
-		/// <remarks>Corresponds to the Include Headers and footers under the Spreadsheet Options tab.</remarks>
-		public IncludeElement IncludeRowAndColumnHeadings { get; set; }
+		/// <remarks>Corresponds to the ImagingWordInclude Headers and footers under the Spreadsheet Options tab.</remarks>
+		public ImagingIncludeElement IncludeRowAndColumnHeadings { get; set; }
 
 		/// <summary>
 		/// Gets or sets the option for rendering headers and footers in the spreadsheet.
 		/// </summary>
-		/// <remarks>Corresponds to the Include headers and footers option under the Spreadsheet Options tab.</remarks>
-		public IncludeElement IncludeHeadersAndFooters { get; set; }
+		/// <remarks>Corresponds to the ImagingWordInclude headers and footers option under the Spreadsheet Options tab.</remarks>
+		public ImagingIncludeElement IncludeHeadersAndFooters { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether to render comments added to a spreadsheet.
 		/// </summary>
-		/// <remarks>Corresponds to the "Include Comments" option under the Spreadsheet Options tab.</remarks>
+		/// <remarks>Corresponds to the "ImagingWordInclude Comments" option under the Spreadsheet Options tab.</remarks>
 		public bool IncludeComments { get; set; }
 
 		/// <summary>
 		/// Gets or sets the option for rendering the gridlines between rows and columns in the spreadsheet.
 		/// </summary>
-		/// <remarks>Corresponds to the Include Gridlines option under the Spreadsheet Options tab.</remarks>
-		public IncludeElement IncludeGridlines { get; set; }
+		/// <remarks>Corresponds to the ImagingWordInclude Gridlines option under the Spreadsheet Options tab.</remarks>
+		public ImagingIncludeElement IncludeGridlines { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether to render the borders in a spreadsheet.
 		/// </summary>
-		/// <remarks>Corresponds to the "Include Borders" option under Spreadsheet Options.</remarks>
+		/// <remarks>Corresponds to the "ImagingWordInclude Borders" option under Spreadsheet Options.</remarks>
 		public bool IncludeBorders { get; set; }
 
 		/// <summary>
@@ -103,9 +103,9 @@ namespace Relativity.Testing.Framework.Models.Imaging
 		/// Gets or sets the options for formatting a spreadsheet, such as auto-fit rows and columns, and clearing empty rows and columns.
 		/// </summary>
 		/// <remarks>
-		/// 		Formatting options under the Spreadsheet Options tab.
+		/// 		ImagingSpreadsheetFormatting options under the Spreadsheet Options tab.
 		/// </remarks>
-		public HashSet<Formatting> Formatting { get; set; }
+		public HashSet<ImagingSpreadsheetFormatting> Formatting { get; set; }
 
 		/// <summary>
 		/// Gets or sets the options for text visibility by controlling background and font color.
@@ -113,6 +113,6 @@ namespace Relativity.Testing.Framework.Models.Imaging
 		/// <remarks>
 		/// 		Corresponds to the Text Visibility option under the Spreadsheet Options tab.
 		/// </remarks>
-		public HashSet<TextVisibility> TextVisibility { get; set; }
+		public HashSet<ImagingSpreadsheetTextVisibility> TextVisibility { get; set; }
 	}
 }

@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// Specifies spreadsheet formatting as a multiple choice option on the <see cref="SpreadsheetOptions"/> instance.
+	/// Specifies spreadsheet formatting as a multiple choice option on the <see cref="ImagingSpreadsheetOptions"/> instance.
 	/// </summary>
-	public enum Formatting
+	public enum ImagingSpreadsheetFormatting
 	{
 		/// <summary>
 		/// The row dimensions automatically accommodate the content size.

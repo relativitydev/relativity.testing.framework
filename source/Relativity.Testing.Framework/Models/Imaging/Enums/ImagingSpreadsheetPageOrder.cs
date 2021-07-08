@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the order used to render the pages in spreadsheets.
 	/// </summary>
-	public enum PageOrder
+	public enum ImagingSpreadsheetPageOrder
 	{
 		/// <summary>
 		/// Renders pages in the original order used by the spreadsheet.

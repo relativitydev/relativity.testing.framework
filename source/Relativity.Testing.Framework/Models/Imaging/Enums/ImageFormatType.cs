@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the image format for images generated from a specific <see cref="ImagingProfile"/> instance.
 	/// </summary>
-	public enum ImageFormat
+	public enum ImageFormatType
 	{
 		/// <summary>
 		/// Specifies TIFF as the file format for image outputs.

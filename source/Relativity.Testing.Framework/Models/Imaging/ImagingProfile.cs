@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Relativity.Testing.Framework.Models.Imaging
+namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the settings used to image a group of documents.
@@ -10,7 +10,7 @@ namespace Relativity.Testing.Framework.Models.Imaging
 		/// <summary>
 		/// Gets or sets the imaging method used for running jobs with the imaging profile. The method options are basic or native.
 		/// </summary>
-		public ImagingMethod ImagingMethod { get; set; }
+		public ImagingProfileType ImagingMethod { get; set; }
 
 		/// <summary>
 		/// Gets or sets the basic options used for imaging, such as image output quality (DPI), image size, and image format.
@@ -25,28 +25,28 @@ namespace Relativity.Testing.Framework.Models.Imaging
 		/// <summary>
 		/// Gets or sets the spreadsheet options used for native imaging, such as page orientation, page size, and the display of row and column headings.
 		/// </summary>
-		/// <seealso cref="SpreadsheetOptions"/>
-		public SpreadsheetOptions SpreadsheetOptions { get; set; }
+		/// <seealso cref="ImagingSpreadsheetOptions"/>
+		public ImagingSpreadsheetOptions SpreadsheetOptions { get; set; }
 
 		/// <summary>
 		/// Gets or sets the email options used for native imaging, such as page orientation, the removal of indentations, and the display of SMTP addresses.
 		/// </summary>
-		public EmailOptions EmailOptions { get; set; }
+		public ImagingEmailOptions EmailOptions { get; set; }
 
 		/// <summary>
 		/// Gets or sets word processing options used for native imaging, such as page orientation, or displaying field codes, comments, and hidden text.
 		/// </summary>
-		public WordProcessingOptions WordProcessingOptions { get; set; }
+		public ImagingWordOptions WordProcessingOptions { get; set; }
 
 		/// <summary>
 		/// Gets or sets options used for native imaging documents from presentation software, such as Microsoft PowerPoint.
 		/// </summary>
-		public PresentationOptions PresentationOptions { get; set; }
+		public ImagingPresentationOptions PresentationOptions { get; set; }
 
 		/// <summary>
 		/// Gets or sets the HTML option used for the imaging profile. It removes non-breaking spaces codes.
 		/// </summary>
-		public HtmlOptions HtmlOptions { get; set; }
+		public ImagingHtmlOptions HtmlOptions { get; set; }
 
 		/// <summary>
 		/// Gets or sets the Native Types linked to this imaging profile.

@@ -1,9 +1,9 @@
-﻿namespace Relativity.Testing.Framework.Models.Imaging
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Specifies the visibility of the text in a spreadsheet by controlling background and font color.
 	/// </summary>
-	public enum TextVisibility
+	public enum ImagingSpreadsheetTextVisibility
 	{
 		/// <summary>
 		/// Removes background color and formats hidden text or rows so they appear in the spreadsheet.
