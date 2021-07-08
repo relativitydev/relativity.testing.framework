@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Relativity.Testing.Framework.Models
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Defines the different values for the available types of groups.
