@@ -1,7 +1,7 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// Specifies how an application field code is handled during Imaging processing/>.
+	/// Specifies how an application field code is handled during Imaging processing.
 	/// </summary>
 	public enum ApplicationFieldCodeOption
 	{
@@ -31,7 +31,7 @@
 		ReplaceWithRelativityField = 4,
 
 		/// <summary>
-		/// Represends error during mapping.
+		/// Represents error during mapping.
 		/// </summary>
 		Unknown
 	}
