@@ -46,5 +46,15 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the identifier for parent of the Tab.
 		/// </summary>
 		public Artifact Parent { get; set; }
+
+		/// <summary>
+		/// Gets or sets a value indicating whether the tab should be displayed in the sidebar.
+		/// </summary>
+		public bool IsShownInSidebar { get; set; }
+
+		/// <summary>
+		/// Gets or sets the string identifier for the icon displayed when the tab is listed in the sidebar.
+		/// </summary>
+		public string IconIdentifier { get; set; }
 	}
 }
