@@ -21,7 +21,7 @@
 		HiddenText = 2,
 
 		/// <summary>
-		/// Represends error during mapping.
+		/// Represents error during mapping.
 		/// </summary>
 		Unknown
 	}
