@@ -56,5 +56,19 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the string identifier for the icon displayed when the tab is listed in the sidebar.
 		/// </summary>
 		public string IconIdentifier { get; set; }
+
+		/// <summary>
+		/// Fills the required properties that should be programatically set if left blank.
+		/// </summary>
+		/// <returns>The same <see cref="Tab"/>instance.</returns>
+		public Tab FillRequiredProperties()
+		{
+			if (string.IsNullOrEmpty(Name))
+			{
+				Name = Randomizer.GetString("AT_");
+			}
+
+			return this;
+		}
 	}
 }
