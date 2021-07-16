@@ -16,7 +16,7 @@
 		RenderedPdf = 1,
 
 		/// <summary>
-		/// Unknown value to which the Imaging Source Type defaults 
+		/// Unknown value to which the Imaging Source Type defaults
 		/// if the value does not match any defined value
 		/// </summary>
 		Unknown
