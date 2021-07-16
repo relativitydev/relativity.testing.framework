@@ -3,7 +3,7 @@
 	/// <summary>
 	/// Request used for running a job to image an individual documents.
 	/// </summary>
-	public class SingleDocumentImagingJobRequest : ImagingJobBase
+	public class SingleDocumentImagingJobRequest : ImagingJobRequest
 	{
 		/// <summary>
 		/// Gets or sets the id of the imaging profile to use.

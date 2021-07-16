@@ -3,9 +3,9 @@
 namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// Base class for Imaging Jobs.
+	/// Represents the Imaging Job Request.
 	/// </summary>
-	public class ImagingJobBase
+	public class ImagingJobRequest
 	{
 		/// <summary>
 		/// Gets or sets optional unique identifier for the caller of this method. Can be used to differentiate ImagingDocumentRequests
