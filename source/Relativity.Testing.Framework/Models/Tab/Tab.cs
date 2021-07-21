@@ -63,7 +63,7 @@ namespace Relativity.Testing.Framework.Models
 		/// <returns>The same <see cref="Tab"/>instance.</returns>
 		public Tab FillRequiredProperties()
 		{
-			if (string.IsNullOrEmpty(Name))
+			if (string.IsNullOrWhiteSpace(Name))
 			{
 				Name = Randomizer.GetString("AT_");
 			}

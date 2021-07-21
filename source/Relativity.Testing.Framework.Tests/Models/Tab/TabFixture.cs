@@ -32,6 +32,19 @@ namespace Relativity.Testing.Framework.Tests.Models
 		}
 
 		[Test]
+		public void FillRequiredProperties_SetsNameIfWhiteSpace()
+		{
+			Tab tab = new Tab
+			{
+				Name = " "
+			};
+
+			tab.FillRequiredProperties();
+
+			tab.Name.Should().NotBeNullOrEmpty();
+		}
+
+		[Test]
 		public void FillRequiredProperties_DoesNotSetNameIfAlreadySet()
 		{
 			string expectedName = "SomeTab";
