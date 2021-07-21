@@ -18,7 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Models for Imaging Job  - [RTF-1253](https://jira.kcura.com/browse/RTF-1253)
 
-
 ## [4.9.0] - 2021-07-13
 
 ### Added
