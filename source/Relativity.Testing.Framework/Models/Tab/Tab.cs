@@ -35,7 +35,7 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets a list of identifiers of associated Relativity Applications for the Tab.
 		/// </summary>
-		public List<NamedArtifact> RelativityApplications { get; set; } = new List<NamedArtifact>();
+		public List<Artifact> RelativityApplications { get; set; } = new List<Artifact>();
 
 		/// <summary>
 		/// Gets or sets the link type of the Tab.
@@ -46,5 +46,29 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the identifier for parent of the Tab.
 		/// </summary>
 		public Artifact Parent { get; set; }
+
+		/// <summary>
+		/// Gets or sets a value indicating whether the tab should be displayed in the sidebar.
+		/// </summary>
+		public bool IsShownInSidebar { get; set; }
+
+		/// <summary>
+		/// Gets or sets the string identifier for the icon displayed when the tab is listed in the sidebar.
+		/// </summary>
+		public TabIconIdentifier IconIdentifier { get; set; }
+
+		/// <summary>
+		/// Fills the required properties that should be programatically set if left blank.
+		/// </summary>
+		/// <returns>The same <see cref="Tab"/>instance.</returns>
+		public Tab FillRequiredProperties()
+		{
+			if (string.IsNullOrWhiteSpace(Name))
+			{
+				Name = Randomizer.GetString("AT_");
+			}
+
+			return this;
+		}
 	}
 }
