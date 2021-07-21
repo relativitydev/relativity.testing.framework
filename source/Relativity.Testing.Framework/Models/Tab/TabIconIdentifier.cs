@@ -48,6 +48,7 @@ namespace Relativity.Testing.Framework.Models
 		Upload = 21,
 		[ChoiceName("sidebar-workspaces")]
 		Workspaces = 22,
-		None = 0
+		None = 0,
+		Unknown
 	}
 }
