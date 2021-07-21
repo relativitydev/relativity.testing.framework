@@ -15,7 +15,7 @@ namespace Relativity.Testing.Framework.Tests.Models
 
 			tab.FillRequiredProperties();
 
-			tab.Name.Should().NotBeNullOrEmpty();
+			tab.Name.Should().NotBeNullOrWhiteSpace();
 		}
 
 		[Test]
@@ -28,7 +28,7 @@ namespace Relativity.Testing.Framework.Tests.Models
 
 			tab.FillRequiredProperties();
 
-			tab.Name.Should().NotBeNullOrEmpty();
+			tab.Name.Should().NotBeNullOrWhiteSpace();
 		}
 
 		[Test]
@@ -41,7 +41,7 @@ namespace Relativity.Testing.Framework.Tests.Models
 
 			tab.FillRequiredProperties();
 
-			tab.Name.Should().NotBeNullOrEmpty();
+			tab.Name.Should().NotBeNullOrWhiteSpace();
 		}
 
 		[Test]
