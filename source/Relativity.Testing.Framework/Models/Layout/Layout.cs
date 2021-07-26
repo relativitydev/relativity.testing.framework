@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Relativity.Testing.Framework.Models
 {
@@ -31,5 +32,11 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets a list of identifiers of associated Relativity Applications for the layout.
 		/// </summary>
 		public List<NamedArtifact> RelativityApplications { get; set; } = new List<NamedArtifact>();
+
+		/// <summary>
+		///  Gets or sets  <see cref="NamedArtifactWithGuids"/> identifier for the user who owns the layout.
+		/// </summary>
+		[JsonProperty("Owner", NullValueHandling = NullValueHandling.Ignore)]
+		public NamedArtifactWithGuids Owner { get; set; }
 	}
 }
