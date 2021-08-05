@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- ICreateStrategyWithAsync and CreateStrategyWithAsync. - [TESTENG-1372](https://jira.kcura.com/browse/RTF-1372)
+- ICreateStrategyWithAsync and CreateStrategyWithAsync: strategies for asynchronous creation of Artifacts. - [TESTENG-1372](https://jira.kcura.com/browse/RTF-1372)
 
 ## [4.13.0] - 2021-07-29
 

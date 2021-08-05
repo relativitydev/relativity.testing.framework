@@ -14,7 +14,7 @@ namespace Relativity.Testing.Framework.Strategies
 		/// After the creation adds created entity to the current session.
 		/// </summary>
 		/// <param name="entity">The entity to create.</param>
-		/// <returns>The task representing asynchronuous operatrion of entity creationy.</returns>
+		/// <returns>The task representing asynchronous operation of entity creation.</returns>
 		public async Task<T> CreateAsync(T entity)
 		{
 			ValidateEntity(entity);
@@ -30,7 +30,7 @@ namespace Relativity.Testing.Framework.Strategies
 		/// Asynchronously does create the specified entity.
 		/// </summary>
 		/// <param name="entity">The entity to create.</param>
-		/// <returns>The task representing asynchronuous operatrion of entity creationy.</returns>
+		/// <returns>The task representing asynchronous operation of entity creation.</returns>
 		protected abstract Task<T> DoCreateAsync(T entity);
 	}
 }
