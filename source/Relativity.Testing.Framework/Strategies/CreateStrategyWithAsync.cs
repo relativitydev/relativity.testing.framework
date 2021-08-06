@@ -18,6 +18,7 @@ namespace Relativity.Testing.Framework.Strategies
 		public async Task<T> CreateAsync(T entity)
 		{
 			ValidateEntity(entity);
+			FillRequiredProperties(entity);
 
 			T createdEntity = await DoCreateAsync(entity).ConfigureAwait(false);
 
