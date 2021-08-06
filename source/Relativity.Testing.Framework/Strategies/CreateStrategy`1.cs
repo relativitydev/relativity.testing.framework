@@ -21,18 +21,27 @@ namespace Relativity.Testing.Framework.Strategies
 		/// <returns>The created entity.</returns>
 		public T Create(T entity)
 		{
-			if (entity is null)
-			{
-				throw new ArgumentNullException(nameof(entity));
-			}
-
-			(entity as IFillsRequiredProperties<T>)?.FillRequiredProperties();
+			ValidateEntity(entity);
+			FillRequiredProperties(entity);
 
 			T createdEntity = DoCreate(entity);
 
 			TestSession.Current?.Add(createdEntity);
 
 			return createdEntity;
+		}
+
+		protected static void FillRequiredProperties(T entity)
+		{
+			(entity as IFillsRequiredProperties<T>)?.FillRequiredProperties();
+		}
+
+		protected static void ValidateEntity(T entity)
+		{
+			if (entity is null)
+			{
+				throw new ArgumentNullException(nameof(entity));
+			}
 		}
 
 		/// <summary>
