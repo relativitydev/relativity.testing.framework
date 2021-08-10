@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.0.0] - 2021-08-10
+
+### Changed
+
+- ScriptAction renamed to Action. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+
+### Added
+
+- TimeStampedNamedArtifact model added with fields: CreatedOn, CreatedBy, LastModifiedOn, LastModifiedBy. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+- MatterWithExtendedMetadata model, TimeStampedNamedArtifact fields and Actions field added to Matter. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+
 ## [4.14.0] - 2021-08-06
 
 ### Added

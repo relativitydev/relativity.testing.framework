@@ -5,9 +5,9 @@ namespace Relativity.Testing.Framework.Models
 	/// <summary>
 	/// An action that can be performed on the given static object.
 	/// </summary>
-	public class ScriptAction
+	public class Action
 	{
-		public ScriptAction()
+		public Action()
 		{
 			Reason = new List<string>();
 		}
