@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- ScriptAction renamed to Action. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+- ScriptAction renamed to HttpAction. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
 
 ### Added
 

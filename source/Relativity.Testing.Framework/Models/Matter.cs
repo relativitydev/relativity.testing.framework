@@ -35,7 +35,7 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets a list of RESTful operations that a user has permissions to perform on the matter.
 		/// </summary>
-		public List<Action> Actions { get; set; }
+		public List<HttpAction> Actions { get; set; }
 
 		/// <summary>
 		/// Gets or sets additional information available as extended metadata.
