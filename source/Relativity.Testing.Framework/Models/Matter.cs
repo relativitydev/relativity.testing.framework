@@ -38,6 +38,11 @@ namespace Relativity.Testing.Framework.Models
 		public List<Action> Actions { get; set; }
 
 		/// <summary>
+		/// Gets or sets additional information available as extended metadata.
+		/// </summary>
+		public Meta Meta { get; set; }
+
+		/// <summary>
 		/// Fills the required properties.
 		/// </summary>
 		/// <returns>The same <see cref="Matter"/> object instance.</returns>
