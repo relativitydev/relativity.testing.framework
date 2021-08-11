@@ -16,6 +16,6 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets a list of RESTful operations that a user has permissions to perform on the enqueued job.
 		/// </summary>
-		public List<ScriptAction> Actions { get; set; }
+		public List<HttpAction> Actions { get; set; }
 	}
 }

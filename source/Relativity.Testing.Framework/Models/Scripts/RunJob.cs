@@ -29,7 +29,7 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets a list of RESTful operations that a user has permissions to perform on the script run job.
 		/// </summary>
-		public List<ScriptAction> Actions { get; set; }
+		public List<HttpAction> Actions { get; set; }
 
 		/// <summary>
 		/// Gets or sets a list of unsupported and read-only properties on the script run job.
