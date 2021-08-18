@@ -4,6 +4,7 @@ namespace Relativity.Testing.Framework.Models
 {
 	public enum TabIconIdentifier
 	{
+		None = 0,
 		[ChoiceName("sidebar-default-tab")]
 		Tab = 1,
 		[ChoiceName("sidebar-access")]
@@ -48,7 +49,6 @@ namespace Relativity.Testing.Framework.Models
 		Upload = 21,
 		[ChoiceName("sidebar-workspaces")]
 		Workspaces = 22,
-		None = 0,
 		Unknown
 	}
 }
