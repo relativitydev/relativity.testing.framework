@@ -9,7 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- TabIconIdentifier.Unknown integer value. - [TESTENG-1434](https://jira.kcura.com/browse/TESTENG-1434)
+- Integer value collision between TabIconIdentifier.Tab and TabIconIdentifier.Unknown enum values. - [TESTENG-1434](https://jira.kcura.com/browse/TESTENG-1434)
+	* TabIconIdentifier.Tab stays as 1
+	* TabIconIdentifier.Unknown is changed to 23
 
 ## [5.0.0] - 2021-08-10
 
