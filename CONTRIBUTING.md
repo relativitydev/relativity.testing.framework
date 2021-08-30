@@ -4,22 +4,26 @@
 
 ## Table Of Contents
 
-* [Where to get help](#where-to-get-help)
-* [What should I know before I get started?](#what-should-i-know-before-i-get-started)
-  * [Relativity Testing Framework and Packages](#relativity-testing-framework-and-packages)
-    * [Relativity.Testing.Framework](#relativity-testing-framework)
-    * [Relativity.Testing.Framework.Api](#relativity-testing-framework-api)
-* [How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Code Contributions](#code-contributions)
-    * [Development](#development)
-    * [Testing](#testing)
-    * [Pull Requests](#pull-requests)
-    * [Styleguides](#styleguides)
-      * [DotNet Analyzers](#dotnet-styleguide)
-      * [Git Commit Messages](#git-commit-messages)
-  * [Releasing](#releasing)
+- [Contributing to Relativity Testing Framework](#contributing-to-relativity-testing-framework)
+  - [Table Of Contents](#table-of-contents)
+  - [<a name="where-to-get-help">Where to get help</a>](#where-to-get-help)
+  - [<a name="what-should-i-know-before-i-get-started">What should I know before I get started?</a>](#what-should-i-know-before-i-get-started)
+    - [<a name="relativity-testing-framework-packages">Relativity Testing Framework Packages</a>](#relativity-testing-framework-packages)
+  - [<a name="how-can-i-contribute">How Can I Contribute?</a>](#how-can-i-contribute)
+    - [<a name="reporting-bugs">Reporting Bugs</a>](#reporting-bugs)
+      - [Before Submitting A Bug Report](#before-submitting-a-bug-report)
+      - [How Do I Submit A Good Bug Report?](#how-do-i-submit-a-good-bug-report)
+    - [<a name="suggesting-enhancements">Suggesting Enhancements</a>](#suggesting-enhancements)
+      - [Before Submitting An Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
+      - [How Do I Submit A Good Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
+    - [<a name="code-contributions">Code Contributions</a>](#code-contributions)
+      - [<a name="development">Development</a>](#development)
+        - [Updating the Changelog](#updating-the-changelog)
+      - [<a name="testing">Testing</a>](#testing)
+      - [<a name="pull-requests">Pull Requests</a>](#pull-requests)
+      - [<a name="styleguides">Styleguides</a>](#styleguides)
+        - [<a name="git-commit-messages">Git Commit Messages</a>](#git-commit-messages)
+      - [<a name="releasing">Releasing</a>](#releasing)
 
 ## <a name="where-to-get-help">Where to get help</a>
 
@@ -28,64 +32,11 @@
 
 ## <a name="what-should-i-know-before-i-get-started">What should I know before I get started?</a>
 
-### <a name="relativity-testing-framework-and-packages">Relativity Testing Framework and Packages</a>
+### <a name="relativity-testing-framework-packages">Relativity Testing Framework Packages</a>
 
 The [Relativity Testing Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity Testing Framework Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
 
-A brief overview of the important repositories will be provided here to help guide contributors to the correct libraries.
-
-#### <a name="relativity-testing-framework">Relativity.Testing.Framework</a>
-
-[Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) is a library that uses Inversion of Control to provide functionality from the other libraries in the RTF collection.
-
-This library provides the CoreComponent that is used to help configure dependent libraries.
-
-This library also provides object models and helper classes that are generally useful to all dependent libraries.
-
-
-If you are working in this repository, you should have at least a basic understanding of [Inversion of Control](http://www.castleproject.org/projects/windsor/), and the Relativity Object Model.
-
-##### Components
-
-* RelativityFacade - A container housing the components that a test will RelyOn.
-  * RelativityFacade - [source](https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/RelativityFacade.cs), [docs](/api/Relativity.Testing.Framework.RelativityFacade.html)
-* Object Modeling and Mapping - Defines models for the Objects that are created, and maps the responses from the API requests back to them.
-  * Attributes - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Attributes), [docs](/api/Relativity.Testing.Framework.Attributes.html)
-  * Models - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Models), [docs](/api/Relativity.Testing.Framework.Models.html)
-  * Mapping - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Mapping), [docs](/api/Relativity.Testing.Framework.Mapping.html)
-* Configuration Management - Reads in configuration and provides the values to other components.
-  * CoreComponent - [source](https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/CoreComponent.cs), [docs](/api/Relativity.Testing.Framework.CoreComponent.html)
-  * Configuration - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Configuration), [docs](/api/Relativity.Testing.Framework.Configuration.html)
-* Logging - Additional logging methods that can be used to log information while running tests.
-  * Logging - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Logging), [docs](/api/Relativity.Testing.Framework.Logging.html)
-* Versioning - Handles Relativity version checking to determine which version of methods to used.
-  * Versioning - [source](https://github.com/relativitydev/relativity.testing.framework/tree/master/source/Relativity.Testing.Framework/Versioning), [docs](/api/Relativity.Testing.Framework.Versioning.html)
-
-#### <a name="relativity-testing-framework-api">Relativity.Testing.Framework.Api</a>
-
-[Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api/tree/master) is a library that provides an API surface over the disparate APIs that Relativity provides.
-
-This library provides the ApiComponent that is used to facilitate sending the requests, and mapping the results back to the provided models from the Relativity.Testing.Framework package.
-
-If you are working in this repository, you should have at least a basic understanding of REST requests, and [Relativity's API surface](https://platform.relativity.com/RelativityOne/Content/REST_API/REST_API.htm).
-
-##### Components
-
-* ApiComponent - Handles all API interactions with Relativity.
-  * ApiComponent - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.ApiComponent.html)
-  * HttpService - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/HttpService.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.HttpService.html)
-  * RestService - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/RestService.cs), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.RestService.html)
-  * Kepler - Privides a service factory to interact with KeplerServices
-    * Kepler - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Kepler), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Kepler.IKeplerServiceFactory.html)
-  * ObjectManager - Handles interaction with ObjectManager endpoints
-    * ObjectManagement - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/ObjectManagement) [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.ObjectManagement.html)
-    * Querying - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Querying), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Querying.html)
-  * Services - Houses a collection of similar strategies for hitting individual endpoints
-    * Services - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Services), [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.html)
-    * Strategies - The individual wrappers around the Relativity endpoints
-      * Strategies - [source](https://github.com/relativitydev/relativity.testing.framework.api/tree/master/source/Relativity.Testing.Framework.Api/Strategies)m [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Strategies.html)
-* AccountPool - An abstraction around user setup that is useful when you want to make a lot of them.
-  * AccountPool - [source](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/Services/AccountPoolService.cs) [docs](https://glowing-spork-1e23a31b.pages.github.io/api/Relativity.Testing.Framework.Api.Services.IAccountPoolService.html)
+At a high level, Relativity Testing Framework handles configuration management and object models, while Relativity Testing Framework API handles the interactions with the Relativity APIs.
 
 ## <a name="how-can-i-contribute">How Can I Contribute?</a>
 
