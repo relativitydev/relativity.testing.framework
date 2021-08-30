@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Integer value collision between TabIconIdentifier.Tab and TabIconIdentifier.Unknown enum values. - [TESTENG-1434](https://jira.kcura.com/browse/TESTENG-1434)
+- Integer value collision between TabIconIdentifier.Tab and TabIconIdentifier.Unknown enum values.
 	* TabIconIdentifier.Tab stays as 1
 	* TabIconIdentifier.Unknown is changed to 23
 
@@ -17,18 +17,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- ScriptAction renamed to HttpAction. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+- ScriptAction renamed to HttpAction.
 
 ### Added
 
-- TimeStampedNamedArtifact model added with fields: CreatedOn, CreatedBy, LastModifiedOn, LastModifiedBy. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
-- TimeStampedNamedArtifact fields, Actions and Meta field added to Matter. - [RTF-1384](https://jira.kcura.com/browse/RTF-1384)
+- TimeStampedNamedArtifact model added with fields: CreatedOn, CreatedBy, LastModifiedOn, LastModifiedBy.
+- TimeStampedNamedArtifact fields, Actions and Meta field added to Matter.
 
 ## [4.14.0] - 2021-08-06
 
 ### Added
 
-- ICreateStrategyWithAsync and CreateStrategyWithAsync: strategies for asynchronous creation of Artifacts. - [TESTENG-1372](https://jira.kcura.com/browse/RTF-1372)
+- ICreateStrategyWithAsync and CreateStrategyWithAsync: strategies for asynchronous creation of Artifacts.
 
 ## [4.13.0] - 2021-07-29
 
@@ -44,90 +44,90 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Layout model updated, new property Owner added to match V1 API response model. - [TESTENG-1258](https://jira.kcura.com/browse/RTF-1258)
+- Layout model updated, new property Owner added to match V1 API response model.
 
 ## [4.11.0] - 2021-07-21
 
 ### Added
 
-- IsShownInSidebar and IconIdentifier properties to the Tab Model. - [TESTENG-1284](https://jira.kcura.com/browse/TESTENG-1284)
-- Moved FillRequiredProperties to be a method on the Tab Model. - [RTF-1350](https://jira.kcura.com/browse/RTF-1350)
+- IsShownInSidebar and IconIdentifier properties to the Tab Model.
+- Moved FillRequiredProperties to be a method on the Tab Model.
 
 ## [4.10.0] - 2021-07-16
 
 ### Added
 
-- Models for Imaging Job  - [RTF-1253](https://jira.kcura.com/browse/RTF-1253)
+- Models for Imaging Job.
 
 ## [4.9.0] - 2021-07-13
 
 ### Added
 
-- Models for Application Field Code.  - [RTF-1251](https://jira.kcura.com/browse/RTF-1251)
+- Models for Application Field Code.
 
 ## [4.8.0] - 2021-07-12
 
 ### Added
 
-- Models for Imaging Set  - [RTF-1250](https://jira.kcura.com/browse/RTF-1250)
+- Models for Imaging Set.
 
 ## [4.7.0] - 2021-07-12
 
 ### Added
 
-- Models for Native Type.  - [RTF-1251](https://jira.kcura.com/browse/RTF-1251)
+- Models for Native Type.
 
 ## [4.6.0] - 2021-07-08
 
 ### Added
 
-- Models for Imaging Profile.  - [RTF-1249](https://jira.kcura.com/browse/RTF-1249)
+- Models for Imaging Profile.
 
 ## [4.5.0] - 2021-07-07
 
 ### Changed
 
-- KeyboardShortcut Action changed from enum to string  - [RTF-1257](https://jira.kcura.com/browse/RTF-1257)
+- KeyboardShortcut Action changed from enum to string.
 
 ### Removed
 
-- KeyboardShortcutAction enum  - [RTF-1257](https://jira.kcura.com/browse/RTF-1257)
+- KeyboardShortcutAction enum.
 
 ## [4.4.0] - 2021-07-07
 
 ### Added
 
-- Adding missing enum values for KeyboardShortcutAction.  - [RTF-1257](https://jira.kcura.com/browse/RTF-1257)
+- Adding missing enum values for KeyboardShortcutAction.
 
 ## [4.3.0] - 2021-07-07
 
 ### Added
 
-- Models for DocumentStatusManager.  - [RTF-1254](https://jira.kcura.com/browse/RTF-1254)
+- Models for DocumentStatusManager.
 
 ## [4.2.0] - 2021-07-06
 
 ### Added
 
-- Models for Keyboard Shortcuts.  - [RTF-1257](https://jira.kcura.com/browse/RTF-1257)
+- Models for Keyboard Shortcuts.
 
 ## [4.1.0] - 2021-06-29
 
 ### Added
 
-- Public interface for ApplicationInsightsTelemetryClient.  - [TESTENG-1272](https://jira.kcura.com/browse/TESTENG-1272)
+- Public interface for ApplicationInsightsTelemetryClient.
 
 ## [4.0.1] - 2021-06-28
 
 ### Changed
 
-- Update version of ApplicationInsights dependency being used from 2.15 to 2.17. Also changing the implementation from the disposable `CreateDefault` to `Active`. - https://github.com/relativitydev/relativity.testing.framework/issues/42
+- Update version of ApplicationInsights dependency being used from 2.15 to 2.17. Also changing the implementation from the disposable `CreateDefault` to `Active`. [42](https://github.com/relativitydev/relativity.testing.framework/issues/42)
 
 ## [4.0.0] - 2021-06-28
 
 ### Changed
 
-- Move classes from public to internal - [RTF-1308](https://jira.kcura.com/browse/RTF-1308)
+- Move classes from public to internal
 	*JTokenExtensions
 	*ObjectCopyExtensions
 	*ChoiceNameToEnumMapper
@@ -141,59 +141,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Using a more environmentally appropriate newline in the exception message. - [TESTENG-1132](https://jira.kcura.com/browse/TESTENG-1132)
+- Using a more environmentally appropriate newline in the exception message.
 
 ## [3.3.1] - 2021-06-23
 
 ### Changed
 
-- Updated the ConfigurationKeyNotFoundException to link to the documentation for the CoreComponent - [TESTENG-1132](https://jira.kcura.com/browse/TESTENG-1132)
+- Updated the ConfigurationKeyNotFoundException to link to the documentation for the CoreComponent.
 
 ## [3.3.0] - 2021-06-23
 
 ### Changed
 
-- Updated NUnit package to 3.13.2 - [TESTENG-477](https://jira.kcura.com/browse/TESTENG-477)
+- Updated NUnit package to 3.13.2.
 
 ## [3.2.0] - 2021-06-17
 
 ### Changed
 
-- Made the ChoiceRequest used by the Choice APIs into a model class. - [TESTENG-1218](https://jira.kcura.com/browse/TESTENG-1218)
+- Made the ChoiceRequest used by the Choice APIs into a model class.
 
 ### Fixed
 
-- Choice model now maps Parent objects correctly. - [TESTENG-1218](https://jira.kcura.com/browse/TESTENG-1218)
+- Choice model now maps Parent objects correctly.
 
 ## [3.1.3] - 2021-06-08
 
 ### Fixed
 
-- ArtifactTypeId field for ObjectType class. - [TESTENG-1106](https://jira.kcura.com/browse/TESTENG-1106)
+- ArtifactTypeId field for ObjectType class.
 
 ## [3.1.2] - 2021-06-04
 
 ### Fixed
 
-- ArtifactTypeId field for ObjectType class. - [TESTENG-1106](https://jira.kcura.com/browse/TESTENG-1106)
+- ArtifactTypeId field for ObjectType class.
 
 ## [3.1.1] - 2021-06-02
 
 ### Fixed
 
-- ArtifactTypeId field serialization for Artifact class. - [TESTENG-1106](https://jira.kcura.com/browse/TESTENG-1106)
+- ArtifactTypeId field serialization for Artifact class.
 
 ## [3.1.0] - 2021-06-01
 
 ### Changed
 
-- ArtifactTypeId added to base Artifact class. - [TESTENG-1106](https://jira.kcura.com/browse/TESTENG-1106)
+- ArtifactTypeId added to base Artifact class.
 
 ## [3.0.0] - 2021-05-25
 
 ### Changed
 
-- Properties in ObjectType class to reflect properties of ObjectType API DTOs. - [TESTENG-898](https://jira.kcura.com/browse/TESTENG-898) 
+- Properties in ObjectType class to reflect properties of ObjectType API DTOs.
 
 ## [2.0.2] - 2021-05-13
 
@@ -203,103 +203,103 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Generated passwords no longer use random UTF8 characters, since Relativity doesn't support them. - [RTF-1193](https://jira.kcura.com/browse/RTF-1193)
+- Generated passwords no longer use random UTF8 characters, since Relativity doesn't support them.
 
 ## [2.0.0] - 2021-05-03
 
 ### Added
 
-- FileField and FileFieldDTO models. - [RTF-1129](https://jira.kcura.com/browse/RTF-1129)
-- IdentityFieldId setting for Image import Job. - [TESTENG-1045](https://jira.kcura.com/browse/TESTENG-1045)
-- Name property on User class. - [RTF-768](https://jira.kcura.com/browse/RTF-768)
+- FileField and FileFieldDTO models.
+- IdentityFieldId setting for Image import Job.
+- Name property on User class.
 
 ### Removed
 
-- DefaultPassword const on User model - [RTF-1013](https://jira.kcura.com/browse/RTF-1013)
+- DefaultPassword const on User model.
 
 ### Changed
 
-- The default password for users is now randomly generated. - [RTF-1013](https://jira.kcura.com/browse/RTF-1013)/[RTF-1193](https://jira.kcura.com/browse/RTF-1193)
-- License is now checked into the repository instead of generated at build time. - [RTF-1012](https://jira.kcura.com/browse/RTF-1012)
+- The default password for users is now randomly generated.
+- License is now checked into the repository instead of generated at build time.
 
 ### Fixed
 
-- The link to releaseNotes in the nuspec file. - [RTF-1009](https://jira.kcura.com/browse/RTF-1009)
+- The link to releaseNotes in the nuspec file.
 
 ## [1.0.0] - 2021-04-16
 
 ### Changed
 
-- Updated namespaces to better follow standards. [RTF-1081](https://jira.kcura.com/browse/RTF-1081)
-- Allowed version of Castle.Windsor and Castle.Core to >=3.3.0 and <4.0. [RTF-1121](https://jira.kcura.com/browse/RTF-1121)
-- Enums now default to "Unknown" if the enum value can not be found. - [RTF-1047](https://jira.kcura.com/browse/RTF-1047)
+- Updated namespaces to better follow standards.
+- Allowed version of Castle.Windsor and Castle.Core to >=3.3.0 and <4.0.
+- Enums now default to "Unknown" if the enum value can not be found.
 
 ## [0.29.1] - 2021-04-06
 
 ### Fixed
 
-- Made ToCategoryField public - [RTF-1142](https://jira.kcura.com/browse/RTF-1142)
+- Made ToCategoryField public.
 
 ## [0.29.0] - 2021-04-02
 
 ### Added
 
-- Models for building Layouts [RTF-1098](https://jira.kcura.com/browse/RTF-1098)
+- Models for building Layouts.
 
 ### Removed
 
-- Moved TestArrangement code and related strategies to API repository [RTF-963](https://jira.kcura.com/browse/RTF-963)
-- Default Agent RunInterval value, but left the const for it so that we can look it up if not specified during Create requests - [RTF-1138](https://jira.kcura.com/browse/RTF-1138)
+- Moved TestArrangement code and related strategies to API repository.
+- Default Agent RunInterval value, but left the const for it so that we can look it up if not specified during Create requests.
 
 ### Changed
 
-- Agent RunInterval field population - [RTF-1036](https://jira.kcura.com/browse/RTF-1036)
-- Changed the way how ObjectMappingService is geting Choice Name - [RTF-953](https://jira.kcura.com/browse/RTF-953)
-- Internal modifier removed from property ExtractedText in Document model - [RTF-1116](https://jira.kcura.com/browse/RTF-1116)
+- Agent RunInterval field population.
+- Changed the way how ObjectMappingService is geting Choice Name.
+- Internal modifier removed from property ExtractedText in Document model.
 
 ## [0.28.0] - 2021-03-09
 
 ### Added
 
-- Choice mapping for fields and resource servers will now default to "unknown" if it can't find any appropriate value to map to. - [RTF-1068](https://jira.kcura.com/browse/RTF-1068)
+- Choice mapping for fields and resource servers will now default to "unknown" if it can't find any appropriate value to map to.
 
 ### Changed
 
-- RelativityFacade.RelyOn will no longer throw an error if the component is already registered. - [RTF-1031](https://jira.kcura.com/browse/RTF-1031)
+- RelativityFacade.RelyOn will no longer throw an error if the component is already registered.
 
 ## [0.27.0] - 2021-02-12
 
 ### Added
 
-- Attributes and Resolvers for ObjectTypeGuid - [RTF-919](https://jira.kcura.com/browse/RTF-919)
-- Attributes and Resolvers for Field:ArtifactID and Field:Guid - [RTF-1021](https://jira.kcura.com/browse/RTF-1021)
-- Contributing guide - [RTF-92](https://jira.kcura.com/browse/RTF-92)
-- Models for Script actions - [RTF-969](https://jira.kcura.com/browse/RTF-969)
+- Attributes and Resolvers for ObjectTypeGuid.
+- Attributes and Resolvers for Field:ArtifactID and Field:Guid.
+- Contributing guide.
+- Models for Script actions.
 
 ### Changed
 
-- Use enum instead of string for ImportBehavior property in FixedLengthTextField class - [RTF-1000](https://jira.kcura.com/browse/RTF-1000)
-- ApplicationInsightsInterceptor now only explicitly flushes when being disposed. - [RTF-992](https://jira.kcura.com/browse/RTF-992)
-- ObjectFieldMapping now uses Attributes to parse ArtifactID and Guid - [RTF-1021](https://jira.kcura.com/browse/RTF-1021)
+- Use enum instead of string for ImportBehavior property in FixedLengthTextField class.
+- ApplicationInsightsInterceptor now only explicitly flushes when being disposed.
+- ObjectFieldMapping now uses Attributes to parse ArtifactID and Guid.
 
 ## [0.26.0] - 2021-01-30
 
 ### Removed
 
-- Made most all strategy interfaces internal and moved most of them over to the API package. - [RTF-754](https://jira.kcura.com/browse/RTF-754)
-- Migrate IAccountPoolService into RTF.API - [RTF-997](https://jira.kcura.com/browse/RTF-997)
+- Made most all strategy interfaces internal and moved most of them over to the API package.
+- Migrate IAccountPoolService into RTF.API.
 
 ## [0.25.0] - 2021-01-15
 
 ### Added
 
-- OCR Profile Model. - [RTF-872](https://jira.kcura.com/browse/RTF-872)
-- Expanded the use of the VersionRange Attribute to also work on fixtures. - [RTF-909](https://jira.kcura.com/browse/RTF-909)
+- OCR Profile Model.
+- Expanded the use of the VersionRange Attribute to also work on fixtures.
 
 ### Changed
 
-- Made various properties on the Agent, LibraryApplication models more public. - [RTF-889](https://jira.kcura.com/browse/RTF-889)
-- ClientStatus from an Enum to a NamedArtifact, to allow arbitrary statuses that might be used. - [RTF-947](https://jira.kcura.com/browse/RTF-947)
+- Made various properties on the Agent, LibraryApplication models more public.
+- ClientStatus from an Enum to a NamedArtifact, to allow arbitrary statuses that might be used.
 
 ## [0.24.0] - 2020-12-22
 
@@ -317,7 +317,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- StandardAccountClient to AccountPool so that the client of the pooled users can be configured - [TESTENG-551](https://jira.kcura.com/browse/TESTENG-551)
+- StandardAccountClient to AccountPool so that the client of the pooled users can be configured.
 
 ## [0.20.0] - 2020-10-26
 
@@ -327,27 +327,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Lower Nunit version requirement from 3.12 to 3.10 - [RTF-737](https://jira.kcura.com/browse/RTF-737)
-- Raised Microsoft.ApplicationInsights minimum version to 2.15
+- Lower Nunit version requirement from 3.12 to 3.10.
+- Raised Microsoft.ApplicationInsights minimum version to 2.15.
 
 ## [0.19.0] - 2020-10-12
 
 ### Added
 
-- StandardAccountType to AccountPool so that the type of the pooled users can be configured - [TESTENG-533](https://jira.kcura.com/browse/TESTENG-533)
+- StandardAccountType to AccountPool so that the type of the pooled users can be configured.
 
 ### Fixed
 
-- Namespaces and xml documentation in Production models have the subnamespaces removed to match the rest of Relativity Testing Framework. - [RTF-739](https://jira.kcura.com/browse/RTF-739)
+- Namespaces and xml documentation in Production models have the subnamespaces removed to match the rest of Relativity Testing Framework.
 
 ## [0.18.0] - 2020-09-28
 
 ### Changed
 
-- UserType enum on User object to be a string - [RTF-664](https://jira.kcura.com/browse/RTF-664)
-- MatterStatus enum to be a string - [RTF-656](https://jira.kcura.com/browse/RTF-656)
-- WorkspaceStatus enum to be a string - [RTF-655](https://jira.kcura.com/browse/RTF-655)
-- Lowered Castle.Windsor requirement to from 5.0.1 to 3.3.0 - [RTF-600](https://jira.kcura.com/browse/RTF-600)
+- UserType enum on User object to be a string
+- MatterStatus enum to be a string
+- WorkspaceStatus enum to be a string
+- Lowered Castle.Windsor requirement to from 5.0.1 to 3.3.0
 
 ## [0.17.0] - 2020-09-14
 
@@ -363,7 +363,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Mayapple support - [RTF-576](https://jira.kcura.com/browse/RTF-576)
+- Mayapple support
 
 ## [0.14.0] - 2020-08-03
 
@@ -373,26 +373,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Extend test arrangement functionality for workspace level objects - [RTF-522](https://jira.kcura.com/browse/RTF-522)
+- Extend test arrangement functionality for workspace level objects
 
 ## [0.12.0] - 2020-07-06
 
 ### Added
 
-- Implement RTF Logging system - [RTF-490](https://jira.kcura.com/browse/RTF-490)
-  - Core functionality - [RTF-491](https://jira.kcura.com/browse/RTF-491)
-  - Implement logging into NUnit source - [RTF-492](https://jira.kcura.com/browse/RTF-492)
-  - Implement logging into NLog source - [RTF-493](https://jira.kcura.com/browse/RTF-493)
-  - Update Atata configuration - [RTF-494](https://jira.kcura.com/browse/RTF-494)
-  - Add Interceptor to forward API requests to other sources - [RTF-495](https://jira.kcura.com/browse/RTF-495)
-- Add ResetFacade to enable users to change user context mid test - [RTF-511](https://jira.kcura.com/browse/RTF-511)
+- Implement RTF Logging system
+  - Core functionality
+  - Implement logging into NUnit source
+  - Implement logging into NLog source
+  - Update Atata configuration
+  - Add Interceptor to forward API requests to other sources
+- Add ResetFacade to enable users to change user context mid test
 
 ## [0.11.0] - 2020-06-22
 
 ### Added
 
-- Add possibility to disable auto cleanup of created entities - [RTF-28](https://jira.kcura.com/browse/RTF-28)
-- Extend test session for workspace entities - [RTF-386](https://jira.kcura.com/browse/RTF-386)
+- Add possibility to disable auto cleanup of created entities
+- Extend test session for workspace entities
 
 ## [0.10.0] - 2020-06-08
 
@@ -402,8 +402,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Choice Model - [RTF-417](https://jira.kcura.com/browse/RTF-417)
-- Message Of The Day (MOTD) Model - [RTF-399](https://jira.kcura.com/browse/RTF-399)
+- Choice Model
+- Message Of The Day (MOTD) Model
 
 #### Note - Items below this point are for Api, web, and core
 
@@ -411,150 +411,150 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Agent Model [RTF-374](https://jira.kcura.com/browse/RTF-374)
-- Agent Type Model [RTF-375](https://jira.kcura.com/browse/RTF-375)
-- Agent Server Model [RTF-376](https://jira.kcura.com/browse/RTF-376)
-- Add Web project to RTF repository - [RTF-394](https://jira.kcura.com/browse/RTF-394)
-- Add ability to create and dispose of driver - [RTF-395](https://jira.kcura.com/browse/RTF-395)
-- Login PageObject - [RTF-398](https://jira.kcura.com/browse/RTF-398)
-- Capture screenshots - [RTF-396](https://jira.kcura.com/browse/RTF-396)
+- Agent Model
+- Agent Type Model
+- Agent Server Model
+- Add Web project to RTF repository
+- Add ability to create and dispose of driver
+- Login PageObject
+- Capture screenshots
 - Agent Strategies
-  - GetAgentType - [RTF-76](https://jira.kcura.com/browse/RTF-76)
-  - GetAllAgents - [RTF-78](https://jira.kcura.com/browse/RTF-78)
-  - GetAvailableAgentServers - [RTF-79](https://jira.kcura.com/browse/RTF-79)
-  - Create - [RTF-77](https://jira.kcura.com/browse/RTF-77)
-  - Delete - [RTF-377](https://jira.kcura.com/browse/RTF-377)
+  - GetAgentType
+  - GetAllAgents
+  - GetAvailableAgentServers
+  - Create
+  - Delete
 - Field Strategies
-  - Get - [RTF-403](https://jira.kcura.com/browse/RTF-403)
-  - Create - [RTF-402](https://jira.kcura.com/browse/RTF-402)
-  - Update - [RTF-404](https://jira.kcura.com/browse/RTF-404)
-  - Delete - [RTF-405](https://jira.kcura.com/browse/RTF-405)
+  - Get
+  - Create
+  - Update
+  - Delete
 
 ## [0.7.0] - 2020-04-27
 
 ### Added
 
-- Object Type Model [RTF-367](https://jira.kcura.com/browse/RTF-367)
+- Object Type Model
 - Object Type Strategies
-  - Get - [RTF-368](https://jira.kcura.com/browse/RTF-368)
-  - Create - [RTF-369](https://jira.kcura.com/browse/RTF-369)
-  - Delete - [RTF-371](https://jira.kcura.com/browse/RTF-371)
-  - Update - [RTF-370](https://jira.kcura.com/browse/RTF-370)
-  - Require - [RTF-372](https://jira.kcura.com/browse/RTF-372)
-- Field Models [RTF-366](https://jira.kcura.com/browse/RTF-366)
-- TestArrangement functionality - [RTF-384](https://jira.kcura.com/browse/RTF-384)
+  - Get
+  - Create
+  - Delete
+  - Update
+  - Require
+- Field Models
+- TestArrangement functionality
 
 ## [0.6.0] - 2020-04-13
 
 ### Added
 
 - Library Application Strategies
-  - Install - [RTF-332](https://jira.kcura.com/browse/RTF-332)
+  - Install
 - InstanceSettings Strategies
-  - Delete - [RTF-322](https://jira.kcura.com/browse/RTF-322)
-  - RequireContains - [RTF-355](https://jira.kcura.com/browse/RTF-355)
-  - RequireNotContains - [RTF-356](https://jira.kcura.com/browse/RTF-356)
+  - Delete
+  - RequireContains
+  - RequireNotContains
 - Permissions Strategies
-  - GetItemGroupSelector - [RTF-359](https://jira.kcura.com/browse/RTF-359)
-  - ItemAddRemoveGroups - [RTF-360](https://jira.kcura.com/browse/RTF-360)
-  - AddItemToGroup - [RTF-361](https://jira.kcura.com/browse/RTF-361)
-  - RemoveItemFromGroup - [RTF-362](https://jira.kcura.com/browse/RTF-362)
-- Keep entities in session and delete them on teardown - [RTF-336](https://jira.kcura.com/browse/RTF-336)
+  - GetItemGroupSelector
+  - ItemAddRemoveGroups
+  - AddItemToGroup
+  - RemoveItemFromGroup
+- Keep entities in session and delete them on teardown
 
 ### Fixed
 
-- NuGet packages now declare dependencies - [RTF-347](https://jira.kcura.com/browse/RTF-347)
+- NuGet packages now declare dependencies
 
 ## [0.5.0] - 2020-03-30
 
 ### Added
 
 - Workspace Strategies
-  - Create - [RTF-48](https://jira.kcura.com/browse/RTF-48)
-  - Delete - [RTF-52](https://jira.kcura.com/browse/RTF-52)
-  - GetAll - [RTF-311](https://jira.kcura.com/browse/RTF-311)
-- GroupPermissions Model [RTF-312](https://jira.kcura.com/browse/RTF-312)
-- Group permissions changeset functionality [RTF-313](https://jira.kcura.com/browse/RTF-313)
+  - Create
+  - Delete
+  - GetAll
+- GroupPermissions Model
+- Group permissions changeset functionality
 - Permissions Strategies
-  - GetWorkspaceGroupSelector - [RTF-67](https://jira.kcura.com/browse/RTF-67)
-  - AddRemoveWorkspaceGroups - [RTF-68](https://jira.kcura.com/browse/RTF-68)
-  - GetWorkspaceGroupPermissions - [RTF-65](https://jira.kcura.com/browse/RTF-65)
-  - SetWorkspaceGroupPermissions - [RTF-66](https://jira.kcura.com/browse/RTF-66)
-- Create InsanceSettings model - [RTF-318](https://jira.kcura.com/browse/RTF-318)
+  - GetWorkspaceGroupSelector
+  - AddRemoveWorkspaceGroups
+  - GetWorkspaceGroupPermissions
+  - SetWorkspaceGroupPermissions
+- Create InsanceSettings model
 - InstanceSettings Strategies
-  - Create - [RTF-319](https://jira.kcura.com/browse/RTF-319)
-  - Get  - [RTF-321](https://jira.kcura.com/browse/RTF-321)
-  - Update - [RTF-320](https://jira.kcura.com/browse/RTF-320)
+  - Create
+  - Get 
+  - Update
 
 ## [0.4.0] - 2020-03-16
 
 ### Added
 
-- Workspace Model [RTF-296](https://jira.kcura.com/browse/RTF-296)
-- ResourcePool Model [RTF-295](https://jira.kcura.com/browse/RTF-295)
-- ResourceServer Model [RTF-294](https://jira.kcura.com/browse/RTF-294)
+- Workspace Model
+- ResourcePool Model
+- ResourceServer Model
 - User Strategies
-  - AddToGroup - [RTF-266](https://jira.kcura.com/browse/RTF-266)
+  - AddToGroup
 - Application Strategies
-  - IsInstalledInWorkspace - [RTF-273](https://jira.kcura.com/browse/RTF-273)
+  - IsInstalledInWorkspace
 - Workspace Strategies
-  - Get - [RTF-51](https://jira.kcura.com/browse/RTF-51)
-  - GetAllByClientName - [RTF-50](https://jira.kcura.com/browse/RTF-50)
-- Create services for the objects we support [RTF-297](https://jira.kcura.com/browse/RTF-297)
-- Inject strategies resolving into Castle Windsor container [RTF-310](https://jira.kcura.com/browse/RTF-310)
+  - Get
+  - GetAllByClientName
+- Create services for the objects we support
+- Inject strategies resolving into Castle Windsor container
 
 ## [0.3.0] - 2020-03-02
 
 ### Added
 
-- RelativityApplication Model [RTF-270](https://jira.kcura.com/browse/RTF-270)
+- RelativityApplication Model
 - Application Strategies
-  - Get - [RTF-272](https://jira.kcura.com/browse/RTF-272)
-  - InstallToWorkspace - [RTF-274](https://jira.kcura.com/browse/RTF-274)
+  - Get
+  - InstallToWorkspace
 - User Strategies
-  - Create - [RTF-226](https://jira.kcura.com/browse/RTF-226)
-  - Get - [RTF-228](https://jira.kcura.com/browse/RTF-228)
-  - Exists - [RTF-229](https://jira.kcura.com/browse/RTF-229)
-  - Delete - [RTF-57](https://jira.kcura.com/browse/RTF-57)
+  - Create
+  - Get
+  - Exists
+  - Delete
 
 ### Changed
 
-- Updated testing namespaces to follow Relativity C# coding standards - [RTF-276](https://jira.kcura.com/browse/RTF-276)
+- Updated testing namespaces to follow Relativity C# coding standards
 
 ## [0.2.0] - 2020-02-17
 
 ### Added
 
-- Ability to select version of method to use based on strategy [RTF-105](https://jira.kcura.com/browse/RTF-105)
-- API component now gets the Relativity version that it is testing against to use with the version strategies [RTF-104](https://jira.kcura.com/browse/RTF-104)
+- Ability to select version of method to use based on strategy
+- API component now gets the Relativity version that it is testing against to use with the version strategies
 - Client Strategies
-  - Create - [RTF-205](https://jira.kcura.com/browse/RTF-205)
-  - Get - [RTF-206](https://jira.kcura.com/browse/RTF-206)
-  - Delete - [RTF-207](https://jira.kcura.com/browse/RTF-207)
+  - Create
+  - Get
+  - Delete
 - Matter Strategies
-  - Create - [RTF-212](https://jira.kcura.com/browse/RTF-212)
-  - Get - [RTF-213](https://jira.kcura.com/browse/RTF-213)
-  - Delete - [RTF-214](https://jira.kcura.com/browse/RTF-214)
+  - Create
+  - Get
+  - Delete
 - Group Strategies
-  - Create - [RTF-217](https://jira.kcura.com/browse/RTF-217)
-  - Get - [RTF-218](https://jira.kcura.com/browse/RTF-218)
-  - Delete - [RTF-219](https://jira.kcura.com/browse/RTF-219)
+  - Create
+  - Get
+  - Delete
 - Choice Strategies
-  - GetAll - [RTF-227](https://jira.kcura.com/browse/RTF-227)
-- Testing events are now sent to ApplicationInsights [RTF-182](https://jira.kcura.com/browse/RTF-182)
-- Junpier support [RTF-268](https://jira.kcura.com/browse/RTF-268)
+  - GetAll
+- Testing events are now sent to ApplicationInsights
+- Junpier support
 
 ## [0.1.0] - 2019-12-16
 
 ### Added
 
-- Reading in configuration values - [RTF-102](https://jira.kcura.com/browse/RTF-102)
-- HTTP service - [RTF-109](https://jira.kcura.com/browse/RTF-109)
-- REST service - [RTF-145](https://jira.kcura.com/browse/RTF-145)
-- RSAPI service - [RTF-144](https://jira.kcura.com/browse/RTF-144)
-- Handling for missing keys in ConfigurationService - [RTF-113](https://jira.kcura.com/browse/RTF-113)
+- Reading in configuration values
+- HTTP service
+- REST service
+- RSAPI service
+- Handling for missing keys in ConfigurationService
 
 ### Changed
 
-- Replaced CSharpGuidelineAnalyzers with FxCop and StyleCop - [RTF-107](https://jira.kcura.com/browse/RTF-107) [RTF-108](https://jira.kcura.com/browse/RTF-108)
-- Updated documentation on RelativityInstanceConfiguration - [RTF-114](https://jira.kcura.com/browse/RTF-114)
+- Replaced CSharpGuidelineAnalyzers with FxCop and StyleCop
+- Updated documentation on RelativityInstanceConfiguration
