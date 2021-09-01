@@ -64,6 +64,14 @@ body:
     validations:
       required: true
    - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happens
+      placeholder: A clear and concise description of what actually happens.
+    validations:
+      required: true
+   - type: textarea
     id: screenshot
     attributes:
       label: Screenshots
@@ -77,9 +85,8 @@ body:
                 Has this problem started happening recently, or has it always been a problem?
                 Does the problem occur consistently, or is intermittent?
                 Have you asked a team mate if they've encountered this issue before?
-                Have you searched Einstein, DevHelp, Slack and Google?
-                If applicable, have you reproduced the issue locally?
-   - type: textarea
+                Have you reproduced the issue locally?
+  - type: textarea
     id: context
     attributes:
       label: Additional Context
@@ -87,7 +94,4 @@ body:
       placeholder: 
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        Please also check out the Test Engineering support landing page for product specific information and expectations.
+        
