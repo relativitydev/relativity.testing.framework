@@ -18,7 +18,7 @@ body:
    - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: To reproduce
+      label: To Reproduce
       description: Steps to reproduce the behavior
       placeholder: Code example or detailed description of the steps to reproduce the issue.
     validations:
@@ -26,17 +26,17 @@ body:
    - type: input
     id: framework-version
     attributes:
-      label: Relativity Testing Framework versions
+      label: Relativity Testing Framework Versions
       description: Relativity.Testing.Framework version used
-      placeholder: Which Relativity.Testing.Framework packages and which versions of them are being used.
+      placeholder: Which version of Relativity.Testing.Framework components are you using?
     validations:
       required: true
    - type: input
     id: environment-version
     attributes:
-      label: Environment details
+      label: Environment Details
       description: Type and version of environment
-      placeholder: Which type and version of environment is being tested against.
+      placeholder: What type and version of environment are you testing against?
     validations:
       required: true
    - type: textarea
@@ -47,15 +47,7 @@ body:
       placeholder: Links to a test case where this can be reproduced, if applicable.
     validations:
       required: false
-   - type: textarea
-    id: link-pipeline
-    attributes:
-      label: Affected Pipelines
-      description: Links to affected pipelines
-      placeholder: Links to affected pipelines, if applicable.
-    validations:
-      required: false
-   - type: textarea
+  - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
@@ -82,15 +74,15 @@ body:
    - type: markdown
     attributes:
       value: Please provide following details to have us better understand the context:
-                Has this problem started happening recently, or has it always been a problem?
-                Does the problem occur consistently, or is intermittent?
-                Have you asked a team mate if they've encountered this issue before?
-                Have you reproduced the issue locally?
+               Did the problem start happening recently (e.g. after updating to a new version of Relativity.Testing.Framework) or was this always a problem?
+               If the problem started happening recently, can you reproduce the problem in an older version of Relativity.Testing.Framework? 
+               What's the most recent version in which the problem doesn't happen?
+               Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
   - type: textarea
     id: context
     attributes:
       label: Additional Context
-      description: Please answer questions from the above if aplicable
+      description: Please answer questions from the above.
       placeholder: 
     validations:
       required: false
