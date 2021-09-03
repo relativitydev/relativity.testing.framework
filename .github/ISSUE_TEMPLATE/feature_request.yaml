@@ -6,16 +6,16 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the suggested enchancement
+      label: Describe the suggested Enhancement
       description: Provide a step-by-step description of the suggested enhancement in as many details as possible.
-      placeholder: Enchancement description
+      placeholder: Enhancement description
     validations:
       required: true
    - type: textarea
     id: example
     attributes:
       label: Example
-      description: Provide specific examples to demonstrate the steps that you imagine you would take if the feature you're requesting.
+      description: Provide specific examples to demonstrate the steps that you imagine you would take if the feature you're requesting will be implemented.
       placeholder: Code example or detailed description to demonstrate the steps.
     validations:
       required: false
@@ -26,7 +26,7 @@ body:
       description: Description of expected behavior
       placeholder: A clear and concise description of what you expected to happen.
     validations:
-      required: true
+      required: false
    - type: textarea
     id: actual-behavior
     attributes:
@@ -34,13 +34,13 @@ body:
       description: What actually happens
       placeholder: A clear and concise description of what actually happens.
     validations:
-      required: true
+      required: false
    - type: textarea
     id: justification
     attributes:
       label: Justification
       description: Explain why this enhancement would be useful to most Relativity.Testing.Framework users.
-      placeholder: How will this enchancement be useful to Relativity.Testing.Framework users?
+      placeholder: How will this Enhancement be useful to Relativity.Testing.Framework users?
     validations:
       required: true
         
