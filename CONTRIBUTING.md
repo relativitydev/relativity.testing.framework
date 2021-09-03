@@ -58,26 +58,6 @@ Following these guidelines helps us in understanding the request and provide a q
 
 Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
 We will triage the ticket, and move it to the appropriate location.
-Be sure to include the following information:
-
-* **Use a clear and descriptive title** for the issue to identify the problem.
-* In the description **Include the names of the libraries** that you think the issue is coming from.
-* **Describe the steps which reproduce the problem**.
-* **Provide specific examples to demonstrate the steps**. If there is a test that can be run to reproduce the issue, please include a link to it.
-* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior. Please include any errors or stacktraces, if applicable.
-* **Explain which behavior you expected to see instead and why**.
-* Add a `bug` label to the issue.
-
-Provide more context by answering these questions:
-
-* **Did the problem start happening recently** (e.g. after updating to a new version of Relativity.Testing.Framework) or was this always a problem?
-* If the problem started happening recently, **can you reproduce the problem in an older version of Relativity.Testing.Framework?** What's the most recent version in which the problem doesn't happen?
-* **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
-
-Include details about your configuration and environment:
-
-* **Which version of Relativity.Testing.Framework components are you using?**
-* **What type and version of environment are you testing against?**
 
 ### <a name="suggesting-enhancements">Suggesting Enhancements</a>
 
@@ -93,15 +73,6 @@ Following these guidelines helps us in understanding the request and provide a q
 
 Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
 We will triage the ticket, and move it to the appropriate location.
-Be sure to include the following information:
-
-* **Use a clear and descriptive title** for the issue to identify the suggestion.
-* In the description **Include the names of the libraries** that you would like to see the enhancement in.
-* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-* If possible, **Provide specific examples to demonstrate the steps** that you imagine you would take if the feature you're requesting.
-* **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-* **Explain why this enhancement would be useful** to most Relativity.Testing.Framework users.
-* Add an `enhancement` label to the issue.
 
 ### <a name="code-contributions">Code Contributions</a>
 
