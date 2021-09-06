@@ -35,11 +35,6 @@ A clear and concise description of what actually happens.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
 **Additional context**
 Please provide following details to have us better understand the context:
                Did the problem start happening recently (e.g. after updating to a new version of Relativity.Testing.Framework) or was this always a problem?
