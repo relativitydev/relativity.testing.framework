@@ -17,9 +17,6 @@ Code example or detailed description of the steps to reproduce the issue.
 **Relativity Testing Framework Versions**
 Which version of Relativity.Testing.Framework components are you using?
 
-**Relativity Testing Framework Versions**
-Which version of Relativity.Testing.Framework components are you using?
-
 **Environment Details**
 What type and version of environment are you testing against?
 
