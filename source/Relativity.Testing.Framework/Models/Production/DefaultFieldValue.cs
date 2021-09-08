@@ -19,6 +19,6 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets default value for field.
 		/// </summary>
-		public T ChoiceFieldValue { get; set; }
+		public T DefaultValue { get; set; }
 	}
 }
