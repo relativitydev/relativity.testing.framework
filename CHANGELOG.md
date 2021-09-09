@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.0] - 2021-09-10
+
+### Removed
+
+- Models used for Async Relativity.Testing.Framework.Api strategies.
+
 ## [5.1.0] - 2021-09-08
 
 ### Added
