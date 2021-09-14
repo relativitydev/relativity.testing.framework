@@ -44,7 +44,7 @@ At a high level, Relativity Testing Framework handles configuration management a
 This section guides you through submitting a bug report for Relativity.Testing.Framework.
 Following these guidelines helps us in understanding the request and provide a quicker response time.
 
-#### Before Submitting A Bug Report
+#### Before Submitting A Bug Report Issue
 
 * **If you are a new user of RTF, check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html)** to make sure that you're following one of the common usage patterns.
 * **Ensure that you are testing against a supported version of Relativity.** Relativity.Testing.Framework is only [tested against the last few current templates in hopper](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs). Official support is not provided for issues relating to versions of Relativity outside of this range.
