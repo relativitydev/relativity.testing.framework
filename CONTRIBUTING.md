@@ -82,7 +82,7 @@ Please follow the existing naming and casing conventions as best as possible.
 | :---                              |                                                  ----: |
 | Types, Methods                    | Pascal                                                 |
 | Local Variables, Method Arguments | Camel                                                  |
-| Private Member Variables          | Camel, underscore prefix                              |
+| Private Member Variables          | Camel, underscore prefix                               |
 | Non-Private Member Variables      | Avoid, use private variables and non-private accessors |
 | Private Constants                 | All caps, underscore-separated, underscore prefix      |
 | Non-private Constants             | All caps, underscore-separated, no prefix              |
