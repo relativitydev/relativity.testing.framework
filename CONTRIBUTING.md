@@ -12,12 +12,11 @@
   - [<a name="how-can-i-contribute">How Can I Contribute?</a>](#how-can-i-contribute)
     - [<a name="reporting-bugs">Reporting Bugs</a>](#reporting-bugs)
       - [Before Submitting A Bug Report](#before-submitting-a-bug-report)
-      - [How Do I Submit A Good Bug Report?](#how-do-i-submit-a-good-bug-report)
     - [<a name="suggesting-enhancements">Suggesting Enhancements</a>](#suggesting-enhancements)
       - [Before Submitting An Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
-      - [How Do I Submit A Good Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
     - [<a name="code-contributions">Code Contributions</a>](#code-contributions)
       - [<a name="development">Development</a>](#development)
+        - [Coding Standards](#coding-standards)
         - [Updating the Changelog](#updating-the-changelog)
       - [<a name="testing">Testing</a>](#testing)
       - [<a name="pull-requests">Pull Requests</a>](#pull-requests)
@@ -83,7 +82,7 @@ Please follow the existing naming and casing conventions as best as possible.
 | Types, Methods                    | Pascal                                                 |
 | Local Variables, Method Arguments | Camel                                                  |
 | Private Member Variables          | Camel, underscore prefix                               |
-| Non-Private Member Variables      | Avoid, use private variables and non-private accessors |
+| Non-Private Member Variables      | Avoid, use C# Properties                               |
 | Private Constants                 | All caps, underscore-separated, underscore prefix      |
 | Non-private Constants             | All caps, underscore-separated, no prefix              |
 
