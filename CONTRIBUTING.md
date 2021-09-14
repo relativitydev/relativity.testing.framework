@@ -58,7 +58,7 @@ Following these guidelines helps us in understanding the request and provide a q
 This section guides you through submitting an enhancement suggestion for Relativity.Testing.Framework, including completely new features and minor improvements to existing functionality.
 Following these guidelines helps us in understanding the request and provide a quicker response time.
 
-#### Before Submitting An Feature Enhancement Issue
+#### Before Submitting A Feature Enhancement Issue
 
 * **Determine [which repository the feature enhancement belongs to](#relativity-testing-framework-and-packages).**
 * **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the feature enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
