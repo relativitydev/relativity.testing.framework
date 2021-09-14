@@ -27,8 +27,8 @@
 
 ## <a name="where-to-get-help">Where to get help</a>
 
-* For general help and questions, please use the `#relativity-testing-framework` slack channel
-* For feature requests or bugs, see those [contributing sections](#how-can-i-contribute).
+* For general help and questions, please use start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
+* For feature requests or bugs, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues). For further information, see [How can I contribute](#how-can-i-contribute).
 
 ## <a name="what-should-i-know-before-i-get-started">What should I know before I get started?</a>
 
@@ -82,6 +82,20 @@ Be sure to also review the CONTRIBUTING.md at the root of the repository you are
 
 All development work should be done in feature branches off of the master branch.
 Branch names should indicate the [issue](https://github.com/relativitydev/relativity.testing.framework/issues) that they are solving.
+The code should follow the architecture described [here](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/docs/dev/architecture.md).
+
+##### Coding Standards
+
+Please follow the existing naming and casing conventions as best as possible.
+
+| Casing Style                                           | Tokens                            |
+| :---                                                   |    :----:                         |
+| Pascal                                                 | Types, Methods                    |
+| Camel                                                  | Local Variables, Method Arguments |
+| Camel, underscore prefix                               | Private Member Variables          |
+| Avoid, use private variables and non-private accessors | Non-Private Member Variables      |
+| All caps, underscore-separated, underscore prefix      | Private Constants                 |
+| All caps, underscore-separated, no prefix              | Non-private Constants             |
 
 ##### Updating the Changelog
 
