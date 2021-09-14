@@ -28,7 +28,7 @@
 ## <a name="where-to-get-help">Where to get help</a>
 
 * For general help and questions, please use start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
-* For feature requests or bugs, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues). For further information, see [How can I contribute](#how-can-i-contribute).
+* For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
 
 ## <a name="what-should-i-know-before-i-get-started">What should I know before I get started?</a>
 
@@ -54,25 +54,15 @@ Following these guidelines helps us in understanding the request and provide a q
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
-#### How Do I Submit A Good Bug Report?
-
-Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
-We will triage the ticket, and move it to the appropriate location.
-
-### <a name="suggesting-enhancements">Suggesting Enhancements</a>
+### <a name="suggesting-enhancements">Suggesting Feature Enhancements</a>
 
 This section guides you through submitting an enhancement suggestion for Relativity.Testing.Framework, including completely new features and minor improvements to existing functionality.
 Following these guidelines helps us in understanding the request and provide a quicker response time.
 
-#### Before Submitting An Enhancement Suggestion
+#### Before Submitting An Feature Enhancement Issue
 
-* **Determine [which repository the enhancement belongs to](#relativity-testing-framework-and-packages).**
-* **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-
-#### How Do I Submit A Good Enhancement Suggestion?
-
-Create a [new issue](https://github.com/relativitydev/relativity.testing.framework/issues/new) in the Relativity Testing Framework repository.
-We will triage the ticket, and move it to the appropriate location.
+* **Determine [which repository the feature enhancement belongs to](#relativity-testing-framework-and-packages).**
+* **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the feature enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 ### <a name="code-contributions">Code Contributions</a>
 
@@ -88,14 +78,14 @@ The code should follow the architecture described [here](https://github.com/rela
 
 Please follow the existing naming and casing conventions as best as possible.
 
-| Casing Style                                           | Tokens                            |
-| :---                                                   |    :----:                         |
-| Pascal                                                 | Types, Methods                    |
-| Camel                                                  | Local Variables, Method Arguments |
-| Camel, underscore prefix                               | Private Member Variables          |
-| Avoid, use private variables and non-private accessors | Non-Private Member Variables      |
-| All caps, underscore-separated, underscore prefix      | Private Constants                 |
-| All caps, underscore-separated, no prefix              | Non-private Constants             |
+| Tokens                            | Casing Style                                           |
+| :---                              |                                                  ----: |
+| Types, Methods                    | Pascal                                                 |
+| Local Variables, Method Arguments | Camel                                                  |
+| Private Member Variables          |  Camel, underscore prefix                              |
+| Non-Private Member Variables      | Avoid, use private variables and non-private accessors |
+| Private Constants                 | All caps, underscore-separated, underscore prefix      |
+| Non-private Constants             | All caps, underscore-separated, no prefix              |
 
 ##### Updating the Changelog
 
