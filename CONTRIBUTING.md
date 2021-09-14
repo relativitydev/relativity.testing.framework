@@ -48,7 +48,6 @@ Following these guidelines helps us in understanding the request and provide a q
 
 * **If you are a new user of RTF, check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html)** to make sure that you're following one of the common usage patterns.
 * **Ensure that you are testing against a supported version of Relativity.** Relativity.Testing.Framework is only [tested against the last few current templates in hopper](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs). Official support is not provided for issues relating to versions of Relativity outside of this range.
-* **Determine [which library the problem is likely coming from](#relativity-testing-framework-and-packages)**.
 * **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
@@ -74,7 +73,7 @@ The code should follow the architecture described [here](https://github.com/rela
 
 ##### Coding Standards
 
-Please follow the existing naming and casing conventions as best as possible.
+Please follow the existing naming and casing conventions.
 
 | Tokens                            | Casing Style                                      |
 | :---                              |                                             ----: |
