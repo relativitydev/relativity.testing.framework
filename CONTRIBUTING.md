@@ -76,14 +76,14 @@ The code should follow the architecture described [here](https://github.com/rela
 
 Please follow the existing naming and casing conventions as best as possible.
 
-| Tokens                            | Casing Style                                           |
-| :---                              |                                                  ----: |
-| Types, Methods                    | Pascal                                                 |
-| Local Variables, Method Arguments | Camel                                                  |
-| Private Member Variables          | Camel, underscore prefix                               |
-| Non-Private Member Variables      | Avoid, use C# Properties                               |
-| Private Constants                 | All caps, underscore-separated, underscore prefix      |
-| Non-private Constants             | All caps, underscore-separated, no prefix              |
+| Tokens                            | Casing Style                                      |
+| :---                              |                                             ----: |
+| Types, Methods                    | Pascal                                            |
+| Local Variables, Method Arguments | Camel                                             |
+| Private Member Variables          | Camel, underscore prefix                          |
+| Non-Private Member Variables      | Avoid, use C# Properties                          |
+| Private Constants                 | All caps, underscore-separated, underscore prefix |
+| Non-private Constants             | All caps, underscore-separated, no prefix         |
 
 ##### Updating the Changelog
 
