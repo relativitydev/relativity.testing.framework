@@ -26,7 +26,7 @@
 
 ## <a name="where-to-get-help">Where to get help</a>
 
-* For general help and questions, please use start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
+* For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
 * For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
 
 ## <a name="what-should-i-know-before-i-get-started">What should I know before I get started?</a>
