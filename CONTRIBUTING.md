@@ -60,7 +60,6 @@ Following these guidelines helps us in understanding the request and provide a q
 
 #### Before Submitting A Feature Enhancement Issue
 
-* **Determine [which repository the feature enhancement belongs to](#relativity-testing-framework-and-packages).**
 * **Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues)** to see if the feature enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 ### <a name="code-contributions">Code Contributions</a>
