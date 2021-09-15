@@ -33,7 +33,9 @@ assignees: ''
 
 ### Relativity Testing Framework Versions
 
-* Are you testing against a [supported version](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs) of Relativity?
+* Are you testing against a supported version listed below?
+  * RelativityOne current or preview versions
+  * Relativity Server 2022 (12.1) or later
 * Which version of Relativity.Testing.Framework are you using?
 * Which version of Relativity.Testing.Framework.Api are you using?
 
