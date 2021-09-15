@@ -33,15 +33,14 @@ assignees: ''
 
 ### Relativity Testing Framework Versions
 
-* Are you testing against a supported version listed below?
-  * RelativityOne current or preview versions
-  * Relativity Server 2022 (12.1) or later
 * Which version of Relativity.Testing.Framework are you using?
 * Which version of Relativity.Testing.Framework.Api are you using?
 
 ### Environment Details
 
-* What version of Relativity is being tested against?
+* What version of Relativity is being tested against? We only provide support for the versions listed below.
+  * RelativityOne current or preview versions
+  * Relativity Server 2022 (12.1) or later
 * What type of Relativity installation is being tested (Server or R1)?
 
 ## Additional context
