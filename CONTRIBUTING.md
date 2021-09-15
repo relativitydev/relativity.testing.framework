@@ -11,7 +11,6 @@
     - [<a name="relativity-testing-framework-packages">Relativity Testing Framework Packages</a>](#relativity-testing-framework-packages)
   - [<a name="how-can-i-contribute">How Can I Contribute?</a>](#how-can-i-contribute)
     - [<a name="reporting-issues">Reporting Issues</a>](#reporting-issues)
-      - [Before Submitting An Issue](#before-submitting-an-issue)
     - [<a name="code-contributions">Code Contributions</a>](#code-contributions)
       - [<a name="development">Development</a>](#development)
         - [Updating the Changelog](#updating-the-changelog)
@@ -40,7 +39,7 @@ At a high level, Relativity Testing Framework handles configuration management a
 
 ### <a name="reporting-issues">Reporting Issues</a>
 
-Following these guidelines helps us in understanding the request and provide a quicker response time.
+Before reporting an issue, please follow these guidelines. It helps us in understanding the request and provide a quicker response time.
 
 * Determine if it's a bug report or a feature enhancement.
 * Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
