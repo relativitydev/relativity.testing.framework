@@ -45,7 +45,7 @@ Following these guidelines helps us in understanding the request and provide a q
 #### <a name="before-submitting-an-issue">Before submitting an Issue</a>
 
 * Determine if it's a bug report or a feature enhancement.
-* Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the feature enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+* Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 * If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### <a name="code-contributions">Code Contributions</a>
