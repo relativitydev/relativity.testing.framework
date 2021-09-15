@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+**NOTE:** Official support is only provided for the following Relativity versions.
+
+* RelativityOne current or preview versions
+* Relativity Server 2022 (12.1) or later
+
 ## Describe the bug
 
 * A clear and concise description of what the bug is.
@@ -33,18 +38,18 @@ assignees: ''
 
 ### Relativity Testing Framework Versions
 
-* Are you testing against a [supported version](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/source/Relativity.Testing.Framework.Api/ApiComponent.cs) of Relativity?
 * Which version of Relativity.Testing.Framework are you using?
 * Which version of Relativity.Testing.Framework.Api are you using?
 
 ### Environment Details
 
+* What type of Relativity installation is being tested (Relativity Server or RelativityOne)?
 * What version of Relativity is being tested against?
-* What type of Relativity installation is being tested (Server or R1)?
 
 ## Additional context
 
 Please provide following details to have us better understand the context:
+
 * Did the problem start happening recently (e.g. after updating to a new version of Relativity.Testing.Framework) or was this always a problem?
 * If the problem started happening recently, can you reproduce the problem in an older version of Relativity.Testing.Framework? 
 * What's the most recent version in which the problem doesn't happen?

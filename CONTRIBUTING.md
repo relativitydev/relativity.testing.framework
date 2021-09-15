@@ -11,7 +11,6 @@
     - [<a name="relativity-testing-framework-packages">Relativity Testing Framework Packages</a>](#relativity-testing-framework-packages)
   - [<a name="how-can-i-contribute">How Can I Contribute?</a>](#how-can-i-contribute)
     - [<a name="reporting-issues">Reporting Issues</a>](#reporting-issues)
-      - [Before Submitting An Issue](#before-submitting-an-issue)
     - [<a name="code-contributions">Code Contributions</a>](#code-contributions)
       - [<a name="development">Development</a>](#development)
         - [Updating the Changelog](#updating-the-changelog)
@@ -23,6 +22,9 @@
 
 ## <a name="where-to-get-help">Where to get help</a>
 
+* Official support is only provided for the following versions.
+  * RelativityOne current and preview versions
+  * Relativity Server 2022 (12.1) and later
 * Check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html) to find common usage patterns.
 * For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
 * For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
@@ -39,13 +41,10 @@ At a high level, Relativity Testing Framework handles configuration management a
 
 ### <a name="reporting-issues">Reporting Issues</a>
 
-This section guides you through submitting a bug report or feature enhancement issue for Relativity.Testing.Framework.
-Following these guidelines helps us in understanding the request and provide a quicker response time.
-
-#### <a name="before-submitting-an-issue">Before submitting an Issue</a>
+Before reporting an issue, please follow these guidelines. It helps us in understanding the request and provide a quicker response time.
 
 * Determine if it's a bug report or a feature enhancement.
-* Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+* Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
 * If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### <a name="code-contributions">Code Contributions</a>
