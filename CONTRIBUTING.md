@@ -22,7 +22,9 @@
 
 ## <a name="where-to-get-help">Where to get help</a>
 
-* Official support is only provided for RelativityOne current and preview versions, and Relativity Server 2022 (12.1) and later.
+* Official support is only provided for the following versions.
+  * RelativityOne current and preview versions
+  * Relativity Server 2022 (12.1) and later
 * Check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html) to find common usage patterns.
 * For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
 * For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
