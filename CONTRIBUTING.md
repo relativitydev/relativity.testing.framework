@@ -86,7 +86,7 @@ The following must be happen before the pull request can be merged in:
 * All tests must be passing
 * All tasks on the pull request must be completed
 * If the story requires changes across multiple repositories, pull requests should be opened for all of them at the same time, and referenced together.
-  * i.e. If you are [making a change to Relativity.Testing.Framework](https://git.kcura.com/projects/TT/repos/relativity.testing.framework/pull-requests/391/overview) that you intend to [consume in Relativity.Testing.Framework.Api](https://git.kcura.com/projects/TT/repos/relativity.testing.framework.api/pull-requests/10/overview), we need to see that the integration works before they can be approved.
+  * i.e. If you are [making a change to Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework/pull/63) that you intend to [consume in Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api/pull/88), we need to see that the integration works before they can be approved.
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
@@ -99,7 +99,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 e.g.
 
-> [RTF-1019] Adding ObjectTypeGuidAttribute for use in RTF.Api ObjectManager. Adding ObjectTypeGuidResolver and tests.
+> Adding ObjectTypeGuidAttribute for use in RTF.Api ObjectManager. Adding ObjectTypeGuidResolver and tests.
 
 #### <a name="releasing">Releasing</a>
 
