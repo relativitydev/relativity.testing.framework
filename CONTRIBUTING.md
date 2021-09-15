@@ -16,7 +16,6 @@
       - [Before Submitting An Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
     - [<a name="code-contributions">Code Contributions</a>](#code-contributions)
       - [<a name="development">Development</a>](#development)
-        - [Coding Standards](#coding-standards)
         - [Updating the Changelog](#updating-the-changelog)
       - [<a name="testing">Testing</a>](#testing)
       - [<a name="pull-requests">Pull Requests</a>](#pull-requests)
@@ -70,19 +69,6 @@ Be sure to also review the CONTRIBUTING.md at the root of the repository you are
 All development work should be done in feature branches off of the master branch.
 Branch names should indicate the [issue](https://github.com/relativitydev/relativity.testing.framework/issues) that they are solving.
 The code should follow the architecture described [here](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/docs/dev/architecture.md).
-
-##### Coding Standards
-
-Please follow the existing naming and casing conventions.
-
-| Tokens                            | Casing Style                                      |
-| :---                              |                                             ----: |
-| Types, Methods                    | Pascal                                            |
-| Local Variables, Method Arguments | Camel                                             |
-| Private Member Variables          | Camel, underscore prefix                          |
-| Non-Private Member Variables      | Avoid, use C# Properties                          |
-| Private Constants                 | All caps, underscore-separated, underscore prefix |
-| Non-private Constants             | All caps, underscore-separated, no prefix         |
 
 ##### Updating the Changelog
 
