@@ -1,4 +1,6 @@
-﻿using Microsoft.ApplicationInsights;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.Extensibility;
 
 namespace Relativity.Testing.Framework
@@ -23,6 +25,26 @@ namespace Relativity.Testing.Framework
 		public void Flush()
 		{
 			_telemetryClient.Flush();
+		}
+
+		public void TrackEvent(string metricName, Dictionary<string, string> properties)
+		{
+			_telemetryClient.TrackEvent(metricName, properties);
+		}
+
+		public void TrackException(Exception ex)
+		{
+			_telemetryClient.TrackException(ex);
+		}
+
+		public void TrackException(Exception ex, Dictionary<string, string> properties)
+		{
+			_telemetryClient.TrackException(ex, properties);
+		}
+
+		public void TrackMetric(string metricName, double metricValue, Dictionary<string, string> properties)
+		{
+			_telemetryClient.TrackMetric(metricName, metricValue, properties);
 		}
 	}
 }
