@@ -7,6 +7,9 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        **NOTE:** Official support is only provided for the following Relativity versions.
+        * RelativityOne current or preview versions
+        * Relativity Server 2022 (12.1) or later
   - type: textarea
     id: what-happened
     attributes:
