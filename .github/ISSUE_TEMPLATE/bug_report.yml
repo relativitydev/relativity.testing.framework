@@ -29,7 +29,7 @@ body:
 - type: input
   id: relativity-testing-framework-version
   attributes:
-    label: Relativity Testing Framework Version
+    label: Relativity.Testing.Framework Version
     description: "Relativity.Testing.Framework version used"
     placeholder: "Which version of Relativity.Testing.Framework are you using?"
   validations:
@@ -37,11 +37,11 @@ body:
 - type: input
   id: relativity-testing-framework-api-version
   attributes:
-    label: Relativity Testing Framework API Version
+    label: Relativity.Testing.Framework.API Version
     description: "Relativity.Testing.Framework.API version used"
     placeholder: "Which version of Relativity.Testing.Framework.API are you using?"
   validations:
-    required: true
+    required: false
 - type: dropdown
   id: environment-type
   attributes:

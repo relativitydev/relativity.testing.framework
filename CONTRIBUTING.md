@@ -22,10 +22,10 @@
 
 ## Where to get help
 
-- Official support is only provided for the following Relativity versions.
+- Official support is only provided for the following versions.
   - RelativityOne current and preview versions
   - Relativity Server 2022 (12.1) and later
-- Check the [RTF Documentation](https://probable-happiness-2926a3e8.pages.github.io/index.html) to find common usage patterns.
+- Check the [RTF Documentation](https://relativitydev.github.io/relativity.testing.framework/) to find common usage patterns.
 - For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
 - For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
 
@@ -33,7 +33,7 @@
 
 ### Relativity Testing Framework Packages
 
-The [Relativity Testing Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity Testing Framework Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
+The [Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
 
 At a high level, Relativity Testing Framework handles configuration management and object models, while Relativity Testing Framework API handles the interactions with the Relativity APIs.
 
@@ -73,8 +73,8 @@ In general, this process includes:
 - Acquiring a server to test against
 - Generating test parameters to point to that server
   - [New-TestSettings.ps1](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/DevelopmentScripts/New-TestSettings.ps1) is a good way to generate test parameters.
-    - Configure VisualStudio to use your runsettings file, if using that
-- Running the tests with the test explorer in VisualStudio
+    - Configure Visual Studio to use your runsettings file, if using that
+- Running the tests with the test explorer in Visual Studio
 
 #### Pull Requests
 
@@ -94,7 +94,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ##### Git Commit Messages
 
-- Commits should be squshed into a single one for each pull request.
 - Commit messages must describe what is changing.
 
 e.g.
