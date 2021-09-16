@@ -23,16 +23,16 @@ body:
   id: expected-behavior
   attributes:
     label: Expected Behavior
-    description: Description of expected behavior
-    placeholder: A clear and concise description of what you expect to happen.
+    description: "Description of expected behavior"
+    placeholder: "A clear and concise description of what you expect to happen."
   validations:
     required: true
 - type: textarea
   id: justification
   attributes:
     label: Justification
-    description: Explain why this enhancement would be useful to most Relativity.Testing.Framework users.
-    placeholder: How will this Enhancement be useful to Relativity.Testing.Framework users?
+    description: "Explain why this enhancement would be useful to most Relativity.Testing.Framework users."
+    placeholder: "How will this Enhancement be useful to Relativity.Testing.Framework users?"
   validations:
     required: true
         
