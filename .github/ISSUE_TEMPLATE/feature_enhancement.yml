@@ -35,4 +35,3 @@ body:
     placeholder: "How will this Enhancement be useful to Relativity.Testing.Framework users?"
   validations:
     required: true
-        
