@@ -28,7 +28,7 @@ For more details and common usage patterns check out [our documentation](https:/
   - RelativityOne current and preview versions
   - Relativity Server 2022 (12.1) and later
 - For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
-- For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
+- For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information on how to contribute, see [CONTRIBUTING.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CONTRIBUTING.md).
 
 ## Build Tasks
 
