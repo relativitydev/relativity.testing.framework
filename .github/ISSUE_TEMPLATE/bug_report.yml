@@ -60,7 +60,7 @@ body:
     placeholder: "What version of Relativity is being tested against?"
   validations:
     required: true
-- type: textarea
+- type: input
   id: link-testcase
   attributes:
     label: Test Case
