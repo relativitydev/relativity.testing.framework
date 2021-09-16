@@ -1,41 +1,39 @@
-# Contributing to Relativity Testing Framework
+# Contributing to Relativity.Testing.Framework
 
-:+1::tada: Welcome to Relativity Testing Framework. Thanks for taking the time to contribute! :tada::+1:
+:+1::tada: Welcome to Relativity.Testing.Framework! Thanks for taking the time to contribute! :tada::+1:
 
 ## Table Of Contents
 
-- [Contributing to Relativity Testing Framework](#contributing-to-relativity-testing-framework)
-  - [Table Of Contents](#table-of-contents)
-  - [Where to get help](#where-to-get-help)
-  - [What should I know before I get started?](#what-should-i-know-before-i-get-started)
-    - [Relativity Testing Framework Packages](#relativity-testing-framework-packages)
-  - [How Can I Contribute?](#how-can-i-contribute)
-    - [Reporting Issues](#reporting-issues)
-    - [Code Contributions](#code-contributions)
-      - [Development](#development)
-        - [Updating the Changelog](#updating-the-changelog)
-      - [Testing](#testing)
-      - [Pull Requests](#pull-requests)
-      - [Styleguides](#styleguides)
-        - [Git Commit Messages](#git-commit-messages)
-      - [Releasing](#releasing)
+- [Where to get help](#where-to-get-help)
+- [What should I know before I get started?](#what-should-i-know-before-i-get-started)
+  - [Relativity.Testing.Framework Packages](#relativitytestingframework-packages)
+- [How Can I Contribute?](#how-can-i-contribute)
+  - [Reporting Issues](#reporting-issues)
+  - [Code Contributions](#code-contributions)
+    - [Development](#development)
+      - [Updating the Changelog](#updating-the-changelog)
+    - [Testing](#testing)
+    - [Pull Requests](#pull-requests)
+    - [Styleguides](#styleguides)
+      - [Git Commit Messages](#git-commit-messages)
+    - [Releasing](#releasing)
 
 ## Where to get help
 
 - Official support is only provided for the following versions.
   - RelativityOne current and preview versions
   - Relativity Server 2022 (12.1) and later
-- Check the [RTF Documentation](https://relativitydev.github.io/relativity.testing.framework/) to find common usage patterns.
+- Check the [Relativity.Testing.Framework Documentation](https://relativitydev.github.io/relativity.testing.framework/) to find common usage patterns.
 - For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
 - For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
 
 ## What should I know before I get started?
 
-### Relativity Testing Framework Packages
+### Relativity.Testing.Framework Packages
 
-The [Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
+The [Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity.Testing.Framework.
 
-At a high level, Relativity Testing Framework handles configuration management and object models, while Relativity Testing Framework API handles the interactions with the Relativity APIs.
+At a high level, Relativity.Testing.Framework handles configuration management and object models, while Relativity.Testing.Framework.API handles the interactions with the Relativity APIs.
 
 ## How Can I Contribute?
 
