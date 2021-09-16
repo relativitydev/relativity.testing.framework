@@ -20,4 +20,4 @@ dotnet test source
 
 ## Documentation
 
-For more details check out our documentation that can be found [here](https://probable-happiness-2926a3e8.pages.github.io/)
+For more details check out [our documentation](https://relativitydev.github.io/relativity.testing.framework/)
