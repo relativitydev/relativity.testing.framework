@@ -39,5 +39,11 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the server where the agent is to be added.
 		/// </summary>
 		public NamedArtifact AgentServer { get; set; }
+
+		/// <summary>
+		/// Gets or sets the message for the agent.
+		/// This property is only used for the response, so it will be ignored if you populate it as part of the request.
+		/// </summary>
+		public string Message { get; set; }
 	}
 }
