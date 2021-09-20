@@ -4,7 +4,7 @@
 
 The [Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity.Testing.Framework.
 
-At a high level, Relativity.Testing.Framework handles configuration management and object models, while Relativity.Testing.Framework.API handles the interactions with the Relativity APIs.
+At a high level, Relativity.Testing.Framework handles configuration management and object models, while Relativity.Testing.Framework.Api handles the interactions with the Relativity APIs.
 
 This repository contains a C#/NuGet library that abstracts out common functionality for test setup and teardown.
 
