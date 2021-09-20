@@ -5,16 +5,21 @@
 ## Table Of Contents
 
 - [Contributing to Relativity.Testing.Framework](#contributing-to-relativitytestingframework)
+  - [Code of Conduct](#code-of-conduct)
   - [How Can I Contribute?](#how-can-i-contribute)
-  - [Code Contributions](#code-contributions)
-    - [Development](#development)
-      - [Updating the Changelog](#updating-the-changelog)
-    - [Testing](#testing)
-    - [Pull Requests](#pull-requests)
-    - [Styleguides](#styleguides)
-      - [Coding Standards](#coding-standards)
-      - [Git Commit Messages](#git-commit-messages)
-    - [Releasing](#releasing)
+    - [Code Contributions](#code-contributions)
+      - [Development](#development)
+        - [Updating the Changelog](#updating-the-changelog)
+      - [Testing](#testing)
+      - [Pull Requests](#pull-requests)
+      - [Styleguides](#styleguides)
+        - [Coding Standards](#coding-standards)
+        - [Git Commit Messages](#git-commit-messages)
+      - [Releasing](#releasing)
+
+## Code of Conduct
+
+Before contributing, please review [CODE_OF_CONDUCT.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CODE_OF_CONDUCT.md).
 
 ## How Can I Contribute?
 
@@ -22,13 +27,9 @@
 
 Be sure to also review the CONTRIBUTING.md at the root of the repository you are working in for any information specific to that codebase.
 
-#### Code of Conduct
-
-Before contributing, please review [CODE_OF_CONDUCT.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CODE_OF_CONDUCT.md).
-
 #### Development
 
-All development work should be done in feature branches off of the master branch.
+When forking the repository, please make sure you are working of the latest code in the master branch.
 Branch names should indicate the [issue](https://github.com/relativitydev/relativity.testing.framework/issues) that they are solving.
 The code should follow the architecture described [here](https://github.com/relativitydev/relativity.testing.framework.api/blob/master/docs/dev/architecture.md).
 
@@ -69,7 +70,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ##### Coding Standards
 
-We have automated as many of our coding standards using StyleCop, but we might identify missing rules, and ask you to fix them in the meantime until we can update StyleCop.
+We have automated as many of our coding standards as possible using StyleCop, but we might identify missing rules, and ask you to fix them in the meantime until we can update StyleCop.
 
 ##### Git Commit Messages
 
