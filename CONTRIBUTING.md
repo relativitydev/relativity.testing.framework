@@ -12,6 +12,7 @@
     - [Testing](#testing)
     - [Pull Requests](#pull-requests)
     - [Styleguides](#styleguides)
+      - [Coding Standards](#coding-standards)
       - [Git Commit Messages](#git-commit-messages)
     - [Releasing](#releasing)
 
