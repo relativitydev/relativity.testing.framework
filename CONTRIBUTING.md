@@ -1,55 +1,29 @@
-# Contributing to Relativity Testing Framework
+# Contributing to Relativity.Testing.Framework
 
-:+1::tada: Welcome to Relativity Testing Framework. Thanks for taking the time to contribute! :tada::+1:
+:+1::tada: Thanks for taking the time to contribute! :tada::+1:
 
 ## Table Of Contents
 
-- [Contributing to Relativity Testing Framework](#contributing-to-relativity-testing-framework)
-  - [Table Of Contents](#table-of-contents)
-  - [Where to get help](#where-to-get-help)
-  - [What should I know before I get started?](#what-should-i-know-before-i-get-started)
-    - [Relativity Testing Framework Packages](#relativity-testing-framework-packages)
+- [Contributing to Relativity.Testing.Framework](#contributing-to-relativitytestingframework)
   - [How Can I Contribute?](#how-can-i-contribute)
-    - [Reporting Issues](#reporting-issues)
-    - [Code Contributions](#code-contributions)
-      - [Development](#development)
-        - [Updating the Changelog](#updating-the-changelog)
-      - [Testing](#testing)
-      - [Pull Requests](#pull-requests)
-      - [Styleguides](#styleguides)
-        - [Git Commit Messages](#git-commit-messages)
-      - [Releasing](#releasing)
-
-## Where to get help
-
-- Official support is only provided for the following versions.
-  - RelativityOne current and preview versions
-  - Relativity Server 2022 (12.1) and later
-- Check the [RTF Documentation](https://relativitydev.github.io/relativity.testing.framework/) to find common usage patterns.
-- For general help and questions, please start a [Discussion](https://github.com/relativitydev/relativity.testing.framework/discussions).
-- For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. For further information, see [How can I contribute](#how-can-i-contribute).
-
-## What should I know before I get started?
-
-### Relativity Testing Framework Packages
-
-The [Relativity.Testing.Framework](https://github.com/relativitydev/relativity.testing.framework) and [Relativity.Testing.Framework.Api](https://github.com/relativitydev/relativity.testing.framework.api) are repositories that comprise Relativity Testing Framework.
-
-At a high level, Relativity Testing Framework handles configuration management and object models, while Relativity Testing Framework API handles the interactions with the Relativity APIs.
+  - [Code Contributions](#code-contributions)
+    - [Development](#development)
+      - [Updating the Changelog](#updating-the-changelog)
+    - [Testing](#testing)
+    - [Pull Requests](#pull-requests)
+    - [Styleguides](#styleguides)
+      - [Git Commit Messages](#git-commit-messages)
+    - [Releasing](#releasing)
 
 ## How Can I Contribute?
-
-### Reporting Issues
-
-Before reporting an issue, please follow these guidelines. It helps us in understanding the request and provide a quicker response time.
-
-- Determine if it's a bug report or a feature enhancement.
-- Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
-- If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### Code Contributions
 
 Be sure to also review the CONTRIBUTING.md at the root of the repository you are working in for any information specific to that codebase.
+
+#### Code of Conduct
+
+Before contributing, please review [CODE_OF_CONDUCT.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CODE_OF_CONDUCT.md).
 
 #### Development
 
@@ -91,6 +65,10 @@ The following must be happen before the pull request can be merged in:
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
 #### Styleguides
+
+##### Coding Standards
+
+We have automated as many of our coding standards using StyleCop, but we might identify missing rules, and ask you to fix them in the meantime until we can update StyleCop.
 
 ##### Git Commit Messages
 
