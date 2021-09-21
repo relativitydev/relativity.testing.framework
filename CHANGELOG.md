@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.2.0] - 2021-09-20
+
+### Added
+
+- IApplicationInsightsTelemetryClient now has a TrackEvent method that accepts a <string, double> dictionary of metrics.
+
 ## [6.1.0] - 2021-09-17
 
 ### Changed
@@ -15,7 +21,7 @@ Added a message property to the Agent model.
 
 ### Changed
 
-- IApplicationInsightsTelemtryClient now exposes `Track[Metric|Event|Exception]()` members instead of requiring consumers to use `TelemetryClient`.
+- IApplicationInsightsTelemetryClient now exposes `Track[Metric|Event|Exception]()` members instead of requiring consumers to use `TelemetryClient`.
 
 ## [6.0.0] - 2021-09-10
 

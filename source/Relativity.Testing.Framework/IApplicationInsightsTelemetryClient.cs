@@ -18,7 +18,7 @@ namespace Relativity.Testing.Framework
 		/// Sends a metric value to the configured telemetry client.
 		/// </summary>
 		/// <param name="metricName">The name of the metric being sent.</param>
-		/// <param name="metricValue">The value of the metric.</param>
+		/// <param name="metricValue">An individual metric value.</param>
 		/// <param name="properties">A related dictionary of properties to associate with the metric.</param>
 		void TrackMetric(string metricName, double metricValue, Dictionary<string, string> properties);
 
@@ -28,6 +28,14 @@ namespace Relativity.Testing.Framework
 		/// <param name="metricName">The name of the event being sent.</param>
 		/// <param name="properties">A related dictionary of properties to associate with the event.</param>
 		void TrackEvent(string metricName, Dictionary<string, string> properties);
+
+		/// <summary>
+		/// Sends an arbitrary event with related metrics to the configured telemetry client.
+		/// </summary>
+		/// <param name="metricName">The name of the event being sent.</param>
+		/// <param name="properties">A related dictionary of properties to associate with the event.</param>
+		/// <param name="metrics">A relevant set of metrics associated with the event.</param>
+		void TrackEvent(string metricName, Dictionary<string, string> properties, Dictionary<string, double> metrics);
 
 		/// <summary>
 		/// Sends an exception to the configured telemetry client.

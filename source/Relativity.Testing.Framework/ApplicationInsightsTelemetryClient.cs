@@ -32,6 +32,11 @@ namespace Relativity.Testing.Framework
 			_telemetryClient.TrackEvent(metricName, properties);
 		}
 
+		public void TrackEvent(string metricName, Dictionary<string, string> properties, Dictionary<string, double> metrics)
+		{
+			_telemetryClient.TrackEvent(metricName, properties, metrics);
+		}
+
 		public void TrackException(Exception ex)
 		{
 			_telemetryClient.TrackException(ex);
