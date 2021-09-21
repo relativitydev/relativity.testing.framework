@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- IApplicationInsightsTelemtryClient now has a TrackEvent method that accepts a <string, double> dictionary of metrics.
+- IApplicationInsightsTelemetryClient now has a TrackEvent method that accepts a <string, double> dictionary of metrics.
 
 ## [6.1.0] - 2021-09-17
 
@@ -21,7 +21,7 @@ Added a message property to the Agent model.
 
 ### Changed
 
-- IApplicationInsightsTelemtryClient now exposes `Track[Metric|Event|Exception]()` members instead of requiring consumers to use `TelemetryClient`.
+- IApplicationInsightsTelemetryClient now exposes `Track[Metric|Event|Exception]()` members instead of requiring consumers to use `TelemetryClient`.
 
 ## [6.0.0] - 2021-09-10
 
