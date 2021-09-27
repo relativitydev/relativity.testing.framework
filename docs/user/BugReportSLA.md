@@ -14,7 +14,9 @@ This document describes the bug report resolution process, timelines, and defini
 
 | Severity | Acknowledge By | Resolve By | Description | Example |
 | -------- | -------------- | ---------- | ----------- | ------- |
-| P1 | 1 day | 3 days | A defect that completely prevents Relativity.Testing.Framework from functioning. | Relativity.Testing.Framework throws an exception while ensuring the connection. |
-| P2 | 5 days | 30 days | A defect that prevents components of Relativity.Testing.Framework from functioning on typical environments. | A service does not provide the functionality that it is supposed to provide. |
-| P3 | 7 days | 90 days | A defect that limits usability of Relativity.Testing.Framework in less common scenarios. | A method in a service does not expose all the properties available in the API. |
-| P4 | 15 days | 180 days | A defect that can be easily worked around, or is cosmetic in nature. | All properties of a model must be passed in to prevent to ensure correct creation. |
+| P1 | 1 business day | 3 business days | A defect that completely prevents Relativity.Testing.Framework from functioning. | Relativity.Testing.Framework throws an exception while ensuring the connection. |
+| P2 | 5 business days | 30 business days | A defect that prevents components of Relativity.Testing.Framework from functioning on typical environments. | A service does not provide the functionality that it is supposed to provide. |
+| P3 | 7 business days | 90 business days | A defect that limits usability of Relativity.Testing.Framework in less common scenarios. | A method in a service does not expose all the properties available in the API. |
+| P4 | 15 business days | Varies* | A defect that can be easily worked around, or is cosmetic in nature. | All properties of a model must be passed in to prevent to ensure correct creation. |
+
+* We will try to address all issues in a timely manner, but depending on other priorities, it may not always be realistic to commit to a specific time frame for all less impactful bugs.
