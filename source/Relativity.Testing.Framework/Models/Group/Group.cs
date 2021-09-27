@@ -1,19 +1,35 @@
-﻿namespace Relativity.Testing.Framework.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the Relativity group object.
 	/// </summary>
-	public class Group : NamedArtifact, IFillsRequiredProperties<Group>
+	public class Group : TimeStampedNamedArtifact, IFillsRequiredProperties<Group>, IHaveGuids
 	{
+		/// <inheritdoc/>
+		public List<Guid> Guids { get; set; }
+
 		/// <summary>
 		/// Gets or sets the client.
 		/// </summary>
 		public Client Client { get; set; }
 
 		/// <summary>
-		/// Gets the type.
+		/// Gets or sets the type.
 		/// </summary>
-		public GroupType Type { get; internal set; } = GroupType.SystemGroup;
+		public GroupType Type { get; set; } = GroupType.SystemGroup;
+
+		/// <summary>
+		/// Gets or sets the list of available actions for group.
+		/// </summary>
+		public List<HttpAction> Actions { get; set; }
+
+		/// <summary>
+		/// Gets or sets the metadata.
+		/// </summary>
+		public Meta Meta { get; set; }
 
 		/// <summary>
 		/// Gets or sets any keywords associated with the user group.
