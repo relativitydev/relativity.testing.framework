@@ -7,7 +7,6 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	/// <typeparam name="T">Value type for field.</typeparam>
 	public class DefaultFieldValue<T> : Artifact
-	    where T : NamedArtifact
 	{
 #pragma warning disable CA1720 // Identifier contains type name
 		/// <summary>
