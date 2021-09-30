@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- SqlFullTextLanguage property  of Workspace model changed to Enum object.
+- SqlFullTextLanguage property of Workspace model changed to Enum object.
 
 ## [6.4.0] - 2021-09-28
 
