@@ -15,22 +15,22 @@ namespace Relativity.Testing.Framework.Extensions
 			_sqlFullTextLanguageDescriptionMap = new Dictionary<string, SqlFullTextLanguage>();
 			foreach (SqlFullTextLanguage lang in Enum.GetValues(typeof(SqlFullTextLanguage)))
 			{
-				_sqlFullTextLanguageDescriptionMap.Add(lang.ToDescription(), lang);
+				_sqlFullTextLanguageDescriptionMap.Add(lang.ToFullName(), lang);
 			}
 		}
 
-		public static string ToDescription(this SqlFullTextLanguage value)
+		public static string ToFullName(this SqlFullTextLanguage value)
 		{
 			FieldInfo field = value.GetType().GetField(value.ToString());
 			DescriptionAttribute attribute = Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute)) as DescriptionAttribute;
 			return attribute == null ? value.ToString() : attribute.Description;
 		}
 
-		public static SqlFullTextLanguage FromDescription(string langName)
+		public static SqlFullTextLanguage FromFullName(string langName)
 		{
 			if (!_sqlFullTextLanguageDescriptionMap.ContainsKey(langName))
 			{
-				throw new InvalidEnumArgumentException("Language name not found.");
+				throw new InvalidEnumArgumentException($"Language name {langName} not found.");
 			}
 
 			SqlFullTextLanguage result;
