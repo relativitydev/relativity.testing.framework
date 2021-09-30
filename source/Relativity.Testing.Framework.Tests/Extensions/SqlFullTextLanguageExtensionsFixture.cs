@@ -11,24 +11,24 @@ namespace Relativity.Testing.Framework.Tests.Extensions
 	public class SqlFullTextLanguageExtensionsFixture
 	{
 		[Test]
-		public void ToDescription_happyPath()
+		public void ToDescription_HappyPath()
 		{
-			string fullLangDescription = SqlFullTextLanguage.ChineseSingapore.ToDescription();
+			string fullLangDescription = SqlFullTextLanguage.ChineseSingapore.ToFullName();
 			fullLangDescription.Should().Be("Chinese (Singapore)");
 		}
 
 		[Test]
-		public void FromDescription_happyPath()
+		public void FromDescription_HappyPath()
 		{
-			SqlFullTextLanguageExtensions.FromDescription("Chinese (Singapore)").Should().Be(SqlFullTextLanguage.ChineseSingapore);
-			SqlFullTextLanguageExtensions.FromDescription("Bokmål").Should().Be(SqlFullTextLanguage.Norwegian);
+			SqlFullTextLanguageExtensions.FromFullName("Chinese (Singapore)").Should().Be(SqlFullTextLanguage.ChineseSingapore);
+			SqlFullTextLanguageExtensions.FromFullName("Bokmål").Should().Be(SqlFullTextLanguage.Norwegian);
 		}
 
 		[Test]
 		public void FromDescription_ShouldThrowInvalidEnamValue()
 		{
 			Assert.Throws<InvalidEnumArgumentException>(() =>
-			SqlFullTextLanguageExtensions.FromDescription("random string not lang description"));
+			SqlFullTextLanguageExtensions.FromFullName("random string not lang description"));
 		}
 	}
 }
