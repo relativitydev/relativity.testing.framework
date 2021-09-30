@@ -28,7 +28,7 @@ namespace Relativity.Testing.Framework.Models
 		/// <summary>
 		/// Gets or sets the SQL full text language.
 		/// </summary>
-		public NamedArtifact SqlFullTextLanguage { get; set; }
+		public SqlFullTextLanguage SqlFullTextLanguage { get; set; }
 
 		/// <summary>
 		/// Gets or sets the SQL server.

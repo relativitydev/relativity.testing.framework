@@ -3,6 +3,8 @@
 // Project-level suppressions either have no target or are given
 // a specific target and scoped to a namespace, type, member, etc.
 
+using System.Diagnostics.CodeAnalysis;
+
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1008:Enums should have zero value", Justification = "<Pending>", Scope = "type", Target = "~T:Relativity.Testing.Framework.Models.ArtifactType")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1008:Enums should have zero value", Justification = "<Pending>", Scope = "type", Target = "~T:Relativity.Testing.Framework.Models.GroupType")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1819:Properties should not return arrays", Justification = "<Pending>", Scope = "member", Target = "~P:Relativity.Testing.Framework.Models.RelativityApplication.Guids")]
@@ -16,3 +18,5 @@
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1819:Properties should not return arrays", Justification = "<Pending>", Scope = "member", Target = "~P:Relativity.Testing.Framework.Models.KeywordSearch.Fields")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1819:Properties should not return arrays", Justification = "<Pending>", Scope = "member", Target = "~P:Relativity.Testing.Framework.Models.View.Fields")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Naming", "CA1720:Identifier contains type name", Justification = "<Pending>", Scope = "type", Target = "~T:Relativity.Testing.Framework.Models.TabLinkType")]
+[assembly: SuppressMessage("Minor Code Smell", "S3963:\"static\" fields should be initialized inline", Justification = "<Pending>", Scope = "member", Target = "~M:Relativity.Testing.Framework.Extensions.SqlFullTextLanguageExtensions.#cctor")]
+[assembly: SuppressMessage("Performance", "CA1810:Initialize reference type static fields inline", Justification = "<Pending>", Scope = "member", Target = "~M:Relativity.Testing.Framework.Extensions.SqlFullTextLanguageExtensions.#cctor")]
