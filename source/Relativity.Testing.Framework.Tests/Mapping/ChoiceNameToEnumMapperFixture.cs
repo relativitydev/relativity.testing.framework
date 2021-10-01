@@ -18,6 +18,7 @@ namespace Relativity.Testing.Framework.Tests.Mapping
 		{
 			typeof(ObjectPermissionKinds),
 			typeof(LogLevel),
+			typeof(SqlFullTextLanguage)
 		};
 
 		[Test]
