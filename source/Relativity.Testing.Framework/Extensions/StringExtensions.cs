@@ -118,7 +118,9 @@ namespace Relativity.Testing.Framework.Extensions
 			}
 
 			if (string.IsNullOrEmpty(value))
+			{
 				return value;
+			}
 
 			return invalidChars.Aggregate(value, (current, c) => current.Replace(c.ToString(), replaceWith));
 		}

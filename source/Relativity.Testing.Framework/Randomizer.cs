@@ -56,7 +56,9 @@ namespace Relativity.Testing.Framework
 		public static string GetString(string format = "{0}", int length = DefaultStringLength)
 		{
 			if (length < 1)
+			{
 				throw new ArgumentException("The length should be positive.", nameof(length));
+			}
 
 			string normalizedFormat = NormalizeStringFormat(format);
 
@@ -65,7 +67,9 @@ namespace Relativity.Testing.Framework
 			int randomPartLength = length - normalizedFormat.Replace("{0}", string.Empty).Length;
 
 			if (randomPartLength <= 0)
+			{
 				throw new ArgumentException($"The length {length} of string is not greater than the \"{format}\" format length.", nameof(length));
+			}
 
 			string validChars = "abcdefghijklmnopqrstuvwxyz0123456789";
 
@@ -81,11 +85,17 @@ namespace Relativity.Testing.Framework
 		private static string NormalizeStringFormat(string format)
 		{
 			if (string.IsNullOrEmpty(format))
+			{
 				return "{0}";
+			}
 			else if (!format.Contains("{0}"))
+			{
 				return format + "{0}";
+			}
 			else
+			{
 				return format;
+			}
 		}
 
 		/// <summary>

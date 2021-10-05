@@ -230,7 +230,9 @@ namespace Relativity.Testing.Framework.Mapping
 			string name = value.Value<string>(nameof(NamedArtifact.Name));
 
 			if (!string.IsNullOrWhiteSpace(name))
+			{
 				artifact.Name = name;
+			}
 
 			return artifact;
 		}

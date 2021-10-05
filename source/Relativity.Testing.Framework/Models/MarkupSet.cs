@@ -29,10 +29,14 @@ namespace Relativity.Testing.Framework.Models
 		public MarkupSet FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (RedactionText.IsNullOrEmpty())
+			{
 				RedactionText = "Custom Redaction Text";
+			}
 
 			Order = 1;
 
