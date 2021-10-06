@@ -1,5 +1,9 @@
 @startuml Relativity.Testing.Framework Interceptors Sequence Diagram
 
+box "System Under Test" #LightYellow
+participant "RelativityFacade"
+end box
+
 box "Relativity.Testing.Framework" #LightGreen
 participant "CoreComponent"
 end box
@@ -8,6 +12,7 @@ box "Windsor" #LightBlue
 participant "Container"
 end box
 
+"RelativityFacade" -> "CoreComponent" : RelativityFacade relies on CoreComponent
 "CoreComponent" -> "Container" : CoreComponent registers ConfigurationService
 "CoreComponent" -> "Container" : CoreComponent registers LogService
 "CoreComponent" -> "Container" : CoreComponent registers ConfigurationRelativityInstanceVersionResolveService
