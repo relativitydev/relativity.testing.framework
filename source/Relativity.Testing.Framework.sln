@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relativity.Testing.Framework.Tests", "Relativity.Testing.Framework.Tests\Relativity.Testing.Framework.Tests.csproj", "{A99C9554-96AE-4C01-B865-2C18F11DB766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relativity.Testing.Framework.Documentation", "Relativity.Testing.Framework.Documentation\Relativity.Testing.Framework.Documentation.csproj", "{91A6EB1F-E7D9-4565-880B-BBE6DA3C55BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relativity.Testing.Framework.Documentation", "Relativity.Testing.Framework.Documentation\Relativity.Testing.Framework.Documentation.csproj", "{91A6EB1F-E7D9-4565-880B-BBE6DA3C55BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
