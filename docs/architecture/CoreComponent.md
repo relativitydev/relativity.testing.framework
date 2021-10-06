@@ -1,6 +1,6 @@
 # Relativity.Testing.Framework Interceptors Sequence Diagram
 
-'''plantuml
+```plantuml
 @startuml Relativity.Testing.Framework Interceptors Sequence Diagram
 
 box "Relativity.Testing.Framework" #LightGreen
@@ -15,4 +15,4 @@ end box
 "CoreComponent" -> "ApplicationInsightsTelemetryClient" : CoreComponent registers ApplicationInsightsTelemetryClient
 
 @enduml
-'''
+```
