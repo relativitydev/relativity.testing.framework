@@ -1,10 +1,7 @@
 @startuml Relativity.Testing.Framework Interceptors Sequence Diagram
 
-box "System Under Test" #LightYellow
-participant "RelativityFacade"
-end box
-
 box "Relativity.Testing.Framework" #LightGreen
+participant "RelativityFacade"
 participant "CoreComponent"
 end box
 
