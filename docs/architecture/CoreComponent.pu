@@ -14,7 +14,6 @@ end box
 
 "RelativityFacade" -> "CoreComponent" : RelativityFacade relies on CoreComponent
 "CoreComponent" -> "CoreComponent" : CoreComponent creates ConfigurationService and LogService to be registered
-"CoreComponent" -> "Container" : CoreComponent registers dependent services
-"CoreComponent" -> "Container" : CoreComponent resolves Kernel
+"CoreComponent" -> "Container" : CoreComponent registers services
 
 @enduml
