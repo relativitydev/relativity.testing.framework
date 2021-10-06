@@ -1,0 +1,23 @@
+@startuml Relativity.Testing.Framework Interceptors Sequence Diagram
+
+box "Relativity.Testing.Framework" #LightGreen
+participant "CoreComponent"
+end box
+
+box "Windsor" #LightBlue
+participant "Container"
+end box
+
+"CoreComponent" -> "Container" : CoreComponent registers ConfigurationService
+"CoreComponent" -> "Container" : CoreComponent registers LogService
+"CoreComponent" -> "Container" : CoreComponent registers ConfigurationRelativityInstanceVersionResolveService
+"CoreComponent" -> "Container" : CoreComponent registers VersionRangeMatchService
+"CoreComponent" -> "Container" : CoreComponent registers StrategyResolveService
+"CoreComponent" -> "Container" : CoreComponent registers ObjectMappingService
+"CoreComponent" -> "Container" : CoreComponent registers JsonObjectMappingService
+"CoreComponent" -> "Container" : CoreComponent registers ApplicationInsightsTelemetryClient
+"CoreComponent" -> "Container" : CoreComponent registers LoggingInterceptor
+"CoreComponent" -> "Container" : CoreComponent registers JsonObjectMappingService
+"CoreComponent" -> "Container" : CoreComponent resolves Kernel
+
+@enduml
