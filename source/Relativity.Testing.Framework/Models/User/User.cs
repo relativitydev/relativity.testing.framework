@@ -194,22 +194,34 @@ namespace Relativity.Testing.Framework.Models
 		public User FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(FirstName))
+			{
 				FirstName = Randomizer.GetString();
+			}
 
 			if (string.IsNullOrWhiteSpace(LastName))
+			{
 				LastName = Randomizer.GetString("AT_");
+			}
 
 			if (string.IsNullOrWhiteSpace(EmailAddress))
+			{
 				EmailAddress = Randomizer.GetEmailAddress();
+			}
 
 			if (string.IsNullOrWhiteSpace(Password))
+			{
 				Password = Randomizer.GetPassword();
+			}
 
 			if (DefaultSelectedFileType == UserDefaultSelectedFileType.Default)
+			{
 				DefaultSelectedFileType = UserDefaultSelectedFileType.Viewer;
+			}
 
 			if (Groups == null || !Groups.Any())
+			{
 				Groups = new List<Artifact> { new Artifact { ArtifactID = EveryoneGroupID } };
+			}
 
 			return this;
 		}
