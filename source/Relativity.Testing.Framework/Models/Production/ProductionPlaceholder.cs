@@ -31,10 +31,14 @@ namespace Relativity.Testing.Framework.Models
 		public ProductionPlaceholder FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (PlaceholderType == PlaceholderType.Custom && string.IsNullOrWhiteSpace(CustomText))
+			{
 				CustomText = "Custom Placeholder Text";
+			}
 
 			return this;
 		}

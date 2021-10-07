@@ -68,7 +68,9 @@ namespace Relativity.Testing.Framework.Models
 				if (items != null)
 				{
 					foreach (var item in items.Where(x => names.Contains(x.Name)))
+					{
 						item.Selected = selected;
+					}
 				}
 			});
 		}
@@ -105,7 +107,9 @@ namespace Relativity.Testing.Framework.Models
 				if (items != null)
 				{
 					foreach (var item in items)
+					{
 						item.Selected = selected;
+					}
 				}
 			});
 		}

@@ -25,9 +25,13 @@ namespace Relativity.Testing.Framework.Configuration
 			IConfigurationSection section = ConfigurationRoot.GetSection(key);
 
 			if (section.Exists())
+			{
 				return section.Get<T>();
+			}
 			else
+			{
 				throw new ConfigurationKeyNotFoundException(key);
+			}
 		}
 
 		public string GetValue(string key)
