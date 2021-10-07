@@ -1,4 +1,4 @@
-@startuml Relativity.Testing.Framework Interceptors Sequence Diagram
+@startuml Relativity.Testing.Framework CoreComponent Sequence Diagram
 
 box "Relativity.Testing.Framework" #LightGreen
 participant "RelativityFacade"
