@@ -11,8 +11,8 @@ participant "WindsorContainer"
 end box
 
 "TestCode" -> "CoreComponent" : Test Code calls to resolve an interface of the CoreComponent
-"CoreComponent" -> "WindsorContainer" : CoreComponent requests container of the class that implements the interface
-"WindsorContainer" -> "RelativityFacade" : WindsorContainer returns implementation 
-"TestCode" <- "RelativityFacade" : CoreComponent reutnrs implementation to caller. 
+"RelativityFacade" -> "WindsorContainer" : CoreComponent requests container of the class that implements the interface
+"WindsorContainer" -> "RelativityFacade" : WindsorContainer returns implementation to the RelativityFacade
+"TestCode" <- "RelativityFacade" : RelativityFacade returns implementation to caller. 
 
 @enduml
