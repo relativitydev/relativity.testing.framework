@@ -95,7 +95,7 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the option for resetting the page height for a spreadsheet.
 		/// </summary>
 		/// <remarks>
-		/// 		Corresponds to the Fit to ___ pages tall option under the Spreadsheet Options tab.
+		/// Corresponds to the Fit to ___ pages tall option under the Spreadsheet Options tab.
 		/// </remarks>
 		public int? FitToPagesTall { get; set; }
 
@@ -103,7 +103,7 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the options for formatting a spreadsheet, such as auto-fit rows and columns, and clearing empty rows and columns.
 		/// </summary>
 		/// <remarks>
-		/// 		ImagingSpreadsheetFormatting options under the Spreadsheet Options tab.
+		/// ImagingSpreadsheetFormatting options under the Spreadsheet Options tab.
 		/// </remarks>
 		public HashSet<ImagingSpreadsheetFormatting> Formatting { get; set; }
 
@@ -111,7 +111,7 @@ namespace Relativity.Testing.Framework.Models
 		/// Gets or sets the options for text visibility by controlling background and font color.
 		/// </summary>
 		/// <remarks>
-		/// 		Corresponds to the Text Visibility option under the Spreadsheet Options tab.
+		/// Corresponds to the Text Visibility option under the Spreadsheet Options tab.
 		/// </remarks>
 		public HashSet<ImagingSpreadsheetTextVisibility> TextVisibility { get; set; }
 	}
