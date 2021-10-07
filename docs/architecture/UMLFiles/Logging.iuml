@@ -1,16 +1,18 @@
 @startuml Relativity.Testing.Framework Logging Sequence Diagram
 
 box "Relativity.Testing.Framework" #LightGreen
-participant "RelativityFacade"
 participant "CoreComponent"
 end box
 
 box "Windsor" #LightBlue
-participant "Container"
+participant "LoggingService"
 end box
 
-"RelativityFacade" -> "CoreComponent" : RelativityFacade relies on CoreComponent
-"CoreComponent" -> "CoreComponent" : CoreComponent creates ConfigurationService and LogService to be registered
-"CoreComponent" -> "Container" : CoreComponent registers services
+box "Log Files" #LightYellow
+participant "Log File"
+end box
+
+"CoreComponent" -> "LoggingService" : CoreComponent registers LoggingService
+"LoggingService" -> "Log File" : LoggingService writes to Log File
 
 @enduml
