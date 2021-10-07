@@ -13,6 +13,6 @@ end box
 "TestCode" -> "CoreComponent" : Test Code calls to resolve an interface of the CoreComponent
 "CoreComponent" -> "WindsorContainer" : CoreComponent requests container of the class that implements the interface
 "WindsorContainer" -> "CoreComponent" : WindsorContainer returns implementation 
-"CoreComponent" -> "TestCode" : CoreComponent reutnrs implementation to caller. 
+"TestCode" <- "CoreComponent" : CoreComponent reutnrs implementation to caller. 
 
 @enduml
