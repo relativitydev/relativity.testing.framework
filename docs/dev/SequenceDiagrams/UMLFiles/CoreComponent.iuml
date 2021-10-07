@@ -1,16 +1,19 @@
 @startuml Relativity.Testing.Framework CoreComponent Sequence Diagram
 
+box "Code using Relativity.Testing.Framework"
+participant "Test Code"
+end box
+
 box "Relativity.Testing.Framework" #LightGreen
 participant "RelativityFacade"
 participant "CoreComponent"
+participant "WindsorContainer"
 end box
 
-box "Windsor" #LightBlue
-participant "Container"
-end box
-
+"Test Code" -> "RelativityFacade" : Test Code calls RelativityFacade
+"RelativityFacade" -> "WindsorContainer" : RelativityFacade lazy loads the WindsorContainer
 "RelativityFacade" -> "CoreComponent" : RelativityFacade relies on CoreComponent
 "CoreComponent" -> "CoreComponent" : CoreComponent creates ConfigurationService and LogService to be registered
-"CoreComponent" -> "Container" : CoreComponent registers services
+"CoreComponent" -> "WindsorContainer" : CoreComponent registers services
 
 @enduml

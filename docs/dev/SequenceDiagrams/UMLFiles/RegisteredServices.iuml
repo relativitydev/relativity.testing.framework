@@ -1,0 +1,18 @@
+@startuml Relativity.Testing.Framework RegisteredServices Sequence Diagram
+
+box "Code using Relativity.Testing.Framework"
+participant "Test Code"
+end box
+
+box "Relativity.Testing.Framework" #LightGreen
+participant "RelativityFacade"
+participant "CoreComponent"
+participant "WindsorContainer"
+end box
+
+"Test Code" -> "CoreComponent" : Test Code calls to resolve an interface of the CoreComponent
+"CoreComponent" -> "WindsorContainer" : CoreComponent requests container of the class that implements the interface
+"WindsorContainer" -> "CoreComponent" : WindsorContainer returns implementation 
+"CoreComponent" -> "TestCode" : CoreComponent reutnrs implementation to caller. 
+
+@enduml
