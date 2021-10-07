@@ -6,13 +6,13 @@
 	public class FolderAccessStatus
 	{
 		/// <summary>
-		/// Gets or sets a value indicating whether folder exists.
+		/// Gets a value indicating whether folder exists.
 		/// </summary>
-		public bool Exists { get; set; }
+		public bool Exists { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets a value indicating whether the user has view access to the folder.
+		/// Gets a value indicating whether the user has view access to the folder.
 		/// </summary>
-		public bool CanView { get; set; }
+		public bool CanView { get; internal set; }
 	}
 }

@@ -14,38 +14,38 @@ namespace Relativity.Testing.Framework.Models.Folder
 		public NamedArtifact ParentFolder { get; set; }
 
 		/// <summary>
-		/// Gets or sets a value indicating whether access control list is inhetited.
+		/// Gets a value indicating whether access control list is inhetited.
 		/// </summary>
-		public bool AccessControlListIsInherited { get; set; }
+		public bool AccessControlListIsInherited { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets a value indicating whether folder has children (subfolders).
+		/// Gets a value indicating whether folder has children (subfolders).
 		/// </summary>
-		public bool HasChildren { get; set; }
+		public bool HasChildren { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets a value indicating whether the folder is selected.
+		/// Gets a value indicating whether the folder is selected.
 		/// </summary>
-		public bool Selected { get; set; }
+		public bool Selected { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets the folder Permissions.
+		/// Gets the folder Permissions.
 		/// </summary>
-		public FolderPermission Permissions { get; set; }
+		public FolderPermission Permissions { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets folder chidren (subfolders).
+		/// Gets folder chidren (subfolders).
 		/// </summary>
-		public List<Folder> Children { get; set; }
+		public List<Folder> Children { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets the date time of folder creation.
+		/// Gets the date time of folder creation.
 		/// </summary>
-		public DateTime SystemCreatedOn { get; set; }
+		public DateTime SystemCreatedOn { get; internal set; }
 
 		/// <summary>
-		/// Gets or sets the date time of folder last modification.
+		/// Gets the date time of folder last modification.
 		/// </summary>
-		public DateTime SystemLastModifiedOn { get; set; }
+		public DateTime SystemLastModifiedOn { get; internal set; }
 	}
 }
