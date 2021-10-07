@@ -49,10 +49,14 @@ namespace Relativity.Testing.Framework.Models
 		public Matter FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (string.IsNullOrWhiteSpace(Number))
+			{
 				Number = Randomizer.GetString();
+			}
 
 			return this;
 		}

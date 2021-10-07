@@ -49,10 +49,14 @@ namespace Relativity.Testing.Framework.Models
 		public Choice FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (Color == ChoiceColor.Default)
+			{
 				Color = ChoiceColor.Green;
+			}
 
 			return this;
 		}

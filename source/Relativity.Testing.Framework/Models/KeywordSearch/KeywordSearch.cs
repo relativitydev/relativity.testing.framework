@@ -116,7 +116,9 @@ namespace Relativity.Testing.Framework.Models
 		public KeywordSearch FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			return this;
 		}

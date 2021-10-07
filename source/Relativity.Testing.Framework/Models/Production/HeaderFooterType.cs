@@ -41,8 +41,8 @@
 		AdvancedFormatting = 6,
 
 		/// <summary>
-        /// Someone made a different choice in the environment, and we're not able to map it back to an enum.
-        /// </summary>
+		/// Someone made a different choice in the environment, and we're not able to map it back to an enum.
+		/// </summary>
 		Unknown
 	}
 }

@@ -27,7 +27,9 @@ namespace Relativity.Testing.Framework.Extensions
 		public static MemberInfo ExtractMember(this Expression expression)
 		{
 			if (expression == null)
+			{
 				throw new ArgumentNullException(nameof(expression));
+			}
 
 			if (expression is LambdaExpression lambdaExpression)
 			{

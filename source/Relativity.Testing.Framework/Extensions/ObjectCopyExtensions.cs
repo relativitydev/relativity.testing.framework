@@ -36,18 +36,26 @@ namespace Relativity.Testing.Framework.Extensions
 		private static object DoCopy(object originalObject, IDictionary<object, object> visited)
 		{
 			if (originalObject == null)
+			{
 				return null;
+			}
 
 			var typeToReflect = originalObject.GetType();
 
 			if (IsPrimitive(typeToReflect))
+			{
 				return originalObject;
+			}
 
 			if (visited.ContainsKey(originalObject))
+			{
 				return visited[originalObject];
+			}
 
 			if (typeof(Delegate).IsAssignableFrom(typeToReflect))
+			{
 				return originalObject;
+			}
 
 			object clonedObject = _cloneMethod.Invoke(originalObject, null);
 
@@ -133,7 +141,9 @@ namespace Relativity.Testing.Framework.Extensions
 				_maxLengths = new int[array.Rank];
 
 				for (int i = 0; i < array.Rank; ++i)
+				{
 					_maxLengths[i] = array.GetLength(i) - 1;
+				}
 
 				Position = new int[array.Rank];
 			}
@@ -149,7 +159,9 @@ namespace Relativity.Testing.Framework.Extensions
 						Position[i]++;
 
 						for (int j = 0; j < i; j++)
+						{
 							Position[j] = 0;
+						}
 
 						return true;
 					}

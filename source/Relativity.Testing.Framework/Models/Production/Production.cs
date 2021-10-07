@@ -78,7 +78,9 @@ namespace Relativity.Testing.Framework.Models
 		public Production FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (DataSources.IsNullOrEmpty())
 			{
