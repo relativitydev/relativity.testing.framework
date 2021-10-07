@@ -1,4 +1,4 @@
-﻿namespace Relativity.Testing.Framework.Models.Folder
+﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the Folder access status.

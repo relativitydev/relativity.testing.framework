@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Relativity.Testing.Framework.Models.Folder
+namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
 	/// Represents the Relativity Folder object.
