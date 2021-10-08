@@ -14,6 +14,5 @@ end box
 "TestCode" -> "RelativityFacade" : TestCode requests RelativityFacade to register CoreComponent
 "CoreComponent" -> "CoreComponent" : CoreComponent creates ConfigurationService and LogService to be registered
 "CoreComponent" -> "WindsorContainer" : CoreComponent registers services
-"RelativityFacade" -> "WindsorContainer" : RelativityFacade registers CoreComponent
 
 @enduml
