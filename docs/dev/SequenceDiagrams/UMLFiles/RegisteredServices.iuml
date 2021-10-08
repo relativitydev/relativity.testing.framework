@@ -1,0 +1,17 @@
+@startuml Relativity.Testing.Framework RegisteredServices Sequence Diagram
+
+box "Code using Relativity.Testing.Framework" #LightYellow
+participant "TestCode"
+end box
+
+box "Relativity.Testing.Framework" #Orange
+participant "RelativityFacade"
+participant "WindsorContainer"
+end box
+
+"TestCode" -> "RelativityFacade" : TestCode calls RelativityFacade to resolve an interface
+"RelativityFacade" -> "WindsorContainer" : RelativityFacade requests implementation from WindsorContainer
+"WindsorContainer" -> "RelativityFacade" : WindsorContainer returns implementation to RelativityFacade
+"RelativityFacade" -> "TestCode" : RelativityFacade returns implementation to TestCode
+
+@enduml
