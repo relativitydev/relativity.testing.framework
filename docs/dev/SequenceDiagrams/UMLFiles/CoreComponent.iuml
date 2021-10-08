@@ -10,10 +10,10 @@ participant "CoreComponent"
 participant "WindsorContainer"
 end box
 
-"TestCode" -> "RelativityFacade" : Test Code calls RelativityFacade
 "RelativityFacade" -> "WindsorContainer" : RelativityFacade lazy loads the WindsorContainer
-"RelativityFacade" -> "CoreComponent" : RelativityFacade relies on CoreComponent
+"TestCode" -> "RelativityFacade" : Test Code requests RelativityFacade to register CoreComponent
 "CoreComponent" -> "CoreComponent" : CoreComponent creates ConfigurationService and LogService to be registered
 "CoreComponent" -> "WindsorContainer" : CoreComponent registers services
+"RelativityFacade" -> "WindsorContainer" : RelativityFacade registers CoreComponent
 
 @enduml
