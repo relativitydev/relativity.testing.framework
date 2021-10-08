@@ -9,6 +9,6 @@ participant "RelativityFacade"
 end box
 
 "TestCode" -> "RelativityFacade" : TestCode calls RelativityFacade to resolve an interface
-"TestCode" <- "RelativityFacade" : RelativityFacade returns implementation to TestCode
+"TestCode" <- "RelativityFacade" : RelativityFacade returns implementation to TestCode from the WindsorContainer
 
 @enduml
