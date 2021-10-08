@@ -11,7 +11,7 @@ end box
 
 "TestCode" -> "RelativityFacade" : TestCode calls RelativityFacade to resolve an interface
 "RelativityFacade" -> "WindsorContainer" : RelativityFacade requests implementation from WindsorContainer
-"WindsorContainer" -> "RelativityFacade" : WindsorContainer reutnrs implementation to RelativityFacade
+"WindsorContainer" -> "RelativityFacade" : WindsorContainer returns implementation to RelativityFacade
 "RelativityFacade" -> "TestCode" : RelativityFacade returns implementation to TestCode
 
 @enduml
