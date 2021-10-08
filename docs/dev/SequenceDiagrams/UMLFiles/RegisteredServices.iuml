@@ -6,9 +6,12 @@ end box
 
 box "Relativity.Testing.Framework" #Orange
 participant "RelativityFacade"
+participant "WindsorContainer"
 end box
 
 "TestCode" -> "RelativityFacade" : TestCode calls RelativityFacade to resolve an interface
-"TestCode" <- "RelativityFacade" : RelativityFacade returns implementation to TestCode from the WindsorContainer
+"RelativityFacade" -> "WindsorContainer" : RelativityFacade requests implementation from WindsorContainer
+"WindsorContainer" -> "RelativityFacade" : WindsorContainer reutnrs implementation to RelativityFacade
+"RelativityFacade" -> "TestCode" : RelativityFacade returns implementation to TestCode
 
 @enduml
