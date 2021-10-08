@@ -48,7 +48,9 @@ namespace Relativity.Testing.Framework.Models
 		public Group FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			return this;
 		}

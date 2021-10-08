@@ -32,10 +32,14 @@
 		public Client FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (string.IsNullOrWhiteSpace(Number))
+			{
 				Number = Randomizer.GetString();
+			}
 
 			return this;
 		}

@@ -93,7 +93,9 @@ namespace Relativity.Testing.Framework
 		IRelativityFacade IRelativityFacade.RelyOn<T>(T component)
 		{
 			if (component is null)
+			{
 				throw new ArgumentNullException(nameof(component));
+			}
 
 			RelyOn<T>(component);
 
@@ -253,7 +255,9 @@ namespace Relativity.Testing.Framework
 					FlushApplicationInsights();
 
 					foreach (IRelativityComponent component in _reliantComponents)
+					{
 						ReleaseComponent(component);
+					}
 
 					WindsorContainer.Dispose();
 				}

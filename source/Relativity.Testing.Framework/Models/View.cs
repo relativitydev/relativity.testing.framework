@@ -126,16 +126,24 @@ namespace Relativity.Testing.Framework.Models
 		public View FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (ArtifactTypeId == 0)
+			{
 				ArtifactTypeId = 10;
+			}
 
 			if (ObjectType == null)
+			{
 				ObjectType = new NamedArtifact { Name = "Document" };
+			}
 
 			if (Order == 0)
+			{
 				Order = Randomizer.GetInt(101, 99999);
+			}
 
 			return this;
 		}

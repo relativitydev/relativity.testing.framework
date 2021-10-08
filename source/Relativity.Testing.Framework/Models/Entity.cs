@@ -42,13 +42,19 @@ namespace Relativity.Testing.Framework.Models
 		public Entity FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(FirstName))
+			{
 				FirstName = Randomizer.GetString("FN_");
+			}
 
 			if (string.IsNullOrWhiteSpace(LastName))
+			{
 				LastName = Randomizer.GetString("LN_");
+			}
 
 			if (string.IsNullOrWhiteSpace(FullName))
+			{
 				FullName = $"{FirstName}, {LastName}";
+			}
 
 			return this;
 		}

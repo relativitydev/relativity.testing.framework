@@ -55,13 +55,19 @@ namespace Relativity.Testing.Framework.Models
 		public SearchProvider FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))
+			{
 				Name = Randomizer.GetString("AT_");
+			}
 
 			if (string.IsNullOrWhiteSpace(DLL))
+			{
 				DLL = "kCura.EDDS.dtSearchProvider.dll";
+			}
 
 			if (string.IsNullOrWhiteSpace(Parameters))
+			{
 				Parameters = string.Empty;
+			}
 
 			return this;
 		}
