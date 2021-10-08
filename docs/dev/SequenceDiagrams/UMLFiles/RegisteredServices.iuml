@@ -1,10 +1,10 @@
 @startuml Relativity.Testing.Framework RegisteredServices Sequence Diagram
 
-box "Code using Relativity.Testing.Framework"
+box "Code using Relativity.Testing.Framework" #LightYellow
 participant "TestCode"
 end box
 
-box "Relativity.Testing.Framework" #LightGreen
+box "Relativity.Testing.Framework" #Orange
 participant "RelativityFacade"
 end box
 
