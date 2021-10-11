@@ -22,7 +22,12 @@ namespace Relativity.Testing.Framework.Extensions
 			}
 		}
 
-		internal static string ToFullName(this SqlFullTextLanguage value)
+		/// <summary>
+		/// Gets the string format of the language name.
+		/// </summary>
+		/// <param name="value">The SqlFullTextLanguage requested.</param>
+		/// <returns>The string format of the language name.</returns>
+		public static string ToFullName(this SqlFullTextLanguage value)
 		{
 			FieldInfo field = value.GetType().GetField(value.ToString());
 			DescriptionAttribute attribute = Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute)) as DescriptionAttribute;
