@@ -8,16 +8,16 @@
 		/// <summary>
 		/// Gets or sets Left footer on a produced page.
 		/// </summary>
-		public HeaderFooter LeftFooter { get; set; }
+		public ProductionHeaderFooter LeftFooter { get; set; }
 
 		/// <summary>
 		/// Gets or sets right footer on a produced page.
 		/// </summary>
-		public HeaderFooter RightFooter { get; set; }
+		public ProductionHeaderFooter RightFooter { get; set; }
 
 		/// <summary>
 		/// Gets or sets center footer on a produced page.
 		/// </summary>
-		public HeaderFooter CenterFooter { get; set; }
+		public ProductionHeaderFooter CenterFooter { get; set; }
 	}
 }

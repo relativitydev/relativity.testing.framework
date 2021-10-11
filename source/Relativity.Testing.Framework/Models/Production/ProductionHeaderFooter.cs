@@ -3,7 +3,7 @@
 	/// <summary>
 	/// Represents the information on the headers and footers of produced pages.
 	/// </summary>
-	public class HeaderFooter
+	public class ProductionHeaderFooter
 	{
 		/// <summary>
 		/// Gets or sets the header/footer type.

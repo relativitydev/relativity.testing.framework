@@ -3,6 +3,9 @@
   "settings": {
     "indentation": {
       "useTabs": true
+    },
+    "documentationRules": {
+      "fileNamingConvention": "metadata"
     }
   }
 }

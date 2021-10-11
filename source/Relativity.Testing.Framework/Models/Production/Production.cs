@@ -112,7 +112,7 @@ namespace Relativity.Testing.Framework.Models
 
 			Headers = new ProductionHeaders
 			{
-				LeftHeader = new HeaderFooter
+				LeftHeader = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
@@ -120,7 +120,7 @@ namespace Relativity.Testing.Framework.Models
 					FriendlyName = "Left Header",
 					AdvancedFormatting = string.Empty
 				},
-				CenterHeader = new HeaderFooter
+				CenterHeader = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
@@ -128,7 +128,7 @@ namespace Relativity.Testing.Framework.Models
 					FriendlyName = "Center Header",
 					AdvancedFormatting = string.Empty
 				},
-				RightHeader = new HeaderFooter
+				RightHeader = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
@@ -140,7 +140,7 @@ namespace Relativity.Testing.Framework.Models
 
 			Footers = new ProductionFooters
 			{
-				LeftFooter = new HeaderFooter
+				LeftFooter = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
@@ -148,7 +148,7 @@ namespace Relativity.Testing.Framework.Models
 					FriendlyName = "Left Footer",
 					AdvancedFormatting = string.Empty
 				},
-				CenterFooter = new HeaderFooter
+				CenterFooter = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
@@ -156,7 +156,7 @@ namespace Relativity.Testing.Framework.Models
 					FriendlyName = "Center Footer",
 					AdvancedFormatting = string.Empty
 				},
-				RightFooter = new HeaderFooter
+				RightFooter = new ProductionHeaderFooter
 				{
 					Type = HeaderFooterType.None,
 					Field = new NamedArtifact { Name = string.Empty },
