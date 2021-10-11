@@ -5,10 +5,29 @@
 	/// </summary>
 	public enum HasImagesStatus
 	{
+		/// <summary>
+		/// Unknown status
+		/// </summary>
 		Unknown,
+
+		/// <summary>
+		/// Yes status
+		/// </summary>
 		Yes,
+
+		/// <summary>
+		/// No status
+		/// </summary>
 		No,
+
+		/// <summary>
+		/// Pending status
+		/// </summary>
 		Pending,
+
+		/// <summary>
+		/// Error status
+		/// </summary>
 		Error
 	}
 }

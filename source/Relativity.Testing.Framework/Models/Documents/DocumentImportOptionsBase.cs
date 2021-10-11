@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Options for Document Importing.
+	/// </summary>
 	public class DocumentImportOptionsBase
 	{
 		/// <summary>

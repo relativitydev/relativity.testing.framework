@@ -4,6 +4,9 @@ using Relativity.Testing.Framework.Models;
 
 namespace Relativity.Testing.Framework.Extensions
 {
+	/// <summary>
+	/// Extension of FieldTypes.
+	/// </summary>
 	public static class FieldExtensions
 	{
 		private static Dictionary<FieldType, FieldDisplayType> _fieldDisplayTypeMap = new Dictionary<FieldType, FieldDisplayType>
@@ -23,6 +26,11 @@ namespace Relativity.Testing.Framework.Extensions
 			{ FieldType.MultipleObject, FieldDisplayType.ObjectsPicker },
 		};
 
+		/// <summary>
+		/// Converts a Field into a CategoryField.
+		/// </summary>
+		/// <param name="field">A field object.</param>
+		/// <returns>A converted CategoryField object.</returns>
 		public static CategoryField ToCategoryField(this Field field)
 		{
 			if (field == null)

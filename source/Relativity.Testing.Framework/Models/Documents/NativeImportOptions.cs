@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Options for importing Natives.
+	/// </summary>
 	public class NativeImportOptions : DocumentImportOptionsBase
 	{
 		/// <summary>

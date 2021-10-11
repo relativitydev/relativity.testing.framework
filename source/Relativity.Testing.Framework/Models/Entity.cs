@@ -37,8 +37,15 @@ namespace Relativity.Testing.Framework.Models
 		/// </summary>
 		public List<NamedArtifact> Classification { get; set; }
 
+		/// <summary>
+		/// Gets or sets notes.
+		/// </summary>
 		public string Notes { get; set; } = string.Empty;
 
+		/// <summary>
+		/// Fills the required properties for the entity.
+		/// </summary>
+		/// <returns>The filled <see cref="Entity"/>.</returns>
 		public Entity FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(FirstName))

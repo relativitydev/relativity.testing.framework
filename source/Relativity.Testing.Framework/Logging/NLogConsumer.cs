@@ -6,7 +6,7 @@ using NLog.Targets;
 
 namespace Relativity.Testing.Framework.Logging
 {
-	public class NLogConsumer : ILogConsumer, IDisposable
+	internal class NLogConsumer : ILogConsumer, IDisposable
 	{
 		private bool _isDisposed;
 

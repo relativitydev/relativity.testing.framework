@@ -2,8 +2,14 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// The language options for Sql.
+	/// </summary>
 	public enum SqlFullTextLanguage
 	{
+		/// <summary>
+		/// Neutral language
+		/// </summary>
 		Neutral = 0,
 		Arabic = 1025,
 

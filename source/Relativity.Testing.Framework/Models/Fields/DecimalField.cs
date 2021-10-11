@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// The DecimalField representation.
+	/// </summary>
 	public class DecimalField : Field
 	{
 		/// <summary>

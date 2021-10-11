@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// The FieldPaneIcon representation.
+	/// </summary>
 	public class FieldPaneIcon
 	{
 		/// <summary>
