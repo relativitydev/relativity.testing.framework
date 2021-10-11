@@ -29,7 +29,7 @@ namespace Relativity.Testing.Framework.Models
 		public string FileData { get; set; }
 
 		/// <summary>
-		/// Fills the name and the PlaceHolderType if it's custom set.
+		/// Fills the Name and the CustomText if the PlaceholderType is set to custom and is null.
 		/// </summary>
 		/// <returns>A filled <see cref="ProductionPlaceholder"/>.</returns>
 		public ProductionPlaceholder FillRequiredProperties()

@@ -43,7 +43,7 @@ namespace Relativity.Testing.Framework.Models
 		public string Notes { get; set; } = string.Empty;
 
 		/// <summary>
-		/// Fills the FirstName on the Entity if missing.
+		/// Fills the FirstName, LastName, ad FullName on the Entity if missing.
 		/// </summary>
 		/// <returns>A filled <see cref="Entity"/>.</returns>
 		public Entity FillRequiredProperties()

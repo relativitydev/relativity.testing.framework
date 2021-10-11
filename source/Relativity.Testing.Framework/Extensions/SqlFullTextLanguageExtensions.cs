@@ -7,7 +7,7 @@ using Relativity.Testing.Framework.Models;
 namespace Relativity.Testing.Framework.Extensions
 {
 	/// <summary>
-	/// The representation of SqlFullTextLanguage extensions.
+	/// SqlFullTextLanguage extension functions.
 	/// </summary>
 	public static class SqlFullTextLanguageExtensions
 	{

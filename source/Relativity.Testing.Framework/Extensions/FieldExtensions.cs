@@ -5,7 +5,7 @@ using Relativity.Testing.Framework.Models;
 namespace Relativity.Testing.Framework.Extensions
 {
 	/// <summary>
-	/// The representation of Field extensions.
+	/// Field extension functions.
 	/// </summary>
 	public static class FieldExtensions
 	{

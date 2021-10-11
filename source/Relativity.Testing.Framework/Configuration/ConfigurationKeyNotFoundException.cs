@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Relativity.Testing.Framework.Configuration
 {
 	/// <summary>
-	/// Represents error when  configuration key is missing.
+	/// Represents error when configuration key is missing.
 	/// </summary>
 	[Serializable]
 	public class ConfigurationKeyNotFoundException : Exception
