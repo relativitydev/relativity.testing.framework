@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the FixedLength field object.
+	/// </summary>
 	public class FixedLengthTextField : Field
 	{
 		/// <summary>

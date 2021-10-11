@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the Currency field object.
+	/// </summary>
 	public class CurrencyField : Field
 	{
 		/// <summary>

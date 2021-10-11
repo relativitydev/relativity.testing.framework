@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// The possible languages supported by Sql.
+	/// </summary>
 	public enum SqlFullTextLanguage
 	{
 		Neutral = 0,

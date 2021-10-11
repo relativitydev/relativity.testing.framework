@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the MultipleChoice field object.
+	/// </summary>
 	public class MultipleChoiceField : Field
 	{
 		/// <summary>

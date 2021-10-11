@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Possible Document Overwrite options.
+	/// </summary>
 	public enum DocumentOverwriteMode
 	{
 		Append = 0,

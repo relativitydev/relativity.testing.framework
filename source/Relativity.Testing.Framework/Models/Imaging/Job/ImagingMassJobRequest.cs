@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the Mass Imaging job request.
+	/// </summary>
 	public class ImagingMassJobRequest
 	{
 		/// <summary>

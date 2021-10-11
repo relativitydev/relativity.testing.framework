@@ -21,6 +21,7 @@ namespace Relativity.Testing.Framework.Logging
 		/// </summary>
 		public string TimestampFormat { get; set; } = "yyyy-MM-dd HH:mm:ss.ffff";
 
+		/// <inheritdoc/>
 		void ILogConsumer.Initialize(string logPath)
 		{
 			// Nothing to initialize here.

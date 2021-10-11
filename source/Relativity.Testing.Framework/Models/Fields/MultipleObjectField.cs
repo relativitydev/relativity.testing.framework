@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the MultipleObject field object.
+	/// </summary>
 	public class MultipleObjectField : Field
 	{
 		/// <summary>

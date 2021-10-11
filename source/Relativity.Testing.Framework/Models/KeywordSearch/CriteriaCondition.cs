@@ -42,6 +42,9 @@
 		/// <value>The operator.</value>
 		public ConditionOperator Operator { get; set; }
 
+		/// <summary>
+		/// Gets or sets the ConditionType.
+		/// </summary>
 		public override string ConditionType { get; set; } = "Criteria";
 	}
 }

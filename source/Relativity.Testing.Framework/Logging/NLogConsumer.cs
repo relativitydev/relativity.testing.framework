@@ -6,12 +6,13 @@ using NLog.Targets;
 
 namespace Relativity.Testing.Framework.Logging
 {
-	public class NLogConsumer : ILogConsumer, IDisposable
+	internal class NLogConsumer : ILogConsumer, IDisposable
 	{
 		private bool _isDisposed;
 
 		private FileTarget _fileTarget;
 
+		/// <inheritdoc/>
 		public void Initialize(string logPath)
 		{
 			string filePath = Path.Combine(

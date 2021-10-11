@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the response of the Folder Move.
+	/// </summary>
 	public class FolderMoveResponse
 	{
 		/// <summary>

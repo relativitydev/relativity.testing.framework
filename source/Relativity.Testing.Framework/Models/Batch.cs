@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// A representation of a Relativity Batch used to manipulate documents.
+	/// </summary>
 	public class Batch : Artifact
 	{
 		/// <summary>

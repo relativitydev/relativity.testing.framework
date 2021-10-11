@@ -7,6 +7,9 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	public class Meta
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Meta"/> class.
+		/// </summary>
 		public Meta()
 		{
 			Unsupported = new List<string>();

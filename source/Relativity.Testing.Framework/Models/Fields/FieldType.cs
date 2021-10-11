@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the possible Field Types.
+	/// </summary>
 	public enum FieldType
 	{
 		Empty = -1,

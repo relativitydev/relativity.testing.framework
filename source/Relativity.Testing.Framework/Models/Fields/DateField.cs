@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the Date field object.
+	/// </summary>
 	public class DateField : Field
 	{
 		/// <summary>

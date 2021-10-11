@@ -7,6 +7,9 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	public class Agent : Artifact
 	{
+		/// <summary>
+		/// The default run interval.
+		/// </summary>
 		public const int RunIntervalDefault = 3600;
 
 		/// <summary>

@@ -9,10 +9,17 @@ namespace Relativity.Testing.Framework.Models
 	[Serializable]
 	public class Securable<T>
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Securable{T}"/> class.
+		/// </summary>
 		public Securable()
 		{
 		}
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Securable{T}"/> class.
+		/// </summary>
+		/// <param name="value">The value that may be secured.</param>
 		public Securable(T value)
 		{
 			Value = value;

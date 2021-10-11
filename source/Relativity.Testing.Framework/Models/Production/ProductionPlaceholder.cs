@@ -28,6 +28,10 @@ namespace Relativity.Testing.Framework.Models
 		/// </summary>
 		public string FileData { get; set; }
 
+		/// <summary>
+		/// Fills the name and the PlaceHolderType if it's custom set.
+		/// </summary>
+		/// <returns>A filled <see cref="ProductionPlaceholder"/>.</returns>
 		public ProductionPlaceholder FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))

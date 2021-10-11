@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the User field object.
+	/// </summary>
 	public class UserField : Field
 	{
 		/// <summary>

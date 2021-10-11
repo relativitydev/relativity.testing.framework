@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Possible Document Overlay options.
+	/// </summary>
 	public enum DocumentOverlayBehavior
 	{
 		UseRelativityDefaults = 0,

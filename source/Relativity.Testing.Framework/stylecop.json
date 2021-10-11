@@ -3,6 +3,21 @@
   "settings": {
     "indentation": {
       "useTabs": true
+    },
+    "documentationRules": {
+      "documentInternalElements": false
+    }, 
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class", 
+        "interface",
+        "struct",
+        "enum",
+        "delegate"
+      ]
     }
   }
 }

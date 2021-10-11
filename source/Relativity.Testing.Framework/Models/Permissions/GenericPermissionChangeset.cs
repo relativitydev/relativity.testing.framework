@@ -19,6 +19,11 @@ namespace Relativity.Testing.Framework.Models
 			_structureNames = structureNames;
 		}
 
+		/// <summary>
+		/// Updates the <see cref="GroupPermissionsChangeset"/>.
+		/// </summary>
+		/// <param name="name">The Name.</param>
+		/// <returns>An instance of <see cref="GroupPermissionsChangeset"/>.</returns>
 		public GenericPermissionChangeset this[string name] => new GenericPermissionChangeset(_parent, _structureNames.Concat(new[] { name }));
 
 		/// <summary>

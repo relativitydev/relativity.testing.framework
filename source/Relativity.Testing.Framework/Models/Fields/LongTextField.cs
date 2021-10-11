@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the LongText field object.
+	/// </summary>
 	public class LongTextField : Field
 	{
 		/// <summary>

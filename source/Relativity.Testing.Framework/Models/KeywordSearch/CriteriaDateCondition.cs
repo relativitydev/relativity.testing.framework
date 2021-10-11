@@ -52,6 +52,7 @@
 		/// <value>The value.</value>
 		public Month Month { get; set; }
 
+		/// <inheritdoc/>
 		public override string ConditionType { get; set; } = "CriteriaDate";
 	}
 }

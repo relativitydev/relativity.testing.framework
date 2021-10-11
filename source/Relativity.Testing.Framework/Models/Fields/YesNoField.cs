@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the YesNo field object.
+	/// </summary>
 	public class YesNoField : Field
 	{
 		/// <summary>

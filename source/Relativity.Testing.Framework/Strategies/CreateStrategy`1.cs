@@ -31,11 +31,19 @@ namespace Relativity.Testing.Framework.Strategies
 			return createdEntity;
 		}
 
+		/// <summary>
+		/// Fills the required properties of the entity.
+		/// </summary>
+		/// <param name="entity">The entity to be filled.</param>
 		protected static void FillRequiredProperties(T entity)
 		{
 			(entity as IFillsRequiredProperties<T>)?.FillRequiredProperties();
 		}
 
+		/// <summary>
+		/// Validates the entity.
+		/// </summary>
+		/// <param name="entity">The entity to be validated.</param>
 		protected static void ValidateEntity(T entity)
 		{
 			if (entity is null)

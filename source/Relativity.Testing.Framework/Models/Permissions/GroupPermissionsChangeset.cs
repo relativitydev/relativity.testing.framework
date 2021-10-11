@@ -84,6 +84,7 @@ namespace Relativity.Testing.Framework.Models
 			MassActionPermissions.Execute(permissions.MassActionPermissions);
 		}
 
+		/// <inheritdoc/>
 		object ICloneable.Clone() => Clone();
 
 		/// <summary>

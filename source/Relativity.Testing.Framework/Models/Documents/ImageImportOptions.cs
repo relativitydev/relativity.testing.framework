@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Options to set on Image imports.
+	/// </summary>
 	public class ImageImportOptions : DocumentImportOptionsBase
 	{
 		/// <summary>
