@@ -1,7 +1,7 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// Represents a Relativity BatchSet used to ogranize batches.
+	/// Represents a Relativity BatchSet used to organize batches.
 	/// </summary>
 	public class BatchSet : NamedArtifact
 	{
