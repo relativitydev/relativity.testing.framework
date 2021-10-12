@@ -3,7 +3,7 @@
 namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// A representation of a Relativity Batch used to split a static set of documents into multiple document sets based on criteria set by a system admin.
+	/// Represents a Relativity Batch.
 	/// </summary>
 	public class Batch : Artifact
 	{

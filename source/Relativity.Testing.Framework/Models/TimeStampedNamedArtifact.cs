@@ -3,7 +3,7 @@
 namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// The representation of a TimeStampedNamedArtifact.
+	/// Represents an Artifact with the Created and LastModified system fields.
 	/// </summary>
 	public class TimeStampedNamedArtifact : NamedArtifact
 	{

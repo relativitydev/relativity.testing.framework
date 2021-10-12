@@ -1,7 +1,7 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// The representation of the ProductionDataSource.
+	/// Represents a Production Data Source.
 	/// </summary>
 	public class ProductionDataSourceDefaultValues
 	{

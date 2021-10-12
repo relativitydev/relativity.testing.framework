@@ -3,7 +3,7 @@
 namespace Relativity.Testing.Framework.Models
 {
 	/// <summary>
-	/// The possible TabIconIdentifiers.
+	/// Defines the possible icon identifiers used when creating a tab.
 	/// </summary>
 	public enum TabIconIdentifier
 	{
