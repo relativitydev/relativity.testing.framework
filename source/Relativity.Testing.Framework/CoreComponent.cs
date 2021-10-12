@@ -53,7 +53,11 @@ namespace Relativity.Testing.Framework
 			container.Install(this);
 		}
 
-		/// <inheritdoc/>
+		/// <summary>
+		/// Installs the CoreComponent services and strategies into the passed in IWindsorContainer.
+		/// </summary>
+		/// <param name="container">The container to register the CoreComponent to.</param>
+		/// <param name="store">The configuration store.</param>
 		void IWindsorInstaller.Install(IWindsorContainer container, IConfigurationStore store)
 		{
 			IConfigurationRoot configurationRoot = ConfigurationRoot
