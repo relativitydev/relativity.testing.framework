@@ -6,6 +6,7 @@
     },
     "documentationRules": {
       "documentInternalElements": false
+      "fileNamingConvention": "metadata"
     }, 
     "layoutRules": {
       "newlineAtEndOfFile": "require"
