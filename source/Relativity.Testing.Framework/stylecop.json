@@ -5,7 +5,7 @@
       "useTabs": true
     },
     "documentationRules": {
-      "documentInternalElements": false
+      "documentInternalElements": false,
       "fileNamingConvention": "metadata"
     }, 
     "layoutRules": {
