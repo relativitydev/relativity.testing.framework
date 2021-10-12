@@ -6,6 +6,9 @@ using Relativity.Testing.Framework.Models;
 
 namespace Relativity.Testing.Framework.Extensions
 {
+	/// <summary>
+	/// SqlFullTextLanguage extension functions.
+	/// </summary>
 	public static class SqlFullTextLanguageExtensions
 	{
 		private static Dictionary<string, SqlFullTextLanguage> _sqlFullTextLanguageDescriptionMap;
@@ -19,6 +22,11 @@ namespace Relativity.Testing.Framework.Extensions
 			}
 		}
 
+		/// <summary>
+		/// Gets the string format of the language name.
+		/// </summary>
+		/// <param name="value">The SqlFullTextLanguage requested.</param>
+		/// <returns>The string format of the language name.</returns>
 		public static string ToFullName(this SqlFullTextLanguage value)
 		{
 			FieldInfo field = value.GetType().GetField(value.ToString());
@@ -26,6 +34,11 @@ namespace Relativity.Testing.Framework.Extensions
 			return attribute == null ? value.ToString() : attribute.Description;
 		}
 
+		/// <summary>
+		/// Gets the SqlFullTextLanguage from the language name.
+		/// </summary>
+		/// <param name="langName">The language name.</param>
+		/// <returns>A <see cref="SqlFullTextLanguage"/> with the language.</returns>
 		public static SqlFullTextLanguage FromFullName(string langName)
 		{
 			if (!_sqlFullTextLanguageDescriptionMap.ContainsKey(langName))

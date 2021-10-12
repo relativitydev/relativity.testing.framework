@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Defines the possible colors for choices.
+	/// </summary>
 	public enum ChoiceColor
 	{
 		Default,

@@ -2,10 +2,13 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents a Relativity Batch.
+	/// </summary>
 	public class Batch : Artifact
 	{
 		/// <summary>
-		/// Gets  the batch name.
+		/// Gets the batch name.
 		/// </summary>
 		[FieldName("Batch")]
 		[OnlyReadable]

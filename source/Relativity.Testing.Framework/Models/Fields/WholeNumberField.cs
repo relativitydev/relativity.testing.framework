@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the WholeNumber field object.
+	/// </summary>
 	public class WholeNumberField : Field
 	{
 		/// <summary>

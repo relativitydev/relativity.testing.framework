@@ -113,6 +113,10 @@ namespace Relativity.Testing.Framework.Models
 		/// </summary>
 		public NamedArtifact Dashboard { get; set; }
 
+		/// <summary>
+		/// Fills the Name on the KeywordSearch if its null.
+		/// </summary>
+		/// <returns>A filled <see cref="KeywordSearch"/>.</returns>
 		public KeywordSearch FillRequiredProperties()
 		{
 			if (string.IsNullOrWhiteSpace(Name))

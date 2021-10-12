@@ -45,15 +45,18 @@ namespace Relativity.Testing.Framework
 		/// </summary>
 		public static IRelativityFacade Instance => _lazyInstance.Value;
 
+		/// <inheritdoc/>
 		string IRelativityFacade.RelativityInstanceVersion => RelativityInstanceVersion;
 
 		private string RelativityInstanceVersion => ResolveRelativityInstanceVersion();
 
 		private IWindsorContainer WindsorContainer => _lazyContainer.Value;
 
+		/// <inheritdoc/>
 		IConfigurationService IRelativityFacade.Config =>
 			IsThereCoreComponent() ? WindsorContainer.Resolve<IConfigurationService>() : null;
 
+		/// <inheritdoc/>
 		ILogService IRelativityFacade.Log =>
 			IsThereCoreComponent() ? WindsorContainer.Resolve<ILogService>() : null;
 
@@ -82,6 +85,7 @@ namespace Relativity.Testing.Framework
 			return container;
 		}
 
+		/// <inheritdoc/>
 		IRelativityFacade IRelativityFacade.RelyOn<T>()
 		{
 			T component = new T();
@@ -90,6 +94,7 @@ namespace Relativity.Testing.Framework
 			return this;
 		}
 
+		/// <inheritdoc/>
 		IRelativityFacade IRelativityFacade.RelyOn<T>(T component)
 		{
 			if (component is null)
@@ -167,11 +172,13 @@ namespace Relativity.Testing.Framework
 			return true;
 		}
 
+		/// <inheritdoc/>
 		T IRelativityFacade.GetComponent<T>()
 		{
 			return WindsorContainer.Resolve<T>();
 		}
 
+		/// <inheritdoc/>
 		T IRelativityFacade.Resolve<T>()
 		{
 			Type type = typeof(T);
@@ -194,6 +201,7 @@ namespace Relativity.Testing.Framework
 			return strategyResolver.Resolve(strategies, RelativityInstanceVersion);
 		}
 
+		/// <inheritdoc/>
 		object IRelativityFacade.Resolve(Type service)
 		{
 			var strategies = WindsorContainer.ResolveAll(service);

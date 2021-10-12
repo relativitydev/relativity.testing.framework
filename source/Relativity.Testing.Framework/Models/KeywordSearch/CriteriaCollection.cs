@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the collection of criteria conditions.
+	/// </summary>
 	public class CriteriaCollection : BaseCriteria
 	{
 		/// <summary>

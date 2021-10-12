@@ -41,16 +41,23 @@ namespace Relativity.Testing.Framework
 			new LogConsumerRegistration(new NLogConsumer())
 		};
 
+		/// <inheritdoc/>
 		void IRelativityComponent.Ensure(IWindsorContainer container)
 		{
 			// There is nothing to ensure here.
 		}
 
+		/// <inheritdoc/>
 		void IRelativityComponent.Initialize(IWindsorContainer container)
 		{
 			container.Install(this);
 		}
 
+		/// <summary>
+		/// Installs the CoreComponent services and strategies into the passed in IWindsorContainer.
+		/// </summary>
+		/// <param name="container">The container to register the CoreComponent to.</param>
+		/// <param name="store">The configuration store.</param>
 		void IWindsorInstaller.Install(IWindsorContainer container, IConfigurationStore store)
 		{
 			IConfigurationRoot configurationRoot = ConfigurationRoot

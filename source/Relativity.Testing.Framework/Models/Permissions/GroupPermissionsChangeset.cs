@@ -84,6 +84,10 @@ namespace Relativity.Testing.Framework.Models
 			MassActionPermissions.Execute(permissions.MassActionPermissions);
 		}
 
+		/// <summary>
+		/// Creates a new object that is a copy of the current instance.
+		/// </summary>
+		/// <returns>A new object that is a copy of this instance.</returns>
 		object ICloneable.Clone() => Clone();
 
 		/// <summary>

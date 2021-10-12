@@ -7,6 +7,9 @@ namespace Relativity.Testing.Framework.Models
 	/// </summary>
 	public class HttpAction
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="HttpAction"/> class.
+		/// </summary>
 		public HttpAction()
 		{
 			Reason = new List<string>();

@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// The possible Resource types.
+	/// </summary>
 	public enum ResourceType
 	{
 		[ChoiceName("agent-worker-servers")]

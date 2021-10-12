@@ -5,7 +5,20 @@
       "useTabs": true
     },
     "documentationRules": {
+      "documentInternalElements": false,
       "fileNamingConvention": "metadata"
+    }, 
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class", 
+        "interface",
+        "struct",
+        "enum",
+        "delegate"
+      ]
     }
   }
 }

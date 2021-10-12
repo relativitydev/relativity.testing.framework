@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents a Relativity BatchSet used to organize batches.
+	/// </summary>
 	public class BatchSet : NamedArtifact
 	{
 		/// <summary>
@@ -37,10 +40,19 @@
 		/// </summary>
 		public AutoBatchSettings AutoBatchSettings { get; set; }
 
+		/// <summary>
+		/// Gets or sets the result for the Batch Process.
+		/// </summary>
 		public BatchProcessResult BatchProcessResult { get; set; }
 
+		/// <summary>
+		/// Gets or sets Keywords.
+		/// </summary>
 		public string Keywords { get; set; } = string.Empty;
 
+		/// <summary>
+		/// Gets or sets Notes.
+		/// </summary>
 		public string Notes { get; set; } = string.Empty;
 	}
 }

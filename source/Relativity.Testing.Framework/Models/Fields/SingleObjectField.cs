@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the SingleObject field object.
+	/// </summary>
 	public class SingleObjectField : Field
 	{
 		/// <summary>

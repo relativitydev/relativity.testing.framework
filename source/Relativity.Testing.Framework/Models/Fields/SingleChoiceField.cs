@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the SingleChoice field object.
+	/// </summary>
 	public class SingleChoiceField : Field
 	{
 		/// <summary>

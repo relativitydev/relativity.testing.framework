@@ -5,8 +5,14 @@
 	/// </summary>
 	public class BatchProcessResult
 	{
+		/// <summary>
+		/// Gets or sets the count.
+		/// </summary>
 		public int Count { get; set; }
 
+		/// <summary>
+		/// Gets or sets the action.
+		/// </summary>
 		public string Action { get; set; }
 	}
 }

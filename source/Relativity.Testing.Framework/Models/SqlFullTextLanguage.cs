@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Defines the possible SQLFullTextLanguage for a workspace.
+	/// </summary>
 	public enum SqlFullTextLanguage
 	{
 		Neutral = 0,

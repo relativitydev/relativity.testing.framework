@@ -1,5 +1,8 @@
 ﻿namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Defines the possible strategies for overlaying documents when doing an import.
+	/// </summary>
 	public enum DocumentOverlayBehavior
 	{
 		UseRelativityDefaults = 0,

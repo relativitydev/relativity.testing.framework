@@ -179,6 +179,9 @@ namespace Relativity.Testing.Framework.Models
 		/// </summary>
 		public DateTime? DisableOnDate { get; set; }
 
+		/// <summary>
+		/// Gets or sets the collection of groups the user belongs to.
+		/// </summary>
 		public List<Artifact> Groups { get; set; }
 
 		/// <summary>

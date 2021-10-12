@@ -2,6 +2,9 @@
 
 namespace Relativity.Testing.Framework.Models
 {
+	/// <summary>
+	/// Represents the properties to validate a field propagate request.
+	/// </summary>
 	public class FieldPropagate
 	{
 		/// <summary>

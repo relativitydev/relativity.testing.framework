@@ -9,26 +9,49 @@ namespace Relativity.Testing.Framework.Attributes
 	[AttributeUsage(AttributeTargets.Enum)]
 	public class ChoiceTypeAttribute : Attribute
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ChoiceTypeAttribute"/> class.
+		/// </summary>
+		/// <param name="choiceTypeId">The ArtifactId for the ChoiceType.</param>
 		public ChoiceTypeAttribute(int choiceTypeId)
 		{
 			ChoiceTypeId = choiceTypeId;
 		}
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ChoiceTypeAttribute"/> class.
+		/// </summary>
+		/// <param name="objectType">The object type.</param>
+		/// <param name="objectFieldName">The object field name.</param>
 		public ChoiceTypeAttribute(Type objectType, string objectFieldName)
 			: this(ObjectTypeNameResolver.Resolve(objectType), objectFieldName)
 		{
 		}
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="ChoiceTypeAttribute"/> class.
+		/// </summary>
+		/// <param name="objectTypeName">The object type.</param>
+		/// <param name="objectFieldName">The object field name.</param>
 		public ChoiceTypeAttribute(string objectTypeName, string objectFieldName)
 		{
 			ObjectTypeName = objectTypeName;
 			ObjectFieldName = objectFieldName;
 		}
 
+		/// <summary>
+		/// Gets the ChoiceTypeId.
+		/// </summary>
 		public int? ChoiceTypeId { get; }
 
+		/// <summary>
+		/// Gets the ObjectTypeName.
+		/// </summary>
 		public string ObjectTypeName { get; }
 
+		/// <summary>
+		/// Gets the ObjectFieldName.
+		/// </summary>
 		public string ObjectFieldName { get; }
 	}
 }
