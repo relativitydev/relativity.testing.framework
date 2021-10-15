@@ -1,0 +1,22 @@
+@startuml Relativity.Testing.Framework MappingService Sequence Diagram
+
+box "Relativity.Testing.Framework" #LightGreen
+participant "ObjectMappingService"
+end box
+
+box "Relativity.Testing.Framework.Api" #LightBlue
+participant "ObjectService"
+end box
+
+box "Relativity" #Orange
+participant "REST API Endpoint"
+end box
+
+"ObjectService" -> "REST API Endpoint" : Request to REST endpoint
+"REST API Endpoint" -> "ObjectService" : REST endpoint returns JSON result
+"ObjectService" -> "ObjectService" : The JSON result is coverted to a dictionary
+"ObjectService" -> "ObjectMappingService" : The dictionary and destination Model are given to the ObjectMappingService
+"ObjectMappingService" -> "ObjectMappingService" : KeyValuePairs are mapped to the passed in Model
+"ObjectMappingService" -> "ObjectService" : Filled out Model is given back to the ObjectService
+
+@enduml
