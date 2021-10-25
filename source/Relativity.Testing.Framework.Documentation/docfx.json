@@ -39,7 +39,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+	  "templates/relativity"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
