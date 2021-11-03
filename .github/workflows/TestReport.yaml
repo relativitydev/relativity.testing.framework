@@ -1,0 +1,16 @@
+name: 'Test Report'
+on:
+  workflow_run:
+    workflows: ['FeatureBranch', 'ReleaseBranch']
+    types:
+      - completed
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: dorny/test-reporter@v1.5.0
+      with:
+        artifact: Logs
+        name: Unit Tests
+        path: '*.TestResults.xml'
+        reporter: java-junit
