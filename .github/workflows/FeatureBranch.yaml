@@ -54,8 +54,8 @@ jobs:
       if: success() || failure()
       with:
         name: Unit Tests
-        path: 'Artifacts/Logs/*.TestResults.xml'
-        reporter: java-junit
+        path: 'Artifacts/Logs/*.TestResults.trx'
+        reporter: dotnet-trx
 
     - name: Package
       run: dotnet pack "${{ env.Solution }}" --configuration "${{ env.Configuration }}" --nologo --no-build --include-symbols
