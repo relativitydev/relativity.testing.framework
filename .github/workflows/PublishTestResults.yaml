@@ -1,7 +1,9 @@
 name: 'Test Report'
 on:
   workflow_run:
-    workflows: ['build']
+    workflows
+      - FeatureBranch
+      - ReleaseBranch
     types:
       - completed
 jobs:
