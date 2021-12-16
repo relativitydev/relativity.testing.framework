@@ -10,7 +10,7 @@ on:
   pull_request:
     branches:
       - '*'
-    
+
 jobs:
   build:
     runs-on: windows-latest
@@ -64,3 +64,33 @@ jobs:
       with:
         name: NuGetPackages
         path: Artifacts/NuGet/
+
+    - name: Get OTEL Token
+      id: GetOtelToken
+      env:
+        DirectoryId: ${{ secrets.DIRECTORYID }}
+        ClientId: ${{ secrets.CLIENTID }}
+        ClientSecret: ${{ secrets.CLIENTSECRET }}
+      run: |
+        accessToken=$(curl --request POST \
+          'https://login.microsoftonline.com/${{ env.DirectoryId }}/oauth2/v2.0/token' \
+          --header 'Content-Type: application/x-www-form-urlencoded' \
+          --data-urlencode 'grant_type=client_credentials' \
+          --data-urlencode 'client_id=${{ env.ClientId }}' \
+          --data-urlencode 'client_secret=${{ env.ClientSecret }}' \
+          --data-urlencode 'scope=https://vault.azure.net/.default' \
+          | jq '.access_token' | tr -d '"')
+
+        otelToken=$(curl --request GET \
+          'https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1' \
+          --header "Authorization: Bearer $accessToken" \
+          | jq '.value' | tr -d '"')
+
+        echo "::set-output name=OtelToken::$otelToken"
+
+    - name: SendBuildEvent
+      uses: ./.github/actions # Uses action.yml?
+      with:
+        otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
+        team-id: "PTCI-1599"
+        build-status: ${{ job.status }}
