@@ -89,7 +89,7 @@ jobs:
         echo "::set-output name=RELEYE_TOKEN::$otelToken"
 
     - name: Send Information
-      uses: ./ # Use an action from the root of the repo
+      uses: ./.github/workflows/DevOps # Use an action from a decidated repo folder?
       with:
         otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
         team-id: "PTCI-1599"
