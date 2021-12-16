@@ -136,7 +136,36 @@ jobs:
           -Headers @{ Authorization="Bearer $AccessToken" }).value
 
         $Package = (get-childitem ./Artifacts/NuGet).FullName
-        dotnet nuget push $Package -k $NuGetApiKey -s "https://api.nuget.org/v3/index.json" -n true --skip-duplicate 
+        dotnet nuget push $Package -k $NuGetApiKey -s "https://api.nuget.org/v3/index.json" -n true --skip-duplicate
+
+    - name: Get OTEL Token
+      id: GetOtelToken
+      env:
+        DirectoryId: ${{ secrets.DIRECTORYID }}
+        ClientId: ${{ secrets.CLIENTID }}
+        ClientSecret: ${{ secrets.CLIENTSECRET }}
+      run: |
+        accessToken=$(curl --request POST \
+          'https://login.microsoftonline.com/${{ env.DirectoryId }}/oauth2/v2.0/token' \
+          --header 'Content-Type: application/x-www-form-urlencoded' \
+          --data-urlencode 'grant_type=client_credentials' \
+          --data-urlencode 'client_id=${{ env.ClientId }}' \
+          --data-urlencode 'client_secret=${{ env.ClientSecret }}' \
+          --data-urlencode 'scope=https://vault.azure.net/.default' \
+          | jq '.access_token' | tr -d '"')
+
+        otelToken=$(curl --request GET \
+          'https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1' \
+          --header 'Authorization: Bearer $accessToken' \
+          | jq '.value' | tr -d '"')
+
+        echo "::set-output name=RELEYE_TOKEN::$otelToken"
+
+    - name: Send Information
+      uses: ./.github/workflows # Use a local action.yml?
+      with:
+        otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
+        team-id: "PTCI-1599"
 
     - name: Create tag
       uses: actions/github-script@v4
