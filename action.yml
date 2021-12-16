@@ -15,4 +15,4 @@ inputs:
     required: true
 runs:
   using: 'node12'
-  main: './.github/workflows/index.js'
+  main: './index.js'

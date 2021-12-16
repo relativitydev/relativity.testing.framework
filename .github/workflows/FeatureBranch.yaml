@@ -10,7 +10,7 @@ on:
   pull_request:
     branches:
       - '*'
-    
+
 jobs:
   build:
     runs-on: windows-latest
@@ -89,7 +89,7 @@ jobs:
         echo "::set-output name=RELEYE_TOKEN::$otelToken"
 
     - name: Send Information
-      uses: ./.github/workflows # Use a local action.yml?
+      uses: ./ # Use an action from the root of the repo
       with:
         otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
         team-id: "PTCI-1599"
