@@ -96,7 +96,7 @@ jobs:
       with:
         repository: relativityone/SendBuildEvent
         ref: refs/heads/main
-        token: $
+        token: ${{ github.token }}
         persist-credentials: false
         path: ./.github/actions/sendBuild
     - uses: ./.github/actions/sendBuild
