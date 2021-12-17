@@ -5,6 +5,7 @@ env:
   Configuration: Release
   DOTNET_NOLOGO: 1
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+  CUSTOM_ACTION_DIRECTORY: ./github/actions/sendBuild
 
 on:
   pull_request:
@@ -89,7 +90,14 @@ jobs:
         echo "::set-output name=OtelToken::$otelToken"
 
     - name: SendBuildEvent
-      uses: ./.github/actions # Uses action.yml?
+      uses: actions/checkout@v2
+      with:
+        repository: relativityone/SendBuildEvent
+        ref: refs/heads/main
+        token: $
+        persist-credentials: false
+        path: env.CUSTOM_ACTION_DIRECTORY
+      uses: env.CUSTOM_ACTION_DIRECTORY
       with:
         otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
         team-id: "PTCI-1599"
