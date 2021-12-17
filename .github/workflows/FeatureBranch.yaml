@@ -97,7 +97,7 @@ jobs:
         token: $
         persist-credentials: false
         path: env.CUSTOM_ACTION_DIRECTORY
-      uses: env.CUSTOM_ACTION_DIRECTORY
+    - uses: env.CUSTOM_ACTION_DIRECTORY
       with:
         otel-token: ${{ steps.GetOtelToken.outputs.OtelToken }}
         team-id: "PTCI-1599"
