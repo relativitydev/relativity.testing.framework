@@ -72,21 +72,22 @@ jobs:
         ClientId: ${{ secrets.CLIENTID }}
         ClientSecret: ${{ secrets.CLIENTSECRET }}
       run: |
-        accessToken=$(curl --request POST \
-          'https://login.microsoftonline.com/${{ env.DirectoryId }}/oauth2/v2.0/token' \
-          --header 'Content-Type: application/x-www-form-urlencoded' \
-          --data-urlencode 'grant_type=client_credentials' \
-          --data-urlencode 'client_id=${{ env.ClientId }}' \
-          --data-urlencode 'client_secret=${{ env.ClientSecret }}' \
-          --data-urlencode 'scope=https://vault.azure.net/.default' \
-          | jq '.access_token' | tr -d '"')
+        $Body = @{
+          grant_type = "client_credentials"
+          client_id = "${{ env.ClientId }}"
+          client_secret = "${{ env.CLIENTSECRET }}"
+          scope = "https://vault.azure.net/.default"
+        }
 
-        otelToken=$(curl --request GET \
-          'https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1' \
-          --header "Authorization: Bearer $accessToken" \
-          | jq '.value' | tr -d '"')
+        $AccessToken = (Invoke-RestMethod -Method POST `
+          -Uri "https://login.microsoftonline.com/${{ env.DirectoryId }}/oauth2/v2.0/token" `
+          -Body $Body).access_token
 
-        echo "::set-output name=OtelToken::$otelToken"
+        $OtelToken = (Invoke-RestMethod -Method GET `
+          -Uri "https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1" `
+          -Headers @{ Authorization="Bearer $AccessToken" }).value
+
+        Write-Output "::set-output name=OtelToken::$OtelToken"
 
     - name: SendBuildEvent
       uses: actions/checkout@v2
