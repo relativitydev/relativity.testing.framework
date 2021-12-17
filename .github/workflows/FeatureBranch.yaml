@@ -72,6 +72,8 @@ jobs:
         ClientId: ${{ secrets.CLIENTID }}
         ClientSecret: ${{ secrets.CLIENTSECRET }}
       run: |
+        Write-Output "ID ${{ env.ClientId }}"
+
         $Body = @{
           grant_type = "client_credentials"
           client_id = "${{ env.ClientId }}"
