@@ -75,7 +75,7 @@ jobs:
         $Body = @{
           grant_type = "client_credentials"
           client_id = "${{ env.ClientId }}"
-          client_secret = "${{ env.CLIENTSECRET }}"
+          client_secret = "${{ env.ClientSecret }}"
           scope = "https://vault.azure.net/.default"
         }
 
