@@ -91,15 +91,15 @@ jobs:
 
     #     Write-Output "::set-output name=OtelToken::$OtelToken"
 
-    - name: SendBuildEvent
-      uses: actions/checkout@v2
-      with:
-        repository: relativityone/SendBuildEvent
-        ref: refs/heads/main
-        token: ${{ github.token }}
-        persist-credentials: false
-        path: ./.github/actions/sendBuild
-    - uses: ./.github/actions/sendBuild
+    # - name: SendBuildEvent
+    #   uses: actions/checkout@v2
+    #   with:
+    #     repository: relativityone/SendBuildEvent
+    #     ref: refs/heads/main
+    #     token: ${{ github.token }}
+    #     persist-credentials: false
+    #     path: ./.github/actions/sendBuild
+    - uses: relativityone/SendBuildEvent@main
       with:
         otel-token: "abadtoken"
         team-id: "PTCI-1599"
