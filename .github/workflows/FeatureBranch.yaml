@@ -89,15 +89,17 @@ jobs:
 
         $Merge = ${{ github.context.payload.head_commit.timestamp }}
         $Now = Get-Date
-        $Duration = (New-TimeSpan -Start $Merge -End $Now).Seconds
         Write-Output $Merge $Now $Duration
 
+        $RunID = ${{ github.run_id }}
+        $RunAttempt = ${{ github.run_attempt }}
+        $Duration = (New-TimeSpan -Start $Merge -End $Now).Seconds
         $BuildEventPayload = '{
             "event": true,
             "name": "buildtest",
             "r1.team.id": "PTCI-1599",
-            "job.id": ${{ github.run_id }},
-            "job.sub_id": ${{ github.run_attempt }},
+            "job.id": $RunID,
+            "job.sub_id": $RunAttempt,
             "job.result": "${{ job.status }}",
             "job.duration": $Duration,
             "job.name": "${{ github.context.payload.repository.full_name }}",
