@@ -99,11 +99,11 @@ jobs:
         #     "r1.team.id": "PTCI-1599",
         #     "job.id": ${{ github.run_id }},
         #     "job.sub_id": ${{ github.run_attempt }},
-        #     "job.result": ${{ job.status }},
+        #     "job.result": "${{ job.status }}",
         #     "job.duration": $Duration,
-        #     "job.name": ${{ github.context.payload.repository.full_name }},
+        #     "job.name": "${{ github.context.payload.repository.full_name }}",
         #     "job.url": "${{ github.context.payload.repository.svn_url }}/runs/${{ github.context.runId }}/attempts/${{ github.context.runNumber }}",
-        #     "application.name": ${{ github.context.payload.repository.name }},
+        #     "application.name": "${{ github.context.payload.repository.name }}",
         #     "type": "devops_metrics"
         # }'
 
