@@ -95,7 +95,7 @@ jobs:
         Write-Output $Merge $Now $Duration
 
         # Of 'myorg/reponame' take reponame
-        $ProductName = (${{ github.repository }}).split("/")[1]
+        $ProductName = ("${{ github.repository }}").split("/")[1]
 
         $BuildEventPayload = "{
             `"event`": true,
