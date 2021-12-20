@@ -87,7 +87,7 @@ jobs:
           -Uri "https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1" `
           -Headers @{ Authorization="Bearer $AccessToken" }).value
 
-        Write-Output = ${{ github.event }}
+        Write-Output = ${{ github.event }} | Select-Object -Property *
 
         $Merge = ${{ github.context.payload.head_commit.timestamp }}
         $Now = Get-Date
@@ -107,7 +107,7 @@ jobs:
             `"job.duration`": $Duration,
             `"job.name`": `"${{ github.repository }}`",
             `"job.url`": `"${{ github.server_url }}/runs/${{ github.run_id }}/attempts/${{ github.run_attempt }}`",
-            `"application.name`": `"${{ github.context.payload.repository.name }}`",
+            `"application.name`": `"$ProductName`",
             `"type`": `"devops_metrics`"
         }"
 
