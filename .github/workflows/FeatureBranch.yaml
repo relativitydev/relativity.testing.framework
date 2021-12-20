@@ -108,6 +108,7 @@ jobs:
             "type": "devops_metrics"
         }'
 
+        Write-Output $BuildEventPayload
         Invoke-RestMethod -Method POST `
             -Uri "https://services.ctus.reg.k8s.r1.kcura.com/maas/webhook/generic/v1?token=$OtelToken" `
             -Body $BuildEventPayload
