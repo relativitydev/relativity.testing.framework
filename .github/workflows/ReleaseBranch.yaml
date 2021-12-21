@@ -159,9 +159,6 @@ jobs:
           -Uri "https://testengineering-github.vault.azure.net/secrets/OtelWebhookTokenForTestEngineering?api-version=7.1" `
           -Headers @{ Authorization="Bearer $AccessToken" }).value
 
-        $eventBlob = ${{ github.event.payload }}
-        Write-Output ($eventBlob | Format-List | Out-String)
-
         $Merge = git show -s --format=%ci "${{ github.sha }}"
         $Now = Get-Date
         $Duration = (New-TimeSpan -Start $Merge -End $Now).Seconds
