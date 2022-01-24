@@ -117,6 +117,11 @@ namespace Relativity.Testing.Framework
 				Component.For<LoggingInterceptor>().
 				LifestyleSingleton());
 
+			container.Register(
+				Component.For<IVersionResolveService>().
+				ImplementedBy<VersionResolveService>().
+				LifestyleSingleton());
+
 			container.Kernel.Resolver.AddSubResolver(
 				new StrategyDependencyResolver(container.Kernel));
 		}

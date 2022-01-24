@@ -2,6 +2,7 @@
 using Castle.Core;
 using Castle.MicroKernel;
 using Castle.MicroKernel.Context;
+using Relativity.Testing.Framework.Versioning;
 
 namespace Relativity.Testing.Framework.Strategies
 {
@@ -30,13 +31,15 @@ namespace Relativity.Testing.Framework.Strategies
 				throw new ComponentNotFoundException(dependency.TargetType);
 			}
 
+			IVersionResolveService versionResolver = _kernel.Resolve<IVersionResolveService>();
+			string targetVersion = versionResolver.GetTargetVersion(dependency.TargetType);
+
 			IStrategyResolveService strategyResolver = _kernel.Resolve<IStrategyResolveService>();
-			string relativityInstanceVersion = _kernel.Resolve<IRelativityFacade>().RelativityInstanceVersion;
 
 			return strategyResolver.Resolve(
 				dependency.TargetType,
 				strategies.Cast<object>().ToArray(),
-				relativityInstanceVersion);
+				targetVersion);
 		}
 	}
 }
