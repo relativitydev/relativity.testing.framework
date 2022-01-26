@@ -197,8 +197,10 @@ namespace Relativity.Testing.Framework
 				throw new ComponentNotFoundException(typeof(T));
 			}
 
+			IVersionResolveService versionResolver = WindsorContainer.Resolve<IVersionResolveService>();
+			string targetVersion = versionResolver.GetTargetVersion(typeof(T));
 			IStrategyResolveService strategyResolver = WindsorContainer.Resolve<IStrategyResolveService>();
-			return strategyResolver.Resolve(strategies, RelativityInstanceVersion);
+			return strategyResolver.Resolve(strategies, targetVersion);
 		}
 
 		/// <inheritdoc/>
@@ -215,8 +217,11 @@ namespace Relativity.Testing.Framework
 
 			Array.Copy(strategies, strategiesAsArray, strategies.Length);
 
+			IVersionResolveService versionResolver = WindsorContainer.Resolve<IVersionResolveService>();
 			IStrategyResolveService strategyResolver = WindsorContainer.Resolve<IStrategyResolveService>();
-			return strategyResolver.Resolve(service, strategiesAsArray, RelativityInstanceVersion);
+
+			string targetVersion = versionResolver.GetTargetVersion(service);
+			return strategyResolver.Resolve(service, strategiesAsArray, targetVersion);
 		}
 
 		private string ResolveRelativityInstanceVersion()
