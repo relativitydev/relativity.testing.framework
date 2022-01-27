@@ -43,15 +43,37 @@ namespace Relativity.Testing.Framework.Versioning
 			// Interfaces are passed into this method, which do not have attributes.
 			// Resolve the interface and get the attribute off the implemented types.
 			Array types = _kernel.ResolveAll(t);
-			Type concreteType = types.GetValue(0).GetType();
 
-			VersionRangeAttribute versionAttribute = concreteType.GetCustomAttributes<VersionRangeAttribute>().FirstOrDefault();
-			if (versionAttribute is ApplicationVersionRangeAttribute attr)
+			ApplicationVersionRangeAttribute versionAttribute = null;
+			foreach (object type in types)
 			{
-				version = _rapVersionService.GetVersion(attr);
+				if (versionAttribute == null)
+				{
+					versionAttribute = ResolveNonCastleType(type.GetType()).GetCustomAttributes<ApplicationVersionRangeAttribute>().FirstOrDefault();
+				}
+			}
+
+			if (versionAttribute != null)
+			{
+				version = _rapVersionService.GetVersion(versionAttribute);
 			}
 
 			return version;
+		}
+
+		private static Type ResolveNonCastleType(Type type)
+		{
+			if (type.Namespace.StartsWith("Castle.Proxies"))
+			{
+				var targetField = type.GetFields(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public).
+					First(x => x.Name.ToLower().Contains("target"));
+
+				return targetField.FieldType;
+			}
+			else
+			{
+				return type;
+			}
 		}
 	}
 }
