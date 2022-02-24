@@ -181,7 +181,7 @@ jobs:
             `"type`": `"devops_metrics`",
             `"repoName`": `"${{ github.repository }}`",
             `"commitHash`": `"${{ github.sha }}`",
-            `"serviceName`": `"Relativity.Testing.Framework`",
+            `"serviceName`": `"relativity-testing-framework`",
             `"releaseVersion`": `"${{ steps.SetVersion.outputs.VERSION }}`"
         }"
 
