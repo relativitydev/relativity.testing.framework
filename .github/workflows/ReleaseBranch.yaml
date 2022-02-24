@@ -176,13 +176,13 @@ jobs:
             `"job.duration`": $Duration,
             `"job.name`": `"${{ github.repository }}`",
             `"job.url`": `"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/attempts/${{ github.run_attempt }}`",
-            `"branch`": `"${{ github.head_ref }}`",
+            `"repository.branch`": `"${{ github.head_ref }}`",
             `"application.name`": `"$ProductName`",
             `"type`": `"devops_metrics`",
-            `"repoName`": `"${{ github.repository }}`",
-            `"commitHash`": `"${{ github.sha }}`",
-            `"serviceName`": `"relativity-testing-framework`",
-            `"releaseVersion`": `"${{ steps.SetVersion.outputs.VERSION }}`"
+            `"repository.name`": `"${{ github.repository }}`",
+            `"repository.commit`": `"${{ github.sha }}`",
+            `"service.name`": `"relativity-testing-framework`",
+            `"service.version`": `"${{ steps.SetVersion.outputs.VERSION }}`"
         }"
 
         Write-Output $BuildEventPayload
