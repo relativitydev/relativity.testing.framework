@@ -5,6 +5,8 @@ env:
   Configuration: Release
   DOTNET_NOLOGO: 1
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
+  ENG_INS_SUBSCRIPTION_ID: 4e132d5c-b463-498b-a459-e8b5be5c5c63
+  TENANT_ID: 8afe73f9-0d93-4821-a898-c5c2dc320953
 
 on:
   push:
