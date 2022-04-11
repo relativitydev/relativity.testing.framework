@@ -4,7 +4,7 @@ metadata:
   name: relativity-testing-framework-repo
   description: Relativity.Testing.Framework handles configuration management and object models.
   annotations:
-    github.com/project-slug: relativityone/relativity.testing.framework
+    github.com/project-slug: relativitydev/relativity.testing.framework
 spec:
   type: repository
   lifecycle: production
