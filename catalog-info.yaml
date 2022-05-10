@@ -24,7 +24,7 @@ metadata:
     - url: https://relativity.jfrog.io/ui/packages/nuget:%2F%2FRelativity.Testing.Framework?name=relativity.testing.framework&type=packages
       title: Artifactory
   labels:
-    nuget-package: Relativity.Testing.Framework
+    backstage.relativity.com/nuget-package: Relativity.Testing.Framework
 spec:
   type: nuget-package
   lifecycle: production
