@@ -14,6 +14,26 @@ spec:
 ---
 
 apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: relativity-testing-framework-nuget-package
+  description: Relativity.Testing.Framework nuget package is consumed by projects to simplify writing functional tests that require a Relativity Instance. 
+  annotations:
+    github.com/project-slug: relativitydev/relativity.testing.framework
+  links:
+    - url: https://relativity.jfrog.io/ui/packages/nuget:%2F%2FRelativity.Testing.Framework?name=relativity.testing.framework&type=packages
+      title: Artifactory
+  labels:
+    backstage.relativity.com/nuget-package: Relativity.Testing.Framework
+spec:
+  type: nuget-package
+  lifecycle: production
+  owner: ptci-1599
+  system: relativity-testing-framework
+
+---
+
+apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: relativity-testing-framework
