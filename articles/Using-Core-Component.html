@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Default Configuration </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Default Configuration ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="default-configuration">Default Configuration</h1>
+
+<p>The <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a> handles reading in configuration values and delivering them to the other components that will be using them.</p>
+<p>Before using any of the other components, you need to rely on the <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a> so that it can populate these values.</p>
+<pre><code>[OneTimeSetUp]
+public void Setup()
+{
+    RelativityFacade.Instance.RelyOn&lt;CoreComponent&gt;();
+}
+</code></pre>
+<p>By default, this will read in environment variables and NUnit test parameters to populate ready to use properties for common values.</p>
+<p>This means that if you are generating FunctionalTestSettings using something like the <a href="https://github.com/relativitydev/relativity.testing.framework.api/blob/master/DevelopmentScripts/New-TestSettings.ps1">New-TestSettings.ps1 file</a>, and running your tests using NUnit from the command line, you should not need to do anything further to configure the <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a>.</p>
+<h1 id="custom-configuration">Custom Configuration</h1>
+<p>The <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a> does however allow you to generate your own ConfigurationRoot and use that to populate the configs.</p>
+<p>The following example will also look for an appsettings.json file at the base directory where the tests are running from.</p>
+<pre><code>[OneTimeSetUp]
+public void Setup()
+{
+    IConfigurationRoot configurationRoot = new ConfigurationBuilder().
+        SetBasePath(AppDomain.CurrentDomain.BaseDirectory).
+        AddJsonFile(&quot;appsettings.json&quot;).
+        AddEnvironmentVariables().
+        AddNUnitParameters().
+        Build();
+ 
+    RelativityFacade.Instance.RelyOn(new CoreComponent { ConfigurationRoot = configurationRoot });
+}
+</code></pre>
+<h1 id="getting-config-values">Getting Config Values</h1>
+<p>The <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a> will auto-populate some common properties for you when it reads in the ConfigurationRoot.</p>
+<p>These are the common properties and some example values for them:</p>
+<ul>
+<li>AdminPassword: &quot;SecretPassword&quot;</li>
+<li>AdminUsername: &quot;relativity.admin@kcura.com&quot;</li>
+<li>RapDirectory: &quot;....\Artifacts&quot;</li>
+<li>RelativityHostAddress: &quot;P-DV-VM-THE1SUT&quot;</li>
+<li>RestServicesHostAddress: &quot;P-DV-VM-THE1SUT&quot;</li>
+<li>ServerBindingType: &quot;https&quot;</li>
+<li>WebApiHostAddress: &quot;P-DV-VM-THE1SUT&quot;</li>
+</ul>
+<p>The common properties are all accessible as properties on <a href="/api/Relativity.Testing.Framework.Configuration.IConfigurationService.html#Relativity_Testing_Framework_Configuration_IConfigurationService_RelativityInstance">RelativityFacade.Instance.Config.RelativityInstance</a></p>
+<p>Using AdminUsername as an example, we can access the it like this:</p>
+<pre><code>[OneTimeSetUp]
+public void Setup()
+{
+    RelativityFacade.Instance.RelyOn&lt;CoreComponent&gt;();
+ 
+ 
+    Console.WriteLine(RelativityFacade.Instance.Config.RelativityInstance.AdminUsername);
+}
+</code></pre>
+<h1 id="custom-config-values">Custom Config Values</h1>
+<p>Relativity Testing Framework also allows you to get any non-common config values that you might need in your tests.
+To do so, you don't need to do anything special with the config files, or how you read them in. They just need to be present like any other configuration value.</p>
+<p>To access these properties, you can use the <a href="/api/Relativity.Testing.Framework.Configuration.IConfigurationService.html#Relativity_Testing_Framework_Configuration_IConfigurationService_GetValue_System_String_">RelativityFacade.Instance.Config.GetValue function</a>.</p>
+<p>In the example below, we are getting the value of the UniqueProperty config value.</p>
+<pre><code>[OneTimeSetUp]
+public void Setup()
+{
+    RelativityFacade.Instance.RelyOn&lt;CoreComponent&gt;();
+ 
+ 
+    Console.WriteLine(RelativityFacade.Instance.Config.GetValue(&quot;UniqueProperty&quot;));
+}
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework.Documentation/articles/Using-Core-Component.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

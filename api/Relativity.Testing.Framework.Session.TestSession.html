@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TestSession
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TestSession
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Relativity.Testing.Framework.Session.TestSession">
+  
+  
+  <h1 id="Relativity_Testing_Framework_Session_TestSession" data-uid="Relativity.Testing.Framework.Session.TestSession" class="text-break">Class TestSession
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the test session.
+Test session scope can be global, fixture or test.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TestSession</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Relativity.Testing.Framework.Session.html">Relativity.Testing.Framework.Session</a></h6>
+  <h6><strong>Assembly</strong>: Relativity.Testing.Framework.dll</h6>
+  <h5 id="Relativity_Testing_Framework_Session_TestSession_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class TestSession : IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Children.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Children%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L55">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Children_" data-uid="Relativity.Testing.Framework.Session.TestSession.Children*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Children" data-uid="Relativity.Testing.Framework.Session.TestSession.Children">Children</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of child sessions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TestSession&gt; Children { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Current.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Current%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L36">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Current_" data-uid="Relativity.Testing.Framework.Session.TestSession.Current*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Current" data-uid="Relativity.Testing.Framework.Session.TestSession.Current">Current</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the current session that can be unique for each parallel thread/test (using <span class="xref">System.Threading.AsyncLocal`1</span>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TestSession Current { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Entities.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Entities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L66">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Entities_" data-uid="Relativity.Testing.Framework.Session.TestSession.Entities*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Entities" data-uid="Relativity.Testing.Framework.Session.TestSession.Entities">Entities</h4>
+  <div class="markdown level1 summary"><p>Gets the combined collection of all entities of parent sessions with this session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;object&gt; Entities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_EntityItems.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.EntityItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L60">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_EntityItems_" data-uid="Relativity.Testing.Framework.Session.TestSession.EntityItems*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_EntityItems" data-uid="Relativity.Testing.Framework.Session.TestSession.EntityItems">EntityItems</h4>
+  <div class="markdown level1 summary"><p>Gets the combined collection of all entity items of parent sessions with this session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TestSessionEntityItem&gt; EntityItems { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Relativity.Testing.Framework.Session.TestSessionEntityItem.html">TestSessionEntityItem</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Global.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Global%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L45">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Global_" data-uid="Relativity.Testing.Framework.Session.TestSession.Global*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Global" data-uid="Relativity.Testing.Framework.Session.TestSession.Global">Global</h4>
+  <div class="markdown level1 summary"><p>Gets the global session that is the common and root session for tests run.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TestSession Global { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Parent.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Parent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L50">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Parent_" data-uid="Relativity.Testing.Framework.Session.TestSession.Parent*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Parent" data-uid="Relativity.Testing.Framework.Session.TestSession.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>Gets the parent session or <span class="xref">null</span> for <a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html#Relativity_Testing_Framework_Session_TestSession_Global">Global</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestSession Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_TestFixtureName.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.TestFixtureName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L87">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_TestFixtureName_" data-uid="Relativity.Testing.Framework.Session.TestSession.TestFixtureName*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_TestFixtureName" data-uid="Relativity.Testing.Framework.Session.TestSession.TestFixtureName">TestFixtureName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the current test fixture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TestFixtureName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_TestName.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.TestName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L116">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_TestName_" data-uid="Relativity.Testing.Framework.Session.TestSession.TestName*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_TestName" data-uid="Relativity.Testing.Framework.Session.TestSession.TestName">TestName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the current test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TestName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Add_Relativity_Testing_Framework_Models_Artifact_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Add(Relativity.Testing.Framework.Models.Artifact)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L228">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Add_" data-uid="Relativity.Testing.Framework.Session.TestSession.Add*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Add_Relativity_Testing_Framework_Models_Artifact_" data-uid="Relativity.Testing.Framework.Session.TestSession.Add(Relativity.Testing.Framework.Models.Artifact)">Add(Artifact)</h4>
+  <div class="markdown level1 summary"><p>Adds the entity to the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Artifact entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Models.Artifact.html">Artifact</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Add_System_Int32_Relativity_Testing_Framework_Models_Artifact_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Add(System.Int32%2CRelativity.Testing.Framework.Models.Artifact)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L238">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Add_" data-uid="Relativity.Testing.Framework.Session.TestSession.Add*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Add_System_Int32_Relativity_Testing_Framework_Models_Artifact_" data-uid="Relativity.Testing.Framework.Session.TestSession.Add(System.Int32,Relativity.Testing.Framework.Models.Artifact)">Add(Int32, Artifact)</h4>
+  <div class="markdown level1 summary"><p>Adds the workspace entity to the session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(int workspaceId, Artifact entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">workspaceId</span></td>
+        <td><p>The workspace ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Models.Artifact.html">Artifact</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_All__1.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.All%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L136">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_All_" data-uid="Relativity.Testing.Framework.Session.TestSession.All*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_All__1" data-uid="Relativity.Testing.Framework.Session.TestSession.All``1">All&lt;TEntity&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get all the entities of particular type in session hierarchy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TEntity&gt; All&lt;TEntity&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEntity&gt;</td>
+        <td><p>The collection of<code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Dispose.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L317">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Dispose_" data-uid="Relativity.Testing.Framework.Session.TestSession.Dispose*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Dispose" data-uid="Relativity.Testing.Framework.Session.TestSession.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_First__1.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.First%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L146">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_First_" data-uid="Relativity.Testing.Framework.Session.TestSession.First*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_First__1" data-uid="Relativity.Testing.Framework.Session.TestSession.First``1">First&lt;TEntity&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the first entity of specified type from session hierarchy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TEntity First&lt;TEntity&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>The entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Last__1.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Last%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L165">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Last_" data-uid="Relativity.Testing.Framework.Session.TestSession.Last*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Last__1" data-uid="Relativity.Testing.Framework.Session.TestSession.Last``1">Last&lt;TEntity&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the last entity of specified type from session hierarchy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TEntity Last&lt;TEntity&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>The entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Remove_System_Int32_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Remove(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L247">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Remove_" data-uid="Relativity.Testing.Framework.Session.TestSession.Remove*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Remove_System_Int32_" data-uid="Relativity.Testing.Framework.Session.TestSession.Remove(System.Int32)">Remove(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes an entity from the session by the specified ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(int entityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">entityId</span></td>
+        <td><p>The entity ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Remove_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Remove(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L262">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Remove_" data-uid="Relativity.Testing.Framework.Session.TestSession.Remove*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Remove_System_Int32_System_Int32_" data-uid="Relativity.Testing.Framework.Session.TestSession.Remove(System.Int32,System.Int32)">Remove(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes an entity from the session by the specified IDs of workspace and entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(int workspaceId, int entityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">workspaceId</span></td>
+        <td><p>The workspace ID.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">entityId</span></td>
+        <td><p>The entity ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_SetCleanUp_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.SetCleanUp(System.Collections.Generic.IEnumerable%7BSystem.Object%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L292">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_SetCleanUp_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetCleanUp*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_SetCleanUp_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetCleanUp(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)">SetCleanUp(IEnumerable&lt;Object&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the value whether to delete the entities on cleanup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCleanUp(IEnumerable&lt;object&gt; entities, bool delete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">entities</span></td>
+        <td><p>The entities.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">delete</span></td>
+        <td><p>Whether to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_SetCleanUp_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.SetCleanUp(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L277">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_SetCleanUp_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetCleanUp*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_SetCleanUp_System_Object_System_Boolean_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetCleanUp(System.Object,System.Boolean)">SetCleanUp(Object, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the value whether to delete the entity on cleanup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCleanUp(object entity, bool delete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">delete</span></td>
+        <td><p>Whether to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_SetWorking__1___0_.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.SetWorking%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L219">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_SetWorking_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetWorking*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_SetWorking__1___0_" data-uid="Relativity.Testing.Framework.Session.TestSession.SetWorking``1(``0)">SetWorking&lt;TEntity&gt;(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Sets the entity as current working one of specified type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWorking&lt;TEntity&gt;(TEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_StartChildSession.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.StartChildSession%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L306">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_StartChildSession_" data-uid="Relativity.Testing.Framework.Session.TestSession.StartChildSession*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_StartChildSession" data-uid="Relativity.Testing.Framework.Session.TestSession.StartChildSession">StartChildSession()</h4>
+  <div class="markdown level1 summary"><p>Starts the child session.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestSession StartChildSession()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a></td>
+        <td><p>The newly created <a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html">TestSession</a> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession_Working__1.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession.Working%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L191">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Session_TestSession_Working_" data-uid="Relativity.Testing.Framework.Session.TestSession.Working*"></a>
+  <h4 id="Relativity_Testing_Framework_Session_TestSession_Working__1" data-uid="Relativity.Testing.Framework.Session.TestSession.Working``1">Working&lt;TEntity&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the current working entity of specified type from session hierarchy.
+If there is no entity previously set using <a class="xref" href="Relativity.Testing.Framework.Session.TestSession.html#Relativity_Testing_Framework_Session_TestSession_SetWorking__1___0_">SetWorking&lt;TEntity&gt;(TEntity)</a> method,
+returns last entity of specified type added to session hierarchy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TEntity Working&lt;TEntity&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>The entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Session_TestSession.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Session.TestSession%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Session/TestSession.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>My test is failing with an exception about Castle.Windsor </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="My test is failing with an exception about Castle.Windsor ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="my-test-is-failing-with-an-exception-about-castlewindsor">My test is failing with an exception about Castle.Windsor</h2>
+
+<h3 id="the-error-message-might-look-like-this">The error message might look like this:</h3>
+<blockquote>
+<p>OneTimeSetUp: System.MethodAccessException : Attempt by method 'Castle.MicroKernel.SubSystems.Configuration.DefaultConfigurationStore..ctor()' to access method 'System.Collections.Generic.Dictionary`2&lt;System.__Canon,System.__Canon&gt;..ctor()' failed.
+Exception doesn't have a stacktrace</p>
+</blockquote>
+<h3 id="solution">Solution</h3>
+<p>Reference the same version of Castle.Windsor that we use in Relativity.Testing.Framework <a href="https://www.nuget.org/packages/Castle.Windsor/3.3.0">(3.3.0)</a>.
+Newer versions of Castle.Windsor are not tested in our build, and are not guaranteed to work.</p>
+<h2 id="i-made-an-api-request-to-get-an-object-and-some-of-the-fields-arent-filled-out-all-the-way">I made an API request to get an object, and some of the fields aren't filled out all the way</h2>
+<p>This could be happening for one of two reasons.</p>
+<ol>
+<li>When we make a request to ObjectManager, it only gives us the name back on the objects associated with it.</li>
+</ol>
+<ul>
+<li>e.g. The ResourcePool from a Workspace request</li>
+</ul>
+<ol start="2">
+<li>We missed something in our modeling</li>
+</ol>
+<h3 id="solution-1">Solution</h3>
+<p>If you run into this issue, use an API client (e.g. <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.1">PowerShell</a> or <a href="https://www.postman.com/">PostMan</a>) to make the same request to ObjectManager.</p>
+<p>If the request returns you more information about the dependent objects, we can map those, if not, you will need to get that information in your test after making the initial request.</p>
+<h2 id="my-test-is-failing-when-trying-to-map-a-type">My test is failing when trying to map a type</h2>
+<h3 id="the-error-message-might-look-like-this-1">The error message might look like this:</h3>
+<blockquote>
+<p>OneTimeSetUp: Relativity.Testing.Framework.MappingException : Failed to map &quot;Type&quot; property for Relativity.Testing.Framework.ResourceServer type. Property &quot;RelativityOne Compute&quot; value of System.String type cannot be converted to Relativity.Testing.Framework.ResourceServerType type.
+----&gt; System.Collections.Generic.KeyNotFoundException : The given key was not present in the dictionary.</p>
+</blockquote>
+<p>Some object models in RTF use enums to maintain a list of the available options for the value.</p>
+<p>If the object we are modeling is a system artifact, there should be a static list of these options, and we should only need to add/remove/update them as they are changed in Relativity.</p>
+<p>If this is the case, please open up a <a href="https://github.com/relativitydev/relativity.testing.framework/issues/new">new issue</a> in the Relativity Testing Framework repository and let us know how the model should be changed.</p>
+<p>However, there are also some objects that normally behave like system artifacts, but are actually choices in disguise!<br>
+If we've mistakenly identified something as an enum, please open up a <a href="https://github.com/relativitydev/relativity.testing.framework/issues/new">new issue</a> in the Relativity Testing Framework repository and let us know which part of the model should not be an enum.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework.Documentation/articles/FAQs-And-Common-Issues.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

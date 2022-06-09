@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Using the LogService </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Using the LogService ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p>RelativRelativity.Testing.Framework will provide trace logs for you, and if using the WebComponent, screenshots as well on failure.</p>
+<p>This is done automatically for you, and the default output location is a &quot;Results&quot; folder inside of the bin directory where your tests dlls are.</p>
+<h1 id="using-the-logservice">Using the LogService</h1>
+<p>The built in <a href="/api/Relativity.Testing.Framework.Logging.ILogService.html">log service</a> is built around <a href="https://nlog-project.org/">NLog</a>, and can be retrieved anytime after the <a href="/api/Relativity.Testing.Framework.CoreComponent.html">CoreComponent</a> has been relied on.</p>
+<pre><code>ILogService logger = RelativityFacade.Instance.Resolve&lt;ILogService&gt;();
+logger.Info(&quot;Some useful information&quot;);
+</code></pre>
+<p>This will show up in the corresponding log in the Results folder that is created while running tests.</p>
+<h1 id="setting-a-custom-results-folder">Setting a custom Results folder</h1>
+<p>To make it easier to organize test output (especially when running multiple sets of tests at the same time), we have provided a ResultsLocation setting that can specify the output location.</p>
+<p>If setting this through runsettings, it should look like this:</p>
+<pre><code>&lt;RunSettings&gt;
+  &lt;TestRunParameters&gt;
+    &lt;Parameter name=&quot;ServerBindingType&quot; value=&quot;https&quot; /&gt;
+    &lt;Parameter name=&quot;RelativityHostAddress&quot; value=&quot;P-DV-VM-CUP7WET&quot; /&gt;
+    &lt;Parameter name=&quot;AdminUsername&quot; value=&quot;relativity.admin@kcura.com&quot; /&gt;
+    &lt;Parameter name=&quot;AdminPassword&quot; value=&quot;APassword1234!&quot; /&gt;
+    &lt;Parameter name=&quot;RestServicesHostAddress&quot; value=&quot;P-DV-VM-CUP7WET&quot; /&gt;
+    &lt;Parameter name=&quot;WebApiHostAddress&quot; value=&quot;P-DV-VM-CUP7WET&quot; /&gt;
+    &lt;Parameter name=&quot;ResultsLocation&quot; value=&quot;D:\Results&quot; /&gt; &lt;!-- Set output directory for trace logs and screenshots --&gt;
+  &lt;/TestRunParameters&gt;
+&lt;/RunSettings&gt;
+</code></pre>
+<p>Output will then be sent to the location that is set in ResultsLocation.</p>
+<p>Results inside of this folder are organized based on the fixture name and test name that is running.</p>
+<p>Here is a screenshot showing what that might look like:
+<img src="/images/LoggingLocationExample.png" alt="Logging Location Example" title="Logging Location Example"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework.Documentation/articles/Logging.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

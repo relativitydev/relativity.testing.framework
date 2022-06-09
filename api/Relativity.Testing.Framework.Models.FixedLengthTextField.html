@@ -1,0 +1,604 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FixedLengthTextField
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FixedLengthTextField
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField">
+  
+  
+  <h1 id="Relativity_Testing_Framework_Models_FixedLengthTextField" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField" class="text-break">Class FixedLengthTextField
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the FixedLength field object.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Relativity.Testing.Framework.Models.Artifact.html">Artifact</a></div>
+    <div class="level2"><a class="xref" href="Relativity.Testing.Framework.Models.NamedArtifact.html">NamedArtifact</a></div>
+    <div class="level3"><a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a></div>
+    <div class="level4"><span class="xref">FixedLengthTextField</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Relativity.Testing.Framework.Models.IHasName.html">IHasName</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_FieldType">Field.FieldType</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_ArtifactTypeName">Field.ArtifactTypeName</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_ObjectType">Field.ObjectType</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_ParentArtifact">Field.ParentArtifact</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_AllowPivot">Field.AllowPivot</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_AllowGroupBy">Field.AllowGroupBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_IsRequired">Field.IsRequired</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_IsIdentifier">Field.IsIdentifier</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_Linked">Field.Linked</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_Width">Field.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Field.html#Relativity_Testing_Framework_Models_Field_PropagateTo">Field.PropagateTo</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.NamedArtifact.html#Relativity_Testing_Framework_Models_NamedArtifact_Name">NamedArtifact.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.Artifact.html#Relativity_Testing_Framework_Models_Artifact_ArtifactID">Artifact.ArtifactID</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Relativity.Testing.Framework.Models.html">Relativity.Testing.Framework.Models</a></h6>
+  <h6><strong>Assembly</strong>: Relativity.Testing.Framework.dll</h6>
+  <h5 id="Relativity_Testing_Framework_Models_FixedLengthTextField_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FixedLengthTextField : Field, IHasName</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField__ctor.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L13">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField__ctor_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.#ctor*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField__ctor" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.#ctor">FixedLengthTextField()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Relativity.Testing.Framework.Models.FixedLengthTextField.html">FixedLengthTextField</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FixedLengthTextField()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_AllowHTML.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.AllowHTML%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L53">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_AllowHTML_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.AllowHTML*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_AllowHTML" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.AllowHTML">AllowHTML</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether HTML formatted text can be displayed in this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowHTML { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_AllowSortTally.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.AllowSortTally%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L26">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_AllowSortTally_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.AllowSortTally*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_AllowSortTally" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.AllowSortTally">AllowSortTally</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the document list is sorted on this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowSortTally { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_FriendlyName.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.FriendlyName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L63">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_FriendlyName_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.FriendlyName*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_FriendlyName" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.FriendlyName">FriendlyName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating user-friendly name for the <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> displayed in the Relativity UI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FriendlyName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_ImportBehavior.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.ImportBehavior%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L68">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_ImportBehavior_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.ImportBehavior*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_ImportBehavior" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.ImportBehavior">ImportBehavior</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value of the <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> indicating how blank values are handled when running an import job through the Relativity Desktop Client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldImportBehavior ImportBehavior { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Models.FieldImportBehavior.html">FieldImportBehavior</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_IncludeInTextIndex.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.IncludeInTextIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L37">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_IncludeInTextIndex_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.IncludeInTextIndex*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_IncludeInTextIndex" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.IncludeInTextIndex">IncludeInTextIndex</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> values are added to the SQL text index for the workspace,
+making the field searchable via keyword search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IncludeInTextIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_IsRelational.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.IsRelational%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L58">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_IsRelational_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.IsRelational*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_IsRelational" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.IsRelational">IsRelational</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> is relational.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRelational { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_Length.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L42">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_Length_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Length*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_Length" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Length">Length</h4>
+  <div class="markdown level1 summary"><p>Gets or sets an integer value indicating the number of characters in this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Length { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_OpenToAssociations.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.OpenToAssociations%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L31">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_OpenToAssociations_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.OpenToAssociations*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_OpenToAssociations" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.OpenToAssociations">OpenToAssociations</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> information can be displayed on an associated object field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OpenToAssociations { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_Order.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.Order%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L78">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_Order_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Order*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_Order" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Order">Order</h4>
+  <div class="markdown level1 summary"><p>Gets or sets an integer value of the <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> used to indicate the order for the pane icons at the bottom of the Related Items pane.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Order { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_PaneIcon.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.PaneIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L73">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_PaneIcon_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.PaneIcon*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_PaneIcon" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.PaneIcon">PaneIcon</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value of the <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> indicating an icon displayed in the Related Items pane of the core reviewer interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FieldPaneIcon PaneIcon { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Relativity.Testing.Framework.Models.FieldPaneIcon.html">FieldPaneIcon</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_Unicode.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.Unicode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L47">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_Unicode_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Unicode*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_Unicode" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Unicode">Unicode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> can be used Unicode characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldName(&quot;HasUnicode&quot;)]
+public bool Unicode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField_Wrapping.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField.Wrapping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L21">View Source</a>
+  </span>
+  <a id="Relativity_Testing_Framework_Models_FixedLengthTextField_Wrapping_" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Wrapping*"></a>
+  <h4 id="Relativity_Testing_Framework_Models_FixedLengthTextField_Wrapping" data-uid="Relativity.Testing.Framework.Models.FixedLengthTextField.Wrapping">Wrapping</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="Relativity.Testing.Framework.Models.Field.html">Field</a> wraps in this field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Wrapping { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Relativity.Testing.Framework.Models.IHasName.html">IHasName</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Relativity.Testing.Framework.Extensions.FieldExtensions.html#Relativity_Testing_Framework_Extensions_FieldExtensions_ToCategoryField_Relativity_Testing_Framework_Models_Field_">FieldExtensions.ToCategoryField(Field)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/new/master/apiSpec/new?filename=Relativity_Testing_Framework_Models_FixedLengthTextField.md&amp;value=---%0Auid%3A%20Relativity.Testing.Framework.Models.FixedLengthTextField%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/relativitydev/relativity.testing.framework/blob/master/source/Relativity.Testing.Framework/Models/Fields/FixedLengthTextField.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3614 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/relativity.testing.framework/relativity.testing.framework/source/Relativity.Testing.Framework.Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Arrangement.IGenericEntityCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Arrangement.IGenericEntityCreator.html",
+          "hash": "q5DGWUWj5iciLD4Ov3wZTVQpYwEGOvfFKjOOtgt5N5Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Arrangement.TestArrangementContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Arrangement.TestArrangementContext.html",
+          "hash": "LbVhkgq7bt1anBinjz5rHtNyPkY6rec83MqrwvBTci4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Arrangement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Arrangement.html",
+          "hash": "HHdgJMeqYpMfmXsu6+q2vLQTdAqN/mvC3g6ATwyIjX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.ChoiceNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.ChoiceNameAttribute.html",
+          "hash": "7626vFCoaX7WfzyTgK+FSLPNIgwRUldqhcLdBFrdOjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.ChoiceTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.ChoiceTypeAttribute.html",
+          "hash": "4LPXd92Vg1Qi3uehHhWXd9WgPKgMh8sa4mG+j0smITU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.FieldArtifactIdAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.FieldArtifactIdAttribute.html",
+          "hash": "5f1aNFiPsQqc/oAkiAAKkhyEU/T5DjkGSwZA1Aecc9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.FieldGuidAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.FieldGuidAttribute.html",
+          "hash": "eMa1oXnqlwgR0PZpG4SexlyQD+hmOOjmoZ3m/jan3U8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.FieldNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.FieldNameAttribute.html",
+          "hash": "869QF9ZPKC7+67dkNfGlRE1kn1u6cRc3jx+d4U/iF0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.NonFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.NonFieldAttribute.html",
+          "hash": "TemxARx9UHeWbUoTbQgAlr/UfdwH5PJBhCBzFDN68OU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.ObjectTypeGuidAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.ObjectTypeGuidAttribute.html",
+          "hash": "hmT2RoR+dhK4TZb00hfTKpfzg8ceBEgHvhyPm4eTEI0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.ObjectTypeNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.ObjectTypeNameAttribute.html",
+          "hash": "dyQroRYY9aFN6teN1+lboWX9Iie3IQrVug72GkLjGbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.OnlyReadableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.OnlyReadableAttribute.html",
+          "hash": "fHlPYvcYjhla4l69fvwezal1ZOdPemTB63wX9wtL6c4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Attributes.html",
+          "hash": "bB8zNiwLXD4vHrovf4q69D+XRdCJBvnBJrJtjCh8YYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Configuration.ConfigurationKeyNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Configuration.ConfigurationKeyNotFoundException.html",
+          "hash": "6aEfbVh4YYXCQW3fLDWe+45o9JqjwMEmZs0JSrHLxj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Configuration.IConfigurationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Configuration.IConfigurationService.html",
+          "hash": "ttLk3JBR1Hyv2UatZSfdGnh3h6ZRRZiDs6DcfVpJEwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Configuration.NUnitConfigurationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Configuration.NUnitConfigurationBuilderExtensions.html",
+          "hash": "GiyrsyVA7/0xw6WKyfcT0Ja9kl8MburE5fb8odseBkg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Configuration.RelativityInstanceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Configuration.RelativityInstanceConfiguration.html",
+          "hash": "T9B5OCm81Ch429gXaeaeTV9pQxzK6jb+rZBvw/q+Fhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Configuration.html",
+          "hash": "LnOUUm7nr+WoU9VoSq6Xyw0Qz6feqcyn8gjm7SkQecY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.CoreComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.CoreComponent.html",
+          "hash": "nuOHOdaThhTXooS897vHoujzVFmN6U7uz1Gdms/OL4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Extensions.ExpressionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Extensions.ExpressionExtensions.html",
+          "hash": "Q5MGdGTZgAzb0EUr078qHbs2E8ESGK32k0U660uUg6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Extensions.FieldExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Extensions.FieldExtensions.html",
+          "hash": "DFgbuE4UFLhZNDfIIsU1/+U4zoYIxQKaGdL0ghjg3/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Extensions.SqlFullTextLanguageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Extensions.SqlFullTextLanguageExtensions.html",
+          "hash": "u7DuBYOND41QmbAcvoTxyKt52r8vcjOshvv2Qcg/gdw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Extensions.html",
+          "hash": "B3qSIN8Ori8QOAfQBq/6b/nkswlUpFg1e0h6oHW+r/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.IApplicationInsightsInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.IApplicationInsightsInterceptor.html",
+          "hash": "zbkPbxbsAQmu6hSGFIHerRUvOegyOMZYFVB5isg4nhk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.IApplicationInsightsTelemetryClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.IApplicationInsightsTelemetryClient.html",
+          "hash": "RUY7Gm4Lf4vKabDEIrQk5WnNMgGSO7p5patxjwTnqVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.IRelativityComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.IRelativityComponent.html",
+          "hash": "HRnmN1Vc+SmoBnGg0ChGD7mHAfkYjuE0zJu5zQBkOdE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.IRelativityFacade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.IRelativityFacade.html",
+          "hash": "WwYeSKGCuMGZkRqndRFYza7fb+Jk/24OS6R/ZGguh4Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.ILogConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.ILogConsumer.html",
+          "hash": "1DzLPqVo4lO6vlt+P8Q8ueREzau2JeXUnHPSEuQaXjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.ILogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.ILogService.html",
+          "hash": "8Lq22hvygs7YFLnKHaP/pO35RRGF7kbQX4GTOj5Glbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.LogConsumerRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.LogConsumerRegistration.html",
+          "hash": "Puf/zmLoTzWjMOrmJ2IChWn81ASMO90YwW412RO1iwk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.LogEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.LogEventInfo.html",
+          "hash": "DK+EyFq4daJSMTT6u246TQ8qOT5Rnvil38cQyk7c7YA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.LogLevel.html",
+          "hash": "OqlPgl3wSJEBwHUF4GbLDpsPaU/fyGDWQV/okG5fM1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.LoggingInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.LoggingInterceptor.html",
+          "hash": "fxIqU7DpugrvklgSDH2tFDkZewkCXV1mGLjkJc3CExU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.NUnitLogConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.NUnitLogConsumer.html",
+          "hash": "Jr2FNqPpIPTYp0KarpsVvtoSkiWMfph/X+CLSbFptXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Logging.html",
+          "hash": "TzrwA6ZyDi+8AShsrt5jrvh2phHcbPkgEWvLFQJL2ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.IJsonObjectMappingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.IJsonObjectMappingService.html",
+          "hash": "l65wkg3+4Jk9VbH6jZKyQPsAfkabbqQQq4jw5qIM3Rs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.IObjectMappingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.IObjectMappingService.html",
+          "hash": "lP3+MGOe6wGBQlot+uTkWY0ZC57xT3W4ZbwOT6k56mg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.JsonMappingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.JsonMappingOptions.html",
+          "hash": "FOuXKRAu14RTmMVqGP2Jc9Hdh+YuwhsioohDckFZwHA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.MappingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.MappingException.html",
+          "hash": "KgX7nhdDbRBtR40nOKeVfExPF86OolHLK+ngPgkDo+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.MappingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.MappingOptions.html",
+          "hash": "mI4qZhC9ezCMBeNPqpeqn7anGShS6GC/4V4scGVQeQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.ObjectFieldMappingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.ObjectFieldMappingOptions.html",
+          "hash": "uM9fMz42+AoTkKYikHGgK6YhepS7/t9dKyuSsoAwC1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Mapping.html",
+          "hash": "zwks5/qAS9HoxbI/xERXZcb4nI2irK9hIMHpBnpU8Bw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.AccountBaseInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.AccountBaseInfo.html",
+          "hash": "ImSBbv8HjjNpucFhrQcqI50wfQ3W6cXqFRKTxGqtJWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionColumn.html",
+          "hash": "Ml935uf3xULpv6VNOYF24m3Ti9HLPfcJEi2XgOej0Xk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionColumnDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionColumnDataType.html",
+          "hash": "MeRSZdeNB4S+VzgvyXIK2AeDWy9bM7xPn3vXvsp0Hok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionColumnSort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionColumnSort.html",
+          "hash": "DxjLo9KF+DNYyYOtMM14u6NGAPXUq178Zekpd5OoQRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionJob.html",
+          "hash": "STTipSja+V5T9GQlWz0930dN+SFBD4TfAYiY2q/KbvY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionQueryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionQueryRequest.html",
+          "hash": "db/bKUkjmfqDytXT1319lk2RUjRJ31ovs+XPmZJdEWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionResultRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionResultRow.html",
+          "hash": "Qvo7C+yf0dMmCaOWd/CEYGDn13c/2BhDRuB79yZQ7F0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionResultsQueryResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionResultsQueryResponse.html",
+          "hash": "JDxg6lnQVasb/y4Ufe/Tb3w49uPO+chN0Ye8m9t9+s4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ActionReturnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ActionReturnType.html",
+          "hash": "q3VhSpXguKhMcGYg+hQAQlOzQlRY8z3eXCTDCwr09KE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Agent.html",
+          "hash": "zQO6zUEi+p21UXGsxxQhRuQBsUG0vmdlLK3S5i3Jz7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.AgentLoggingLevelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.AgentLoggingLevelType.html",
+          "hash": "1L8IaGe/0NuztlYXGWK6UXpvg6k5d3NdaSYJ5vxTXz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.AgentServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.AgentServer.html",
+          "hash": "KyVM9lu7r0YXc5XPX8CIGZYMVlPp8yl82xEKxSEaV3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.AgentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.AgentType.html",
+          "hash": "W1/wQ60VTi3pO0hStvp+3AJj4tVs3O0d7BgsU0DkjgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ApplicationFieldCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ApplicationFieldCode.html",
+          "hash": "UWe67z91qL0VFaSeXXHjLfHusvjhGR8XZYQMWaYjK04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ApplicationFieldCodeOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ApplicationFieldCodeOption.html",
+          "hash": "OwBf7s4H2t2CPRKgOieX43zuYakJu31deTpRBHWDJzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ApplicationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ApplicationType.html",
+          "hash": "dfGACDUUtWsMkStfYx+Akifqt/wZw5IoVvgmIMwGPaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Artifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Artifact.html",
+          "hash": "idsUfV0QTD17VN+x1TbekjF6VpI6T0RkBLdktBhfwrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ArtifactIdNamePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ArtifactIdNamePair.html",
+          "hash": "vynTQWlY9iUtam0Xves/J68qPJW8kcEFYKt0YCd1Rts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ArtifactReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ArtifactReference.html",
+          "hash": "VMvJW9hIlkxCIDTXItg4AMoIW9fxa3J/+jLDrnE9ifU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ArtifactType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ArtifactType.html",
+          "hash": "Oixpmhp58c72QQTo8NgDMpj1G+ibslyH/8EVI1f9PUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.AutoBatchSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.AutoBatchSettings.html",
+          "hash": "xWgsZ/0PMa8W7d/NOw8qcXqdgVr1cf2mljjrNfEnsis="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BaseCriteria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BaseCriteria.html",
+          "hash": "6kvq2gdeyvSgMqgbiPAD7qfp4OgBYbAYba/xWhYs8Xs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BasicCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BasicCategory.html",
+          "hash": "ooKUjMfTuVh4tz5LTSjJnFaiGCmXYZCUW4YwhFxNHIo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BasicImagingEngineOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BasicImagingEngineOptions.html",
+          "hash": "YHKZ5U4cwMqIzml0gSmcrOw0VMsoQjwYKGC061Ge/Sg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Batch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Batch.html",
+          "hash": "6mARutwA8N2DcpyqfufoitrTPjp1gNhGXzAasvqfowU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BatchProcessAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BatchProcessAction.html",
+          "hash": "TfJj8czX9p4bcAs0eX9/BpeqdgeMeaOJNT8fW8r32k8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BatchProcessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BatchProcessResult.html",
+          "hash": "Lm6JNWWghXLVb2qSkwRAjRcvH32rg0Yhq62JtOAwN2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BatchSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BatchSet.html",
+          "hash": "Zi2OvVtmaCAQ9OoIkpHyfLYwjPdAE43sCJZTW5bhWxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.BooleanOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.BooleanOperator.html",
+          "hash": "PxYPhtXK0h5KN2SkLQbg+f7nVZ56GR8SZawgmhGm3p4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Category.html",
+          "hash": "6dd4J7PVZwm1nEFvz3RoPI/gumdYwu2XXuqrvL3lyds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CategoryCustomText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CategoryCustomText.html",
+          "hash": "+/xjjpjVz86eO9KwWFpfQ1qnRehOQGwbWHF4MxIJvJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CategoryElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CategoryElement.html",
+          "hash": "z8dYQ2NfCm/1t7CaPnYldUEvwawycXjAkH8+rvwh678="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CategoryField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CategoryField.html",
+          "hash": "vbHvMF+Fie7YkTTCohINkl+ly980OoSjmdxhDtqPSgo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Choice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Choice.html",
+          "hash": "eaRiKGA1uVcpBPK7RB24a1wbkAVT9XZwKzRgvkEA+ww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ChoiceColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ChoiceColor.html",
+          "hash": "/VUi3O9VHEkT+ga5N1/Pf8pDRqXbEqjCw26dYzjn5lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ChoiceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ChoiceRequest.html",
+          "hash": "08/sgLQuW4RMBh1MMt9WMWRaD280b6NUgu4dS2to59g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Client.html",
+          "hash": "pWOv64QXHouOUQizQTtTYf+6IsnedNAnrZfgJFBT8ok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ClientStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ClientStatus.html",
+          "hash": "mHtWKSRKp/bA9NXLirXw5QMphwATyGuGAkM6+qrZmtU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Condition.html",
+          "hash": "uWyLL3KSyyhJrn1mISOWgPlNT6Se57faleHGqVBqoRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ConditionOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ConditionOperator.html",
+          "hash": "XjoTn0Ogp57iX7MI0R1XNrpK03vZFHlsf+CsK0iHANQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Criteria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Criteria.html",
+          "hash": "pGoy5taKE9tnPknpO2Ki9IBZVwi3AdkwZz75wzu2pVA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CriteriaCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CriteriaCollection.html",
+          "hash": "LYXAjvgUCT0/FpqeO6INXU/hJsZJr/8iGRe27iUUXVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CriteriaCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CriteriaCondition.html",
+          "hash": "1XrE8KCRXWos8esFalVSRGTY6jK5h0s/YhLaUtNkNHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CriteriaDateCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CriteriaDateCondition.html",
+          "hash": "BIN9d8T/1ND/zS7AQsiYsRikG82CU8D3qZxiuH+aHwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.CurrencyField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.CurrencyField.html",
+          "hash": "jP9Pj4/TN3krm/h2EvjI6Lw5QqrI3rEbuqYe7DZEZnI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DateConditionOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DateConditionOperator.html",
+          "hash": "YZr2zIIPlHxH/TuONLSJyPvAsIHCxFrUGe1UwEfUNr4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DateField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DateField.html",
+          "hash": "zWbbk2Mo26dydJXsuL0KRp5eYOn/ag7j/j2XiGKs8MI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DateTimeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DateTimeRange.html",
+          "hash": "/yp++BgMwRkeyK/KPoyRY20P7ZfyYwzED/WVVrSkmy4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DecimalField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DecimalField.html",
+          "hash": "y9ZF7nOCxLF0qoq4NVJ8GdFElcQz+v7Qr70WIJtZDfo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DefaultFieldValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DefaultFieldValue-1.html",
+          "hash": "SLKOQ/iD7AWz7nh7bun9x+8QvEPZjRaM5wRTlrosESg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Dependency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Dependency.html",
+          "hash": "4oeEJe4fQp+JS27MH0ebK1IOdsaOxqicVBRq2BJGqQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Document.html",
+          "hash": "uQJ5FJsBWnTzs/svu9Tqxj7b+qLC/vJpar2OF2iZvKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentError.html",
+          "hash": "kyK9i9UycZGlIEIzpomXbsyb+hF9KxU6/oNvfxYXQnk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentImportOptionsBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentImportOptionsBase.html",
+          "hash": "hTr3znIPsRkBG1WKQ0zaTSDZfxUBheRDyIQeBCGLDj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentOverlayBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentOverlayBehavior.html",
+          "hash": "RfBZEV5CAQb7VjXf4lvgnR8pAQKkR5bl43LbfmAmBF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentOverwriteMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentOverwriteMode.html",
+          "hash": "uDKJuVPLzicDXNHnN/93iwI9MjsHIsIL8qcttTkzAMc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentStatus.html",
+          "hash": "e0c2laIxrEITbYOu4CZllHCni5c7kp71SIAPK4LES0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.DocumentWarning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.DocumentWarning.html",
+          "hash": "jPqBcZFsGnDF5q/JPEBgeIxerlNGnSzgKhWjw0wsfvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Element.html",
+          "hash": "WBa/MXtZWxBdggMpjesGxHJSx2rbrR5Kx2DDRZufAug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.EnqueueRunJobResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.EnqueueRunJobResponse.html",
+          "hash": "sJcsTcW/Kv/yMxuLzJdi2ylUpiO7EDPPiqk3smn7jxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Entity.html",
+          "hash": "bsllnHdLdnNUs0jl7Hq3jWh5wQwMpnV7aRvkvi5aLhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Error.html",
+          "hash": "zwOqoj+8N8+geTuU6Fo88VOaaZjAx4PBQyFsxe5M+V4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Field.html",
+          "hash": "gKl2p+vwN8ttlI262IUhYbWEFGLpqcZB5PGbVH6TIVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldDisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldDisplayType.html",
+          "hash": "pSzOlK8ue4ejJoKFX+E9SXJt7IYV1UEogfXPWRYwdvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldImportBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldImportBehavior.html",
+          "hash": "/qI1nIjyvyRh/P8hpXD9R0HjAYxUD9TbF8eVsczv0X0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldLayoutRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldLayoutRelation.html",
+          "hash": "9URCA78d1FguJdoea7/GIPXY5ngAyy5nb5cZk/tbN0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldPaneIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldPaneIcon.html",
+          "hash": "+zwxxixieYcvgOP1ohpwac5xYnx4s7rYqhy8yMVWOaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldPropagate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldPropagate.html",
+          "hash": "rlodWB3Xi3N3j9ZL7v1n9X3Gu8cS9tX0Tks6g2y2rr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FieldType.html",
+          "hash": "3fT0kuWtUAVsoQ69KG3hM+iRtDEn1owy1t1WyrOYSRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Fields.FileField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Fields.FileField.html",
+          "hash": "3JL19rx+E/N6E/wkNQohjeasJdKU4Op6WTwnyCT1dV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Fields.html",
+          "hash": "3WpSzdGcR0P30TlHR29z3kaH0/0dR67ZYllOs4ZVW/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FileFieldDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FileFieldDTO.html",
+          "hash": "b8+zp2tHFtZKV3Q3StbWdwPOIId8LjhuG3RZSY7Q9Qw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FixedLengthTextField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FixedLengthTextField.html",
+          "hash": "wV4R5X+lLJ/kO/Nu0cphl0gaRTBvbSrEQLC4ug/izSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Folder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Folder.html",
+          "hash": "RSM0RJ37VVPjIG9OWT6Lb7qbDaxtrmwUNB9BgMSuJpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FolderAccessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FolderAccessStatus.html",
+          "hash": "+lTriNPTf56mjOjz0w1MmQl1P+xfp39zKBjke+0fE2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FolderMoveResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FolderMoveResponse.html",
+          "hash": "wxPBrBD3wt5VxxuxJ7TTrFSbdB7r9nBAuZr/LymHhe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.FolderPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.FolderPermission.html",
+          "hash": "W6l8RE2RuaBCSUx1G70O6KuamDie2MPirKgHhy8Vh0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GenericPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GenericPermission.html",
+          "hash": "MaFG0qHQzn36uRNY+zjKi3dWFLLF0eUeMeXUzDD38/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GenericPermissionChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GenericPermissionChangeset.html",
+          "hash": "rQELdG0wLOPjayW8h/OzcG0DmCTyBZAVpmEf9bMiRR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GenericPermissionsChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GenericPermissionsChangeset.html",
+          "hash": "2xbp+QOCWc42UBBsVCBq18s/MXSCznp8Fwl6QEzzfHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Group.html",
+          "hash": "7/H2j9fMyRlkcR4kd4vY1i/xMSIgvZScrFJ2g67CtGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GroupNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GroupNames.html",
+          "hash": "3RFEX0Fwj6NWO/gCLc3woNzDR7grl3Hr8FY6X8meKGk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GroupPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GroupPermissions.html",
+          "hash": "Zc86QdhBoyTdW3CS2V9L4JyqGdy0euJriBfMU9rjejk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GroupPermissionsChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GroupPermissionsChangeset.html",
+          "hash": "mQX3kDmq8v27SLNiRxmdDBGTljnChNsnww78ZLQY8Xg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GroupSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GroupSelector.html",
+          "hash": "iape+C96goHhul0VmkeDcsGeEv9QQ1negzvAm/3V6xQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.GroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.GroupType.html",
+          "hash": "qFpH6m8EoAXt1lF5vEggrutOPof6aRGYw5v033kPg6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.HasImagesStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.HasImagesStatus.html",
+          "hash": "HpzOcDbIuPtAdWUPtBN8xijJqKEeru4pG3IoYmPTx68="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.HeaderFooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.HeaderFooter.html",
+          "hash": "dZ69dksToR4rdFk3AP7viiQPKDRg/X+FLuervGEao80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.HeaderFooterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.HeaderFooterType.html",
+          "hash": "v9WRzTo9MAK+KXJZ+S/1D03JjrID8DvQJYPjcxMb9R0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.HttpAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.HttpAction.html",
+          "hash": "twkvoigBJ+yx3YwxGBswid4P579ZwaUjSCezM6idQNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.IFillsRequiredProperties-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.IFillsRequiredProperties-1.html",
+          "hash": "BWB5UbsqIMtizT4nFF9ubZ8HC8/3BaQCyhdAcvAxKlY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.IHasName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.IHasName.html",
+          "hash": "4Ch50XK25j/naxnEbcPUvhl3bZ/uaEYp7Q+ZwllO+ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.IHaveGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.IHaveGuids.html",
+          "hash": "cXK8AbsyReIZOzP7AqKhmY0YZQEhyfqfxXhpVyGJNII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImageFormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImageFormatType.html",
+          "hash": "IfI0M/NLT9vYvEjvxOrim9xmdm/gOoqDGT+JpukuO7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImageImportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImageImportOptions.html",
+          "hash": "o8FHErZc0gXd4+24RtamG+NCxngoQ+SzwhHqRt9Hdds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImageSizeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImageSizeType.html",
+          "hash": "cj8VUuF6/9X5RjkbJwOOW3vlev+z54lg1MpSW3w2JjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingElementOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingElementOrientation.html",
+          "hash": "WkYSQJZ6Uk/CJV0HW9ys2FZUtj3Apbxf4VUE2LmoeRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingEmailOptions.html",
+          "hash": "o5r5rywub/7Xzue6XfDfwHNfCAdf04433UjBGcDNAlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingEmailOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingEmailOrientation.html",
+          "hash": "e/CER4ADu5hcy513L51eAifWEgcoVfqKQImyOBHTlro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingHtmlOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingHtmlOptions.html",
+          "hash": "hj5jz0/q0hS4XCukvF9jpSvXh/qHKMutRgMSQzD/uOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingIncludeElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingIncludeElement.html",
+          "hash": "TI2njfSMc6xwiXpJLvncd7QuqMjgH5TgGiUP7Nn2q6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobActionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobActionResponse.html",
+          "hash": "ZptrVFTJfR3tu3NSf5SVAxctVzhTJ2s59vpiJ0NK+nM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobPriorityRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobPriorityRequest.html",
+          "hash": "qZq0XvfmvYyDUIwf6cJF0H/ZWOrs9h95rxytIs/74NQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobRequest.html",
+          "hash": "Qm2Hi18G9XNVa1p3oqG5CXYgD+C/nrSx9rGb90ouAWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobStatus.html",
+          "hash": "0z0ydbvmhog35qnFEs37ZKR0ug7e6tLTTYI/WALCbfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingJobType.html",
+          "hash": "3BU771YEwozaTRLpmB5Y2SjoDB4lWmELPIs4xs6lWkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingMassJobRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingMassJobRequest.html",
+          "hash": "erQGkOMLyLmdcviPrn6xSrF2+/iEuDo9dEiBT3jiy20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingPresentationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingPresentationOptions.html",
+          "hash": "m/guREjyue04sVkuv/OauhpfGTa4cbBb0+oIQ2trFD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingProfile.html",
+          "hash": "TilNaWt5SQ7I3qJ64j0huuivBUtc9BBlfF+eLeNO7RY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingProfileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingProfileType.html",
+          "hash": "YyL8WQF6+tc1qVQ5vlE4E8B0HeJ6xIuisAiKhHldTrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSet.html",
+          "hash": "CBsADFLVqp4y+h61DALFoFVQWsl5tPwlL9o5gjm14cM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetDetailedStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetDetailedStatus.html",
+          "hash": "iDuFJsNJ1IgQr/8krGWzAU+NPNh+qdW66eVCzDHxwJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetJobRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetJobRequest.html",
+          "hash": "jQaadyumYG6S0oeM0W4If4YYQKcJvNr65OXQ4ndLgkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetRequest.html",
+          "hash": "finl/IGFSBpTtEu8I/RnNwmqHBrKPuLEgH5ixzBQgVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSetStatus.html",
+          "hash": "lOuSTjEmXiA9Q1dFXBuAFR/Bz2AVTkNv70zxXycQKVk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSourceType.html",
+          "hash": "tpRE/zqH/sFYw5sYhO3TwGYkuABk8Hem35cWk2li78w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetFormatting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetFormatting.html",
+          "hash": "i4FBdxadD+zBeKLJUlGu5iZ8LSoch6xZyoc8KVzLGfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetOptions.html",
+          "hash": "FjPArIAljPPPqv9bU8VP6LyuYs245/RjPZrJevcyskY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPageOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPageOrder.html",
+          "hash": "hSWg7cfecD3pks5ztGmxoCE/p+PZQgEt0rtxSzFcnQQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPaperSizeOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPaperSizeOrientation.html",
+          "hash": "5KOMbrqkKsjJ32B4UDJslePzhGpu77b59l5PWuO509g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPrintArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetPrintArea.html",
+          "hash": "JDWODYeo9EVSY48ESUlLT7hSbnB8sW9mIYaGHgTOlvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetTextVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingSpreadsheetTextVisibility.html",
+          "hash": "oHf4kWSOQg9YdCSvI8AiseB8cCWNAoLesbRnBadu8HQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingWordInclude.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingWordInclude.html",
+          "hash": "9IL3srhjBg+1P7WZctgTZCs/v5LabwBx2yFU8uAYnn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ImagingWordOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ImagingWordOptions.html",
+          "hash": "1L7u5TGgrUeeAIjC/uQK2Mo+wbJhfXGULoqus/vneKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.InstanceSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.InstanceSetting.html",
+          "hash": "piv+AoweHfk+5lqEvbEeAC/G1ZoSEgle4DR/M8PIkE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.InstanceSettingValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.InstanceSettingValueType.html",
+          "hash": "/7/tU9dDYtlQ66VfTMKBcijMdRMmuplMc+kh+MyLkBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ItemLevelSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ItemLevelSecurity.html",
+          "hash": "NDe2JvxZFDrPnlJ8Q2II3u22LXHPfHs+364Bz8h+tZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcut.html",
+          "hash": "NgGgulxk/uF9UhjWL6vs42tf0Ku15+PjkrPapRBRm54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcutType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcutType.html",
+          "hash": "7Bi0CFLcG3jhLbB0GwsKypuzwvPtK3bTDMont9vB9dc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcutsIncludeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.KeyboardShortcutsIncludeOptions.html",
+          "hash": "j9syYD40N/e51e61eaP1q7aKLFuVnCGn9dSwLQOYR7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.KeysCombination.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.KeysCombination.html",
+          "hash": "tW0ahwiCTmpg+KA6eTI6d+pJDjN38fvy8Zu2EE+TXvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.KeywordSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.KeywordSearch.html",
+          "hash": "g6beZnBrduxXi2FXts/wre6QStk5DTvKI0zy61Ax2ls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Layout.html",
+          "hash": "Dg485AbhApVMG4R9/kskbFiYleNp9j7Kfoqp0NoLrGw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.LayoutElementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.LayoutElementType.html",
+          "hash": "0WvGXnwPZdZxNGsAkGxnsJwIJiUjnBBqBO+yyhbpnr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.LibraryApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.LibraryApplication.html",
+          "hash": "ARpM0gscRmOX34Yl6pTpBwZ12K43EQCqyaq5rsIaTp4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.LibraryApplicationInstallOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.LibraryApplicationInstallOptions.html",
+          "hash": "N5Z54dQaQAO4iDLPwHy2TDfaQBKbe8xKCGdWr4gCHGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.LongTextField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.LongTextField.html",
+          "hash": "ZVCOUCf6J5qbmQ+qtUiorewt6lYKKoeXEoKCQMcZRWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.MarkupSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.MarkupSet.html",
+          "hash": "f3bupXvLm3f15Y5ZcU2h23aMw8sXfqKu9rASFIhpGQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Matter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Matter.html",
+          "hash": "MvcJ36R6NnCYVcjtwxL8m3Vpz4xH+zixrgFyQrdhTF8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.MessageOfTheDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.MessageOfTheDay.html",
+          "hash": "o5hVI5JV+OBNxFlOJC2YFNMbiXbSIePxGbIXmoLM8PI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Meta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Meta.html",
+          "hash": "mNIPwgfPhHtnlEFkzIS+uALgXQjjkdzms9NSh4hHLR4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Month.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Month.html",
+          "hash": "ULvAqFEsz05D3A2A9btBXDWAaOAPmrk3Nvh++TiUvXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.MultipleChoiceField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.MultipleChoiceField.html",
+          "hash": "ZeLzBo/mPecTyymX146Yg+DAG7H2B0udcDWHdFAg1mo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.MultipleObjectField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.MultipleObjectField.html",
+          "hash": "DKMkj8N359hrE14nrCVblh7tXgumovG/qT22ClIryYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NamedArtifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NamedArtifact.html",
+          "hash": "n39fMPb2Cwbi9X4iemd2IDubvvg7hpULCejdZEoYsbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NamedArtifactWithGuids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NamedArtifactWithGuids.html",
+          "hash": "CkBDgxHbX6LL7MPIpBir+Phm+bqm7e7x6OH0AFYlPzs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeCategory.html",
+          "hash": "vjzkFZnvcwI7ayZFSdd6h2BOTrPS0dcNh9l6CAOSeac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeFileCopyMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeFileCopyMode.html",
+          "hash": "Yi3qbwOPbWBIuq59AS2pU8PrQAarxy8BELS5ds2uqA4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeImagingDitheringAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeImagingDitheringAlgorithm.html",
+          "hash": "Tcho1Tg7wFu5E4aDEPPa1c999kcOd+Co3FXnabY9miU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeImagingEngineOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeImagingEngineOptions.html",
+          "hash": "Wju5W6IVubxyvOJFTaRydcz4SmdBH4K0r8LVWJYNfMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeImportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeImportOptions.html",
+          "hash": "mFpwd/dfcuaIBz2vQ+IPYahZ9DXYI/C9h4/Bg1aBaAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NativeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NativeType.html",
+          "hash": "KAukKVNss3R1Lrz3Il6o2Vc7noajsTpJfutkOzsiJOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.NumberingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.NumberingType.html",
+          "hash": "xONx/EZoicaQy8vfdTDRwsKXk+9VL58qaZKsZThdIOA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermission.html",
+          "hash": "LxC/2PLcz5xvM+r6fKu5/J2V8NMG6iMvYzSulSJUeIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionChangeset.html",
+          "hash": "UFQxN5UovR+LgajYJkipGQj5w2r3aqOQNIbJRX1d7Eg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionKinds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionKinds.html",
+          "hash": "4Y4y3GVRf3Uf0ogWWYQmGzSbil/cm0Lom0gNV+/cCG0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionsChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectPermissionsChangeset.html",
+          "hash": "Zr4YuFGIQ8pRgy76OFibfCc50GYEaH0Ngq8cfYClgJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.WrappedObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.WrappedObjectType.html",
+          "hash": "CszurOdmg/P+2lsr2bpppFT94TsG6Q9S8LNUYD7fse4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.WrappedRelativityApplications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.WrappedRelativityApplications.html",
+          "hash": "v+FS9krwkdKLbuA77ziBp2vP7jrcD90oxzA/GoUQWCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ObjectType.html",
+          "hash": "Jzk1TdAblJI7gxWvo/8tjDaLHpbzWH1Q2KTXBgSyrH8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.OcrProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.OcrProfile.html",
+          "hash": "Mtw2U4TWqtpwTixe7KT455og7zyLr0/mdJ6YlDGTg5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.PermissionDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.PermissionDetail.html",
+          "hash": "oorU7taHV+kM1RxhqkF9J/egTPEDver0f3gAomT212I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.PermissionDetailsChangeset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.PermissionDetailsChangeset.html",
+          "hash": "5wBjTF/V08hblD4A91pGttfVk8TtFnlmeIkIYUbuVEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.PlaceholderImageFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.PlaceholderImageFormat.html",
+          "hash": "+gMEmOxXtU4ITlBuD2fZNlK8fW7pDWgmIC9otqyxdBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.PlaceholderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.PlaceholderType.html",
+          "hash": "tZKDUlyfvhzE8AjZd1ipPf6ps1svkmQ+BkWzNlhRzCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Production.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Production.html",
+          "hash": "JnSLqPsAAgCoVLCEscRJPKdH2g3nrDnbUKj/KqgEFd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionDataSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionDataSource.html",
+          "hash": "6y/6XC1Lfmm8ADyvE1fjRh3WFrujGK5KczfP03fnP0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionDataSourceDefaultValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionDataSourceDefaultValues.html",
+          "hash": "9P+Jte9LpIp1kiJ8agznW/A+yz5ICB4H5kzd1m/7mms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionDetails.html",
+          "hash": "MzSLhrVDfBuZhBmrHqiQuDmqJvkogMgB55yKTV90i7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionFooters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionFooters.html",
+          "hash": "USW8qvXE9OsqMMQGYi3yCNp9XIph6T3AxFpPT0+qu/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionHeaders.html",
+          "hash": "XZjUFRINPwjlevbNShBe93TvHOWNRMXUhEfIrKwDsrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionMetadata.html",
+          "hash": "eydm6EpA1ZUjBkK3K54OtIv/4zgPbZxof3Y05L63J1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionNumbering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionNumbering.html",
+          "hash": "CbD/8LMXRihV1KEK+OdI0mp/YqgRI1LB8hL46o11FvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionPlaceholder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionPlaceholder.html",
+          "hash": "ic6ejIlojhY8DF0cuAm+b25ccPduz0PgnWMknzSJS1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionStatus.html",
+          "hash": "+CA3iwytOVof538rqC5FoZq69kMJpJ4tjOoghuNJCKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ProductionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ProductionType.html",
+          "hash": "KEXpRuj6xBDnrzia7kq77biexstWMtt09c1pic8+NKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Query.html",
+          "hash": "YHqkjjiRDbjCkmZZgYalInxZ50Yltg482G2/7DfRZbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.QueryResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.QueryResult-1.html",
+          "hash": "EJQwMHFRlkaGV66QWqo8TEE/pZ/4EH9mxFjk7/P+TnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.QuerySingleResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.QuerySingleResult-1.html",
+          "hash": "sHToNAWKCiv7MzXVA4ul2BYHH4g9nn8tWX0lJu+t7Mc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ReadSingleAsyncRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ReadSingleAsyncRequest.html",
+          "hash": "dd701F1yBjA0+7AfxO2fDWfTnrUtesNRU4k/Cpk2ajE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ReadSingleAsyncResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ReadSingleAsyncResult.html",
+          "hash": "jHo2X2JhCEJmWyYL6a57XahbyY44//NwntWTz0CNxs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.RelativityApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.RelativityApplication.html",
+          "hash": "tGjShzib2kHPJbiqEinhScjaPb8tb/H+b3LplOGjk+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.RelativityApplicationInstallStatusCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.RelativityApplicationInstallStatusCode.html",
+          "hash": "3MWWTNaQaSOBAadR9nKnZAi14foGdx99P/LOdrHAVUE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ResourcePool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ResourcePool.html",
+          "hash": "EB+OG5n+0AJ6hKQwRFwpu9yx+L1ieefAJP3aDmDjP8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ResourceServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ResourceServer.html",
+          "hash": "aTVETOpv3jpfTk0Cpxh1r4o+oYgDAEwNIT1gUxOXg0o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ResourceServerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ResourceServerType.html",
+          "hash": "brJ+PjSDjOqyMx6tPRfJ1ucQHGdjBihJoYgmCIkHNig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ResourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ResourceType.html",
+          "hash": "65L3tEcdFHPtcqMzvdNMX46i8uIpe1qlPZH0Ai5+FiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.RunJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.RunJob.html",
+          "hash": "fe9JminpTimDoL6yoooE+1i26h/wZbXaEFD25fnnOtA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.RunJobStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.RunJobStatus.html",
+          "hash": "UEGWStg00RYkYnoSrZekGTqOJDaolTBlHrQ+bs2yBGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SaveFieldsAndCustomTextRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SaveFieldsAndCustomTextRequest.html",
+          "hash": "atv5jQJxSyAZBMuVHvXAATeuEcDS99lMgLJq8/zQ5m0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SaveFieldsAndCustomTextResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SaveFieldsAndCustomTextResponse.html",
+          "hash": "kTnFMNqMRVNsZrz9ikfHqlXGXGLi9XN4E9ESJWjZcno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ScopeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ScopeType.html",
+          "hash": "5BidkqZf7haXlMQkYWhvMwth6EqyAHQfkYdkFlf1p/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Script.html",
+          "hash": "LRvqJMY8jDLFPnb4ZcHt7C5w3+Yw7TCVjkGeM6iaU44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ScriptInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ScriptInput.html",
+          "hash": "NBuRgkHOO7n3iavMMj/gPHPDpCGOjHhbXo0FHFduzw4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SearchProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SearchProvider.html",
+          "hash": "4iqNwmg/15Tmolqfdsdnn+GUEocOnnLd0xnLd7W/YO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Securable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Securable-1.html",
+          "hash": "NYQEXfWPuVN9JxHAzvEqQUneuelRcfKk2aLK0jeTHm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SingleChoiceField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SingleChoiceField.html",
+          "hash": "175gBaOedE1azGGt+5jM2VjrO3IsQp8c9kiQYh9FYXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SingleDocumentImagingJobRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SingleDocumentImagingJobRequest.html",
+          "hash": "hODM8px6Mpm34J+DdeDf76Why0ido1bTzn4BYo1NFw8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SingleObjectField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SingleObjectField.html",
+          "hash": "+tFhu+87ySbKKgs8vgm9WQoAo7Vm6SQN8VNQXfyfJFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Sort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Sort.html",
+          "hash": "IUBqItDNm6DRF1FlPGXj81E6CMY1YO5CK38b02fyt6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SortDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SortDirection.html",
+          "hash": "PnLyCy/DhQqzBiBPrNR5lPr9QOfYMJGr93Cv0PDVi+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.SqlFullTextLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.SqlFullTextLanguage.html",
+          "hash": "n8sl5Lg4I6PoVBLPgIO743DEzr7OBRXCK4sNE4dZ+HU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Tab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Tab.html",
+          "hash": "uRqnhyjd0LlhAHl4iSocmmwN98eKHrKjey/xFQog+O8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.TabIconIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.TabIconIdentifier.html",
+          "hash": "jcSED8w8gcdyDxOm8BEOSJkOMhLgdVDoPHPdiQEqlZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.TabLinkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.TabLinkType.html",
+          "hash": "ndP02Vl2M3lL6gti+DCPj7A8qdLldXyP79g8Gwyl8gk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.TimeStampedNamedArtifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.TimeStampedNamedArtifact.html",
+          "hash": "k7a8cL6PUX5XGMaFd18coC9ZPuqL8HODC5AQNbbjgr4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Toggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Toggle.html",
+          "hash": "S4uFKcaNyzF3esNnuLAxmwveWVehmwH8/xJiWlyZcso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UseImagePlaceholderOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UseImagePlaceholderOption.html",
+          "hash": "is+tg6G7IoeZZcgmcgj4Mlb8PlNtRKAfzO+1Wgdbj2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.User.html",
+          "hash": "EucQY1c42CbsMLkuGLkva2GkZ5fnu+8jcSEDZgLXwA0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserDefaultSelectedFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserDefaultSelectedFileType.html",
+          "hash": "iTjhEfuNVdmi7khW6+8L0mV8VaWqJcrcssrXheSso0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserDocumentSkip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserDocumentSkip.html",
+          "hash": "CpUE3EQdA/vc+WPzZeeq9hom52jOAkWo/O76wTSQmhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserDocumentViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserDocumentViewer.html",
+          "hash": "WkAZJlI43DG+e7qeB8H/3EgYxC705U5uNP8C+amoYzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserEmailPreference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserEmailPreference.html",
+          "hash": "hEb4hEhaqE+N4DM8tcrokNPxTTOMR165/tEgreHabL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserField.html",
+          "hash": "ff6qrLEFVWxMHtXHyFUoj5a2leZIrKGoCGgDz7y4oIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.UserSkipDefaultPreference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.UserSkipDefaultPreference.html",
+          "hash": "lC40CnlXAtd5Ervp+m8CJfNnuCoKx4+Vc0oehuhENR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.View.html",
+          "hash": "fgttzrR9ajZCFVyG+yjp1qkR8qoXv5o6mUP9nWevTKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.ViewAccessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.ViewAccessStatus.html",
+          "hash": "rGeoVz/a2xrpN++0BGpWGvpnM19vh6CRJ+GyC7I0Zyk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.WholeNumberField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.WholeNumberField.html",
+          "hash": "h+zGRau6GaooUTtkhuJ9yVIy2FWfCGr9UBEgtdR3J8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.Workspace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.Workspace.html",
+          "hash": "pSG1L8XGlLLVTWE8meWJLQOeAeZ6KIvEBnILvgekhYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.YesNoField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.YesNoField.html",
+          "hash": "fD3na/6KJNx0uUOUghp+pY3GdFAuvfi8t2OvI8l2u1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Models.html",
+          "hash": "GZDAOmY3EheOU3Q6KeJ8FSd9EsItwOqkS6ixx0++Tag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.ObjectNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.ObjectNotFoundException.html",
+          "hash": "3iyAH3siXI1YsGHhOm8X4nKrRM+ydiMhkXQPBP0J4ww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Randomizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Randomizer.html",
+          "hash": "BPhjlQzzfgaTZPVJTIpexHEChcbKiyeSAbzuDH+sTLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.RelativityComponentEnsuringException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.RelativityComponentEnsuringException.html",
+          "hash": "ODTPSrmsAJ3lUU+0WD57WfyoNwYayNH2lrmeGm6Q4ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.RelativityFacade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.RelativityFacade.html",
+          "hash": "b0FUnyVKK8XS8pcbi68OSwSDQhXBqCC8bb2VMOF1LHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Session.TestSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Session.TestSession.html",
+          "hash": "zyWHiNYcHqGb1s2+x99LUo8dZWIAKKwdzYymaWjfU5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Session.TestSessionEntityItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Session.TestSessionEntityItem.html",
+          "hash": "wSmJFeObLwdbPd+1kVg8+b4HOZrzCPTnPSNjCIHe/tQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Session.html",
+          "hash": "QXonK972lZM9+X6LesUjCmZdd3onH3s8pdghILt/GpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.CreateStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.CreateStrategy-1.html",
+          "hash": "Dum6S77Z936IDmEQk0G4OjCXuWSbm3k3NjCjqDpCxek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.DeleteByIdStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.DeleteByIdStrategy-1.html",
+          "hash": "Z+uWyudf3QyQsoYlPaxtACvlpIheggebgA7J+rL1tn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.DeleteWorkspaceEntityByIdStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.DeleteWorkspaceEntityByIdStrategy-1.html",
+          "hash": "UIVU1Q8SarY5wUUGywehXnkEOEgICdq9URzjnt/MFeY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.ICreateStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.ICreateStrategy-1.html",
+          "hash": "scIrLNbsjveLoMrZnW6sta5oJKYMRH0KQkth+OivUQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.IDeleteByIdStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.IDeleteByIdStrategy-1.html",
+          "hash": "EGgJqRiTJcqxf4LqR+eDwozb2Jemen6G3Rk0pOsE+mE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.IDeleteWorkspaceEntityByIdStrategy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.IDeleteWorkspaceEntityByIdStrategy-1.html",
+          "hash": "RHdhRj0v78FJCbKmGuB5KdLXK3JSDMxGL0bGCnIEaU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.IStrategyResolveService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.IStrategyResolveService.html",
+          "hash": "LvBMO8U6Ay0y9uXhJz5boWHyvxOQa2/V7dX5lSIEA70="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.StrategyNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.StrategyNotFoundException.html",
+          "hash": "PSXQV7RWWMEbAY7Sw9stNtscsVndw4kPYsT8RR9Rqf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Strategies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Strategies.html",
+          "hash": "VDyZK1+HiXoZCULjAtInW88C+E9OgZ8nahqncnD7ers="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.ApplicationVersionRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.ApplicationVersionRangeAttribute.html",
+          "hash": "vcfGDKJgubsBSngA2FoEHA8C6YOUaTy14FmLu72HBBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.IRelativityApplicationVersionResolveService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.IRelativityApplicationVersionResolveService.html",
+          "hash": "jjTEW78wHIODiX47WYoEXwNE4AGnnlfmteTAilIOly4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.IRelativityInstanceVersionResolveService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.IRelativityInstanceVersionResolveService.html",
+          "hash": "ZibA7O1YwT65uoSUCi6Rn+qCcPqxhj9lwWlQAzxh2Po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.IVersionRangeMatchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.IVersionRangeMatchService.html",
+          "hash": "UWslgd+zjVfD1oQjyvmgZZBQRF+BWFh6zHl3VbHZyZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.IVersionResolveService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.IVersionResolveService.html",
+          "hash": "YBrT4Wx+pcbqUvSpGJfdqH/ffqRCqsEbvWN3GAeV+zw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.VersionRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.VersionRangeAttribute.html",
+          "hash": "MEr+60cgg86G8Aqltg/W2gLY3GXHk/mC6eUfD0v6//Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.VersionResolveService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.VersionResolveService.html",
+          "hash": "HaXzvcg+AsDCFtNk1YS4Vc4c62aGdn+OR/vvb4DdMYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.Versioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.Versioning.html",
+          "hash": "02vINBTJGd06CnmWFwQiCSggQOBjzcYp/22mA3ohdes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Relativity.Testing.Framework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Relativity.Testing.Framework.html",
+          "hash": "OmDWjE7/NHT75kYmY8wQUrPfbVhNPK9jCs3eCiocANw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/FAQs-And-Common-Issues.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/FAQs-And-Common-Issues.html",
+          "hash": "iQNL2LEi1wdkfVPZ30/tMGP7eQK+Epmq2aGABZNFzIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Logging.html",
+          "hash": "80gCzla8PpjFOlBXWphJSkaKvppEQI2TnwtlStZnsnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Using-Core-Component.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Using-Core-Component.html",
+          "hash": "bOktxp+ttSxyu1U/o8Wc2T729acTpLIE98w59ASf9K0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/What-Is-RTF.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/What-Is-RTF.html",
+          "hash": "Aw/vaskvA8tob7bcUTvu+de5Dly/oaLBx1rI9ifyGq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion/toc.html",
+          "hash": "43YPsgV3yNTVn9DRfLXrWziYM+YL4yjJakWb9thv9fE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/LoggingLocationExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/LoggingLocationExample.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "JQJJlTw+XY7D7MBjL6FL4UzwLB2QwJpdShO7XJcC6KM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "pSx/41Liar4ejFOMGRL40dn145WKF2K3p1IS9MHbKh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 288,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
