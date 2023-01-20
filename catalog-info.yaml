@@ -8,7 +8,7 @@ metadata:
 spec:
   type: repository
   lifecycle: production
-  owner: ptci-1599
+  owner: ptci-1446
   system: relativity-testing-framework
 
 ---
@@ -29,7 +29,7 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: ptci-1599
+  owner: ptci-1446
   system: relativity-testing-framework
 
 ---
@@ -40,4 +40,4 @@ metadata:
   name: relativity-testing-framework
   description: Relativity.Testing.Framework is a set of C#/NuGet libraries that abstracts out common functionality for test setup and teardown and creating artifacts.
 spec:
-  owner: ptci-1599
+  owner: ptci-1446
