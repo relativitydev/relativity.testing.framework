@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json.Linq;
@@ -116,6 +117,10 @@ namespace Relativity.Testing.Framework.Mapping
 			else if (destinationType == typeof(FieldPropagate))
 			{
 				return Activator.CreateInstance(destinationType);
+			}
+			else if (sourceValue is double doubleValue && destinationType == typeof(decimal))
+			{
+				return ConvertDoubleToDecimal(doubleValue);
 			}
 			else
 			{
@@ -276,6 +281,18 @@ namespace Relativity.Testing.Framework.Mapping
 			return value is double || value is int || value is float
 				? TimeSpan.FromSeconds(Convert.ToDouble(value))
 				: TimeSpan.Parse(value.ToString());
+		}
+
+		private static decimal ConvertDoubleToDecimal(double value)
+		{
+			IFormatProvider formatProvider = CultureInfo.CurrentCulture;
+			const NumberStyles numberStyles =
+				NumberStyles.AllowDecimalPoint |
+				NumberStyles.AllowExponent |
+				NumberStyles.AllowLeadingSign;
+			string doubleAsString = value.ToString("R", formatProvider);
+
+			return decimal.Parse(doubleAsString, numberStyles, formatProvider);
 		}
 	}
 }
