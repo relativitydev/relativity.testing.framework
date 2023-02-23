@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Documentation
       run: |
-        Invoke-WebRequest https://github.com/dotnet/docfx/releases/download/v2.58/docfx.zip -OutFile docfx.zip
+        Invoke-WebRequest https://github.com/dotnet/docfx/releases/download/v2.59.4/docfx.zip -OutFile docfx.zip
         Expand-Archive -Path .\docfx.zip -DestinationPath DocFx
         DocFx/docfx.exe source/Relativity.Testing.Framework.Documentation/docfx.json
 
