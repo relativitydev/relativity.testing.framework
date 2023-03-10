@@ -11,6 +11,7 @@ This repository contains a C#/NuGet library that abstracts out common functional
 ## Table of Contents
 
 - [Relativity.Testing.Framework](#relativitytestingframework)
+  - [Table of Contents](#table-of-contents)
   - [Supported Relativity Versions](#supported-relativity-versions)
   - [Documentation](#documentation)
   - [Where to get help](#where-to-get-help)
@@ -18,7 +19,8 @@ This repository contains a C#/NuGet library that abstracts out common functional
   - [Local Testing](#local-testing)
     - [Unit Testing](#unit-testing)
   - [Contributing](#contributing)
-  - [Reporting Issues](#reporting-issues)
+  - [Maintainers](#maintainers)
+  - [Reporting Issues and Adding Feature Enhancements](#reporting-issues-and-adding-feature-enhancements)
 
 ## Supported Relativity Versions
 
@@ -54,9 +56,13 @@ dotnet test source
 
 See [CONTRIBUTING.md](https://github.com/relativitydev/relativity.testing.framework/blob/master/CONTRIBUTING.md).
 
-## Reporting Issues
+## Maintainers
 
-For feature enhancements or bug reports, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. Before reporting an issue, please follow these guidelines. It helps us in understanding the request and provide a quicker response time.
+The Developer Environments team is the primary care-taker of this repository.
+
+## Reporting Issues and Adding Feature Enhancements
+
+For bug reports or feature enhancements, please create an [Issue](https://github.com/relativitydev/relativity.testing.framework/issues) using the respective template. Before reporting an issue, please follow these guidelines. It helps us in understanding the request and provide a quicker response time.
 
 - Determine if it's a bug report or a feature enhancement.
 - Perform a quick search in the [issue tracker](https://github.com/relativitydev/relativity.testing.framework/issues) to see if the issue has already been reported. If it has, add a comment to the existing issue instead of opening a new one.
